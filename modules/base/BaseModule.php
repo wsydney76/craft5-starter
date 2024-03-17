@@ -139,10 +139,10 @@ class BaseModule extends Module
         // Register Custom Conditions
         Event::on(
             BaseCondition::class,
-            BaseCondition::EVENT_REGISTER_CONDITION_RULE_TYPES,
-            function(RegisterConditionRuleTypesEvent $event) use ($conditionRuleTypes): void {
+            BaseCondition::EVENT_REGISTER_CONDITION_RULES,
+            function(\craft\events\RegisterConditionRulesEvent $event) use ($conditionRuleTypes): void {
                 foreach ($conditionRuleTypes as $conditionRuleType) {
-                    $event->conditionRuleTypes[] = $conditionRuleType;
+                    $event->conditionRules[] = $conditionRuleType;
                 }
             }
         );
@@ -328,8 +328,8 @@ class BaseModule extends Module
         // Set element index column content
         Event::on(
             Entry::class,
-            Element::EVENT_SET_TABLE_ATTRIBUTE_HTML,
-            function(SetElementTableAttributeHtmlEvent $event) use ($attribute, $fieldHandle, $transform) {
+            Element::EVENT_DEFINE_ATTRIBUTE_HTML,
+            function(\craft\events\DefineAttributeHtmlEvent $event) use ($attribute, $fieldHandle, $transform) {
                 if ($event->attribute === $attribute) {
                     /** @var Entry $entry */
                     $entry = $event->sender;
