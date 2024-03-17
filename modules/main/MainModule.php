@@ -206,46 +206,47 @@ class MainModule extends BaseModule
 
     protected function hideBlockTypes(): void
     {
+        // TODO: CRAFT5
         // Hide bodyContent block types not relevant for the current entry
-        Event::on(
-            Matrix::class,
-            Matrix::EVENT_SET_FIELD_BLOCK_TYPES,
-            function(BlockTypesEvent $event) {
-
-                // Only hide block types for bodyContent field
-                if (!$event->element instanceof Entry || $event->sender->handle !== 'bodyContent') {
-                    return;
-                }
-
-                $entry = $event->element;
-
-                // TODO: Make that configurable
-                // Hide dynamicBlock and contentComponents block types for pages
-                if ($entry->section->handle !== 'page' || in_array($entry->type->handle, ['faqs', 'sitemap'])) {
-                    foreach ($event->blockTypes as $i => $blockType) {
-                        if (in_array($blockType->handle, ['dynamicBlock', 'contentComponents'])) {
-                            unset($event->blockTypes[$i]);
-                        }
-                    }
-                }
-
-                // Hide richText block type if CKEditor is not installed
-                if (!Craft::$app->plugins->isPluginEnabled('ckeditor')) {
-                    foreach ($event->blockTypes as $i => $blockType) {
-                        if ($blockType->handle === 'richText') {
-                            unset($event->blockTypes[$i]);
-                        }
-                    }
-                }
-
-                if (!Craft::$app->config->custom->allowYoutubeVideos) {
-                    foreach ($event->blockTypes as $i => $blockType) {
-                        if ($blockType->handle === 'youtubeVideo') {
-                            unset($event->blockTypes[$i]);
-                        }
-                    }
-                }
-            });
+//        Event::on(
+//            Matrix::class,
+//            Matrix::EVENT_SET_FIELD_BLOCK_TYPES,
+//            function(BlockTypesEvent $event) {
+//
+//                // Only hide block types for bodyContent field
+//                if (!$event->element instanceof Entry || $event->sender->handle !== 'bodyContent') {
+//                    return;
+//                }
+//
+//                $entry = $event->element;
+//
+//                // TODO: Make that configurable
+//                // Hide dynamicBlock and contentComponents block types for pages
+//                if ($entry->section->handle !== 'page' || in_array($entry->type->handle, ['faqs', 'sitemap'])) {
+//                    foreach ($event->blockTypes as $i => $blockType) {
+//                        if (in_array($blockType->handle, ['dynamicBlock', 'contentComponents'])) {
+//                            unset($event->blockTypes[$i]);
+//                        }
+//                    }
+//                }
+//
+//                // Hide richText block type if CKEditor is not installed
+//                if (!Craft::$app->plugins->isPluginEnabled('ckeditor')) {
+//                    foreach ($event->blockTypes as $i => $blockType) {
+//                        if ($blockType->handle === 'richText') {
+//                            unset($event->blockTypes[$i]);
+//                        }
+//                    }
+//                }
+//
+//                if (!Craft::$app->config->custom->allowYoutubeVideos) {
+//                    foreach ($event->blockTypes as $i => $blockType) {
+//                        if ($blockType->handle === 'youtubeVideo') {
+//                            unset($event->blockTypes[$i]);
+//                        }
+//                    }
+//                }
+//            });
     }
 
 
