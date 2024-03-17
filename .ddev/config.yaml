@@ -1,4 +1,4 @@
-name: craft4-starter
+name: craft5-starter
 type: craftcms
 docroot: web
 php_version: "8.2"

@@ -1,6 +1,6 @@
 assets:
   tempVolumeUid: ed627edd-73bd-4b75-8684-f410bf4e4b9d # Temporary Images
-dateModified: 1709543305
+dateModified: 1710715388
 elementSources:
   craft\elements\Asset:
     -
@@ -565,20 +565,6 @@ plugins:
       prependSubject: 'New message'
       successFlashMessage: 'Thank you for your message! We received it and will reply as soon as possible.'
       toEmail: $EMAIL_ADDRESS
-  contact-form-honeypot:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.0
-    settings:
-      honeypotParam: contact
-  contentoverview:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.0
-  elementmap:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.0
   seomate:
     edition: standard
     enabled: true
