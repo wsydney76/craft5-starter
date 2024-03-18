@@ -1,12 +1,16 @@
+{# @var session \craft\web\Session  #}
+
 {# Display flash messages from last submission #}
 {% set session = craft.app.session %}
 
-{% if session.hasFlash('notice') %}
+{% if session.success %}
     <div class="bg-success p-4 rounded-md mb-8 text-white">
-        <span>{{ session.getFlash('notice')|t }}</span>
+        <span>{{ session.success|t }}</span>
     </div>
-{% elseif session.hasFlash('error') %}
+{% endif %}
+
+{% if session.error %}
     <div class="bg-error p-4 rounded-md mb-8 text-white">
-        <span>{{ session.getFlash('error')|t }}</span>
+        <span>{{ session.error|t }}</span>
     </div>
 {% endif %}
