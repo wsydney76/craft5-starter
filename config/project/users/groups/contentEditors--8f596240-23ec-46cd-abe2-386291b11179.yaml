@@ -5,7 +5,7 @@ permissions:
   - accesscp
   - accesscpwhensystemisoff
   - accesssitewhensystemisoff
-  - 'createentries:07fce1cd-37fc-4742-acf8-6bc0a4efd7d7' # Two Columns With Image
+  - 'createentries:07fce1cd-37fc-4742-acf8-6bc0a4efd7d7'
   - 'createentries:27127353-b8d1-4c07-a2af-7a273ad8f1f6' # Hero Area
   - 'createentries:2f93cb45-a9ce-4284-8848-9eb001fb8a1c' # Article
   - 'createentries:4d41f740-b1a9-477c-8522-85cf52b2652f' # Features
@@ -23,7 +23,7 @@ permissions:
   - 'createfolders:ed627edd-73bd-4b75-8684-f410bf4e4b9d' # Temporary Images
   - 'deleteassets:5a0be839-14a2-465e-a504-bb63dd0281e9' # Images
   - 'deleteassets:ed627edd-73bd-4b75-8684-f410bf4e4b9d' # Temporary Images
-  - 'deleteentries:07fce1cd-37fc-4742-acf8-6bc0a4efd7d7' # Two Columns With Image
+  - 'deleteentries:07fce1cd-37fc-4742-acf8-6bc0a4efd7d7'
   - 'deleteentries:27127353-b8d1-4c07-a2af-7a273ad8f1f6' # Hero Area
   - 'deleteentries:2f93cb45-a9ce-4284-8848-9eb001fb8a1c' # Article
   - 'deleteentries:4d41f740-b1a9-477c-8522-85cf52b2652f' # Features
@@ -39,7 +39,7 @@ permissions:
   - 'deleteentries:fcbda6e5-a26a-4efb-800a-a67a44a88fa1' # Person
   - 'deletepeerassets:5a0be839-14a2-465e-a504-bb63dd0281e9' # Images
   - 'deletepeerassets:ed627edd-73bd-4b75-8684-f410bf4e4b9d' # Temporary Images
-  - 'deletepeerentries:07fce1cd-37fc-4742-acf8-6bc0a4efd7d7' # Two Columns With Image
+  - 'deletepeerentries:07fce1cd-37fc-4742-acf8-6bc0a4efd7d7'
   - 'deletepeerentries:27127353-b8d1-4c07-a2af-7a273ad8f1f6' # Hero Area
   - 'deletepeerentries:2f93cb45-a9ce-4284-8848-9eb001fb8a1c' # Article
   - 'deletepeerentries:4d41f740-b1a9-477c-8522-85cf52b2652f' # Features
@@ -53,7 +53,7 @@ permissions:
   - 'deletepeerentries:e26c6ef2-44c5-4a65-bfc1-b0a61124edca' # Newsletter
   - 'deletepeerentries:e3333efd-6726-41c1-9a66-a746a6f0d350' # Cards
   - 'deletepeerentries:fcbda6e5-a26a-4efb-800a-a67a44a88fa1' # Person
-  - 'deletepeerentrydrafts:07fce1cd-37fc-4742-acf8-6bc0a4efd7d7' # Two Columns With Image
+  - 'deletepeerentrydrafts:07fce1cd-37fc-4742-acf8-6bc0a4efd7d7'
   - 'deletepeerentrydrafts:27127353-b8d1-4c07-a2af-7a273ad8f1f6' # Hero Area
   - 'deletepeerentrydrafts:2f93cb45-a9ce-4284-8848-9eb001fb8a1c' # Article
   - 'deletepeerentrydrafts:4d41f740-b1a9-477c-8522-85cf52b2652f' # Features
@@ -80,7 +80,7 @@ permissions:
   - 'replacepeerfiles:ed627edd-73bd-4b75-8684-f410bf4e4b9d' # Temporary Images
   - 'saveassets:5a0be839-14a2-465e-a504-bb63dd0281e9' # Images
   - 'saveassets:ed627edd-73bd-4b75-8684-f410bf4e4b9d' # Temporary Images
-  - 'saveentries:07fce1cd-37fc-4742-acf8-6bc0a4efd7d7' # Two Columns With Image
+  - 'saveentries:07fce1cd-37fc-4742-acf8-6bc0a4efd7d7'
   - 'saveentries:27127353-b8d1-4c07-a2af-7a273ad8f1f6' # Hero Area
   - 'saveentries:2f93cb45-a9ce-4284-8848-9eb001fb8a1c' # Article
   - 'saveentries:4d41f740-b1a9-477c-8522-85cf52b2652f' # Features
@@ -97,7 +97,7 @@ permissions:
   - 'saveentries:fcbda6e5-a26a-4efb-800a-a67a44a88fa1' # Person
   - 'savepeerassets:5a0be839-14a2-465e-a504-bb63dd0281e9' # Images
   - 'savepeerassets:ed627edd-73bd-4b75-8684-f410bf4e4b9d' # Temporary Images
-  - 'savepeerentries:07fce1cd-37fc-4742-acf8-6bc0a4efd7d7' # Two Columns With Image
+  - 'savepeerentries:07fce1cd-37fc-4742-acf8-6bc0a4efd7d7'
   - 'savepeerentries:27127353-b8d1-4c07-a2af-7a273ad8f1f6' # Hero Area
   - 'savepeerentries:2f93cb45-a9ce-4284-8848-9eb001fb8a1c' # Article
   - 'savepeerentries:4d41f740-b1a9-477c-8522-85cf52b2652f' # Features
@@ -111,7 +111,7 @@ permissions:
   - 'savepeerentries:e26c6ef2-44c5-4a65-bfc1-b0a61124edca' # Newsletter
   - 'savepeerentries:e3333efd-6726-41c1-9a66-a746a6f0d350' # Cards
   - 'savepeerentries:fcbda6e5-a26a-4efb-800a-a67a44a88fa1' # Person
-  - 'savepeerentrydrafts:07fce1cd-37fc-4742-acf8-6bc0a4efd7d7' # Two Columns With Image
+  - 'savepeerentrydrafts:07fce1cd-37fc-4742-acf8-6bc0a4efd7d7'
   - 'savepeerentrydrafts:27127353-b8d1-4c07-a2af-7a273ad8f1f6' # Hero Area
   - 'savepeerentrydrafts:2f93cb45-a9ce-4284-8848-9eb001fb8a1c' # Article
   - 'savepeerentrydrafts:4d41f740-b1a9-477c-8522-85cf52b2652f' # Features
@@ -128,7 +128,7 @@ permissions:
   - 'savepeerentrydrafts:fcbda6e5-a26a-4efb-800a-a67a44a88fa1' # Person
   - 'viewassets:5a0be839-14a2-465e-a504-bb63dd0281e9' # Images
   - 'viewassets:ed627edd-73bd-4b75-8684-f410bf4e4b9d' # Temporary Images
-  - 'viewentries:07fce1cd-37fc-4742-acf8-6bc0a4efd7d7' # Two Columns With Image
+  - 'viewentries:07fce1cd-37fc-4742-acf8-6bc0a4efd7d7'
   - 'viewentries:27127353-b8d1-4c07-a2af-7a273ad8f1f6' # Hero Area
   - 'viewentries:2f93cb45-a9ce-4284-8848-9eb001fb8a1c' # Article
   - 'viewentries:4d41f740-b1a9-477c-8522-85cf52b2652f' # Features
@@ -145,7 +145,7 @@ permissions:
   - 'viewentries:fcbda6e5-a26a-4efb-800a-a67a44a88fa1' # Person
   - 'viewpeerassets:5a0be839-14a2-465e-a504-bb63dd0281e9' # Images
   - 'viewpeerassets:ed627edd-73bd-4b75-8684-f410bf4e4b9d' # Temporary Images
-  - 'viewpeerentries:07fce1cd-37fc-4742-acf8-6bc0a4efd7d7' # Two Columns With Image
+  - 'viewpeerentries:07fce1cd-37fc-4742-acf8-6bc0a4efd7d7'
   - 'viewpeerentries:27127353-b8d1-4c07-a2af-7a273ad8f1f6' # Hero Area
   - 'viewpeerentries:2f93cb45-a9ce-4284-8848-9eb001fb8a1c' # Article
   - 'viewpeerentries:4d41f740-b1a9-477c-8522-85cf52b2652f' # Features
@@ -159,7 +159,7 @@ permissions:
   - 'viewpeerentries:e26c6ef2-44c5-4a65-bfc1-b0a61124edca' # Newsletter
   - 'viewpeerentries:e3333efd-6726-41c1-9a66-a746a6f0d350' # Cards
   - 'viewpeerentries:fcbda6e5-a26a-4efb-800a-a67a44a88fa1' # Person
-  - 'viewpeerentrydrafts:07fce1cd-37fc-4742-acf8-6bc0a4efd7d7' # Two Columns With Image
+  - 'viewpeerentrydrafts:07fce1cd-37fc-4742-acf8-6bc0a4efd7d7'
   - 'viewpeerentrydrafts:27127353-b8d1-4c07-a2af-7a273ad8f1f6' # Hero Area
   - 'viewpeerentrydrafts:2f93cb45-a9ce-4284-8848-9eb001fb8a1c' # Article
   - 'viewpeerentrydrafts:4d41f740-b1a9-477c-8522-85cf52b2652f' # Features

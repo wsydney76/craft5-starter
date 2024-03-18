@@ -11,7 +11,7 @@
     {% set image = entry.image.one() %}
     {% set teaser = entry.teaser %}
     {% set title = entry.title %}
-    {% set query = entry.bodyContent %}
+    {% set query = entry.columncontent %}
 {% endif %}
 
 {% set image = image ?? null %}
@@ -70,10 +70,11 @@
                 </div>
             </div>
             <div class="mt-8 lg:mt-0">
-                {% include '_layouts/partials/content-blocks.twig' with {
-                	query,
-                    padding: false
-                } only %}
+                {% for block in query.all %}
+                    {% include "_blocks/#{block.type.handle}.twig" with {
+                        block
+                    } only %}
+                {% endfor %}
             </div>
         </div>
     </div>

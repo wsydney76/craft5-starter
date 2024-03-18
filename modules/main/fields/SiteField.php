@@ -38,7 +38,7 @@ class SiteField extends Field
                 'value' => $site->handle,
             ])
             ->prepend([
-                'label' => Craft::t('main', 'All Sites'),
+                'label' => Craft::t('site', 'All Sites'),
                 'value' => '',
             ]);
 

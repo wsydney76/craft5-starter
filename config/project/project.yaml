@@ -1,6 +1,6 @@
 assets:
   tempVolumeUid: ed627edd-73bd-4b75-8684-f410bf4e4b9d # Temporary Images
-dateModified: 1710757904
+dateModified: 1710761160
 elementSources:
   craft\elements\Asset:
     -
@@ -273,7 +273,7 @@ elementSources:
         - postDate
         - desc
       disabled: false
-      key: 'section:07fce1cd-37fc-4742-acf8-6bc0a4efd7d7' # Two Columns With Image
+      key: 'section:07fce1cd-37fc-4742-acf8-6bc0a4efd7d7'
       tableAttributes:
         - 'field:80fa81e4-1f78-4d88-b733-f565d1f5b9bd' # Image
         - 'field:0767f000-e433-4930-9534-b795a48740bb' # Teaser
@@ -300,11 +300,9 @@ email:
   replyToEmail: null
   template: ''
   transportSettings:
-    encryptionMethod: $SMTP_ENCRYPTION_METHOD
     host: $SMTP_HOST
     password: $SMTP_PASSWORD
     port: $SMTP_PORT
-    timeout: '10'
     useAuthentication: $SMTP_AUTHENTICATION
     username: $SMTP_USER
   transportType: craft\mail\transportadapters\Smtp
@@ -378,7 +376,6 @@ meta:
     07a23de3-b713-43fc-8310-d9191d851801: Name # Name
     7b8b6f04-9d76-4b26-8276-96a80183750e: Quote # Quote
     7ef9424e-9902-4930-9244-8d7f93d6dc4b: 'Story Team' # Story Team
-    07fce1cd-37fc-4742-acf8-6bc0a4efd7d7: 'Two Columns With Image' # Two Columns With Image
     7fda4ce3-4bdd-4fbe-b32f-35a5e6707295: 'Article Index' # Article Index
     8b36e156-5078-4dac-b1d5-74d7b1e46eb9: 'Site Info' # Site Info
     8c826eca-f376-4f7a-92d6-307faddea123: Image # Image
@@ -469,11 +466,12 @@ meta:
     b7e84646-2ab1-476a-97a1-49ac1fa05852: 'Is Featured' # Is Featured
     b32ea3bc-ee43-4236-864d-972d36f184b2: Sitemap # Sitemap
     b40353f4-de5f-4006-813a-15494e63e104: Align # Align
-    b7361735-c91d-4877-a975-cfe6751133b1: Cards # Entry Cards
+    b7361735-c91d-4877-a975-cfe6751133b1: Cards # Cards
     bbc46fd7-2b24-431f-a7d1-aedf86a6c169: Handle # Handle
     bbe2ff0f-6056-4848-80de-3070bb80294d: Email # Email
     be108462-0419-43c1-98bf-08b34209a8b9: Newsletter # Newsletter
     bf3d514d-a34d-41d6-bb20-61c6d8119820: 'Social Links' # Social Links
+    bff90088-ffd2-4e25-aa4d-d9dc27cad56a: 'Column Content' # Column Content
     c0fe6eff-5323-415f-81d9-4f9d42a07b66: 'Story Content' # Story Content
     c8a6470e-a8da-46c4-ae23-4eb68d320a66: 'Show in Sites' # Show in Sites
     c38ac7d1-9663-45a2-a78e-c676b354e27e: Search # Search

@@ -1,21 +1,15 @@
 columnSuffix: null
-handle: bodyContent
-instructions: 'See "Guide" for help.'
-name: 'Body Content'
+handle: columncontent
+instructions: null
+name: 'Column Content'
 searchable: true
 settings:
   createButtonLabel: 'New content block'
   entryTypes:
     - ac457f93-1a50-473e-9983-a899a7f0bed7 # Heading
     - 81e6a0d6-13c5-47ad-a9e6-c2181276db9c # Text
-    - 69164545-5879-454d-a57e-f703ca431331 # Image
-    - 1b04edb4-5ebc-45da-ba85-afcd734f187b # YouTube Video
     - 7b8b6f04-9d76-4b26-8276-96a80183750e # Quote
-    - 72a3030d-cba4-4a39-ba7f-553d7116aeaf # Gallery
-    - 7681df0f-bb10-47a5-ae54-25d7743237e3 # Content Components
-    - a08f1c5e-b057-468b-b989-6b243df4d213 # Dynamic
-    - b7361735-c91d-4877-a975-cfe6751133b1 # Cards
-    - fd509893-48ca-4ba0-a755-294ff5a48ca7 # Two columns with image
+    - 69164545-5879-454d-a57e-f703ca431331 # Image
   includeTableView: false
   maxEntries: null
   minEntries: null

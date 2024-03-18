@@ -48,6 +48,7 @@ return
 		->generateTransformsBeforePageLoad(!$isCpRequest)
 		->optimizeImageFilesize(false)
 		->revAssetUrls()
+        ->tempAssetUploadFs(App::env('TEMP_IMAGES_FS'))
 
         // Only allow uploading of images and pdfs, except for AVIF, as it may cause the server to hang when generating transforms
         ->allowedFileExtensions([

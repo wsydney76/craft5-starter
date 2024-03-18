@@ -5,9 +5,10 @@
 {# @param bool padding If horizontal padding should be applied. Set to false if embedded in other components #}
 
 {% set fullWidthBlocks = customConfig.fullWidthBlocks %}
+{% set fullWidthProseBlocks = customConfig.fullWidthProseBlocks %}
 {% set constrain = constrain is defined ? constrain : true %}
 {% set padding = padding is defined ? padding : true %}
-{% set extraClasses = extraClasses is defined ? extraClasses : 'my-12 mx-auto max-w-full'  %}
+{% set extraClasses = extraClasses is defined ? extraClasses : 'my-12 mx-auto max-w-full' %}
 
 {% set blocks = query.collect() %}
 
@@ -22,6 +23,12 @@
 
                     {% if block.type.handle in fullWidthBlocks %}
                         <div class="not-prose">
+                            {% include "_blocks/#{block.type.handle}.twig" with {
+                                block
+                            } only %}
+                        </div>
+                    {% elseif block.type.handle in fullWidthProseBlocks %}
+                        <div>
                             {% include "_blocks/#{block.type.handle}.twig" with {
                                 block
                             } only %}

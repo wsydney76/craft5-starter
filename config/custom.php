@@ -28,8 +28,11 @@ return [
     'heroTemplate' => 'default',
     'heroFallbackTemplate' => 'textonly',
 
-    // Body content block types that control their own width
-    'fullWidthBlocks' => ['contentComponents', 'quote', 'twoColumnsWithImage'],
+    // Body content block types that control their own width, without prose styling
+    'fullWidthBlocks' => ['contentComponents', 'quote'],
+
+    // Body content block types that control their own width with prose styling
+    'fullWidthProseBlocks' => ['twoColumnsWithImage'],
 
     // We define image transforms/srcsets here if they are reused among different components
 

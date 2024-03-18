@@ -21,7 +21,7 @@ settings:
     - 'section:e26c6ef2-44c5-4a65-bfc1-b0a61124edca' # Newsletter
     - 'section:ae6e4008-f45f-4d7d-bbc1-d8b90290efb8' # Team
     - 'section:db16c9e5-2cfe-4821-88ff-7b18648846a1' # Testimonial
-    - 'section:07fce1cd-37fc-4742-acf8-6bc0a4efd7d7' # Two Columns With Image
+    - 'section:07fce1cd-37fc-4742-acf8-6bc0a4efd7d7'
   targetSiteId: null
   validateRelatedElements: false
   viewMode: null

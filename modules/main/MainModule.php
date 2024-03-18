@@ -56,8 +56,6 @@ class MainModule extends BaseModule
         // (see https://craftcms.com/docs/4.x/extend/events.html to get started)
 
 
-        $this->registerTranslationCategory();
-
         $this->registerBehaviors(Entry::class, [
             EntryBehavior::class,
         ]);
@@ -178,18 +176,10 @@ class MainModule extends BaseModule
         Craft::$app->view->hook('cp.users.edit.content', function(array &$context) {
             return '<input type="text" name="dummy-first-name" value="wtf" style="display: none">';
         });
-
-
-        // Let users reset their dismissed tips/warnings
-        // This will only be called for users editing their own profile
-        Craft::$app->view->hook('cp.users.edit.prefs', function(array &$context) {
-            return Craft::$app->view->renderTemplate('main/cp-dismissed-tips.twig');
-        });
     }
 
     protected function hideBlockTypes(): void
     {
-        // TODO: CRAFT5
         // Hide bodyContent block types not relevant for the current entry
         Event::on(
             Matrix::class,
