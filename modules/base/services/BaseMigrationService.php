@@ -86,7 +86,7 @@ class BaseMigrationService extends BaseService
         $template = $config['template'] ?? "$this->templateRoot/sections/$handle";
         $hasUrls = isset($config['hasUrls']) ? $config['hasUrls'] : true;
 
-        $this->sections[$handle] = Craft::$app->sections->getSectionByHandle($handle);
+        $this->sections[$handle] = Craft::$app->entries->getSectionByHandle($handle);
         if ($this->sections[$handle]) {
             return true;
         }
@@ -107,7 +107,7 @@ class BaseMigrationService extends BaseService
             ]
         );
 
-        if (!Craft::$app->sections->saveSection($section)) {
+        if (!Craft::$app->entries->saveSection($section)) {
             $this->error("Could not create section $handle: {$section}");
             return false;
         }
@@ -123,7 +123,7 @@ class BaseMigrationService extends BaseService
             $type->titleFormat = $titleFormat;
         }
 
-        if (!Craft::$app->sections->saveEntryType($type)) {
+        if (!Craft::$app->entries->saveEntryType($type)) {
             $this->error("Could not save entry type for $handle");
         }
 
@@ -372,7 +372,7 @@ class BaseMigrationService extends BaseService
     protected function updateElementSource(string $heading, string $sectionHandle, array $tableAttributes): void
     {
         $config = Craft::$app->projectConfig->get('elementSources');
-        $section = Craft::$app->sections->getSectionByHandle($sectionHandle);
+        $section = Craft::$app->entries->getSectionByHandle($sectionHandle);
         if (!$section) {
             $this->error("Section $sectionHandle not found.");
             return;

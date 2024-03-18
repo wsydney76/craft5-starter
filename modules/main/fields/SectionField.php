@@ -32,7 +32,7 @@ class SectionField extends Field
      */
     public function getInputHtml(mixed $value, ?ElementInterface $element = null): string
     {
-        $sectionOptions = collect(Craft::$app->sections->getAllSections())
+        $sectionOptions = collect(Craft::$app->entries->getAllSections())
             ->map(fn($section) => [
                 'label' => $section->name,
                 'value' => $section->handle,

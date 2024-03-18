@@ -54,7 +54,7 @@ class ContentService extends BaseService
             }
         }
 
-        $section = Craft::$app->sections->getSectionByHandle($sectionHandle);
+        $section = Craft::$app->entries->getSectionByHandle($sectionHandle);
 
         if (!$section) {
             $this->error("Section $sectionHandle does not exist.");

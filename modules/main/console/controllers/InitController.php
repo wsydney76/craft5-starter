@@ -239,7 +239,7 @@ class InitController extends BaseController
 
         $this->createEntry([
             'section' => 'page',
-            'type' => 'default',
+            'type' => 'page_default',
             'site' => 'en',
             'title' => 'About',
             'slug' => 'about',

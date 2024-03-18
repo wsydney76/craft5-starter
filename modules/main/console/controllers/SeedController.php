@@ -129,7 +129,7 @@ class SeedController extends InitController
     {
         $entry = $this->createEntry([
             'section' => 'topic',
-            'type' => 'default',
+            'type' => 'topic_default',
             'site' => 'en',
             'parent' => $parent,
             'title' => $topic['en'],
@@ -166,7 +166,7 @@ class SeedController extends InitController
      */
     public function actionCreateArticles(int $num = self::NUM_ENTRIES, string $sectionHandle = self::SECTION_HANDLE, string $path = 'starter/'): int
     {
-        $section = Craft::$app->sections->getSectionByHandle($sectionHandle);
+        $section = Craft::$app->entries->getSectionByHandle($sectionHandle);
         if (!$section) {
             $this->stderr("Invalid section {$sectionHandle}") . PHP_EOL;
             return ExitCode::UNSPECIFIED_ERROR;
@@ -191,7 +191,11 @@ class SeedController extends InitController
 
         $this->stdout("Creating {$num} entries of type '{$section->name}'." . PHP_EOL);
 
-        $type = $section->getEntryTypes()[0];
+        $type = Craft::$app->entries->getEntryTypeByHandle('article_default');
+        if (!$type) {
+            $this->stderr("Invalid entry type 'article_default'") . PHP_EOL;
+            return ExitCode::UNSPECIFIED_ERROR;
+        }
 
         for ($i = 1; $i <= $num; ++$i) {
             $title = $this->faker->text(50);
@@ -220,8 +224,8 @@ class SeedController extends InitController
         // Add a video example
 
         $entry = $this->createEntry([
-            'section' => 'article',
-            'type' => 'default',
+            'section' => $section->handle,
+            'type' => $type->handle,
             'author' => User::find()->orderBy(Craft::$app->db->driverName === 'mysql' ? 'RAND()' : 'RANDOM()')->one(),
             'title' => 'Video Demo',
             'fields' => [
@@ -275,7 +279,7 @@ class SeedController extends InitController
 
     public function actionCreateStories(int $num = 3, string $path = 'starter/'): int
     {
-        $section = Craft::$app->sections->getSectionByHandle('article');
+        $section = Craft::$app->entries->getSectionByHandle('article');
         if (!$section) {
             $this->stderr("Invalid section article") . PHP_EOL;
             return ExitCode::UNSPECIFIED_ERROR;
@@ -375,7 +379,7 @@ class SeedController extends InitController
 
             $heroAreaEntry = $this->createEntry([
                 'section' => 'heroArea',
-                'type' => 'default',
+                'type' => 'heroArea_default',
                 'site' => 'en',
                 'title' => 'Craft Starter',
                 'slug' => 'hero1',
@@ -542,7 +546,7 @@ class SeedController extends InitController
             $image = Asset::find()->filename('blind.jpg')->one();
             $contentComponents[] = $this->createEntry([
                 'section' => 'heroArea',
-                'type' => 'default',
+                'type' => 'heroArea_default',
                 'site' => 'en',
                 'title' => $this->faker->text(30),
                 'slug' => 'hero2',
@@ -766,6 +770,9 @@ class SeedController extends InitController
 
     protected function translateHint(Entry $entry, string $siteHandle, string $fieldHandle = 'bodyContent'): void
     {
+        // TODO: Craft 5
+        return;
+
         $entry = $entry->getLocalized()->site($siteHandle)->one();
         if (!$entry) {
             return;
@@ -821,10 +828,9 @@ class SeedController extends InitController
 
         $layouts = [
             ['text', 'heading', 'image', 'text', 'image'],
-            ['text', 'heading', 'image', 'text', 'quote', 'text'],
-            ['longtext', 'heading', 'longtext', 'heading', 'longtext'],
-            ['text', 'image', 'image', 'image'],
-            ['text', 'heading', 'gallery', 'text', 'heading', 'text'],
+            ['text', 'text', 'image', 'text', 'image', 'text', 'image'],
+            ['text', 'text', 'image', 'text', 'image', 'text', 'image', 'text', 'image'],
+            ['text', 'text', 'image', 'text', 'image', 'text', 'image', 'text', 'image', 'text', 'image'],
         ];
 
         $blockTypes = $this->faker->randomElement($layouts);
