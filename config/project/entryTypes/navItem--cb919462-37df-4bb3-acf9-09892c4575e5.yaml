@@ -1,3 +1,4 @@
+color: null
 fieldLayouts:
   1ca0bb2f-93b6-407d-883c-8b3dac20fa95:
     tabs:
@@ -20,6 +21,7 @@ fieldLayouts:
             disabled: false
             elementCondition: null
             id: null
+            includeInCards: false
             inputType: null
             instructions: null
             label: null
@@ -28,6 +30,7 @@ fieldLayouts:
             name: null
             orientation: null
             placeholder: null
+            providesThumbs: false
             readonly: false
             requirable: false
             size: null
@@ -42,8 +45,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: 1f5834fd-ed0d-466a-b4dd-2891fd144893 # Show Structure Navigation
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -54,8 +60,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: ec70b604-43e4-45f8-bab5-0ab78983f3ce # Nav Item Template
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -68,12 +77,12 @@ fieldLayouts:
         userCondition: null
 handle: navItem
 hasTitleField: true
+icon: null
 name: 'Nav Item'
-section: 84b98802-2548-4aed-b67e-fc97f6ed9e30 # Page
+showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-sortOrder: 8
 titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: language

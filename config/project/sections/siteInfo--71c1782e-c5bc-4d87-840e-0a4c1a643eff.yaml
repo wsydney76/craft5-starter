@@ -1,6 +1,9 @@
 defaultPlacement: end
 enableVersioning: true
+entryTypes:
+  - 8b36e156-5078-4dac-b1d5-74d7b1e46eb9 # Site Info
 handle: siteInfo
+maxAuthors: 1
 name: 'Site Info'
 previewTargets:
   -

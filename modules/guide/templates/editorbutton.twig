@@ -1,4 +1,4 @@
-{% if entry.section.handle in craft.app.config.custom.showGuides.sections %}
+{% if entry.section and entry.section.handle in craft.app.config.custom.showGuides.sections %}
     <button type="button" onclick="showGuide('{{ "content/#{entry.section.handle}" }}')" class="btn">Guide</button>
 {% endif %}
 

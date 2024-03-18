@@ -1,0 +1,8 @@
+columnSuffix: rzkkkwea
+handle: showInSites
+instructions: null
+name: 'Body Content - YouTube Video - Show in Sites'
+searchable: false
+translationKeyFormat: null
+translationMethod: none
+type: modules\main\fields\SiteField

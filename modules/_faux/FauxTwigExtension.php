@@ -25,8 +25,6 @@ namespace modules\_faux;
 use craft\elements\Asset;
 use craft\elements\ElementCollection;
 use craft\elements\Entry;
-use craft\elements\GlobalSet;
-use craft\elements\MatrixBlock;
 use craft\elements\User;
 use craft\web\twig\variables\Paginate;
 use spacecatninja\imagerx\variables\ImagerVariable;
@@ -55,7 +53,7 @@ class FauxTwigExtension extends AbstractExtension implements GlobalsInterface
 
             // Craft Elements
             'image' => new Asset(),
-            'block' => new MatrixBlock(),
+            'block' => new Entry(),
             'user' => new User(),
 
 

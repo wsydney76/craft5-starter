@@ -1,0 +1,43 @@
+columnSuffix: fqakpihs
+handle: style2
+instructions: null
+name: 'Story Content - Cover - Style'
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - 'Show Meta'
+        -
+          - value
+          - showMeta
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Bold
+        -
+          - value
+          - bold
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Text Shadow'
+        -
+          - value
+          - textShadow
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Checkboxes

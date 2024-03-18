@@ -1,0 +1,10 @@
+columnSuffix: paidlzyc
+handle: template
+instructions: 'Project specific template. Refer to your docs for possible values.'
+name: 'Body Content - Dynamic - Template'
+searchable: false
+settings:
+  includeDirectory: _blocks/dynamic
+translationKeyFormat: null
+translationMethod: none
+type: modules\main\fields\IncludeField

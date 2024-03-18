@@ -4,10 +4,10 @@ namespace modules\main;
 
 use Craft;
 use craft\base\Element;
-use craft\elements\actions\CopyReferenceTag;
 use craft\elements\Asset;
 use craft\elements\Entry;
 use craft\events\BlockTypesEvent;
+use craft\events\DefineEntryTypesForFieldEvent;
 use craft\events\ElementEvent;
 use craft\events\RegisterElementSourcesEvent;
 use craft\events\RegisterPreviewTargetsEvent;
@@ -91,20 +91,9 @@ class MainModule extends BaseModule
             return $this;
         });
 
-        if (!Craft::$app->request->isSiteRequest) {
-            // Don't register only for CP requests, as project-config/rebuild would delete it from custom sources
-            $this->registerConditionRuleTypes([
-                HasDraftsConditionRule::class,
-                IncludeUnpublishedDrafts::class,
-            ]);
-        }
 
         if (Craft::$app->request->isCpRequest) {
             $this->registerTemplateRoots(false, true);
-
-            $this->registerWidgetTypes([
-                MyProvisionalDraftsWidget::class,
-            ]);
 
             $this->restrictSearchIndex();
 
@@ -118,12 +107,6 @@ class MainModule extends BaseModule
                 [['bodyContent'], BodyContentValidator::class, 'on' => [Element::SCENARIO_LIVE]],
             ]);
 
-
-            $this->registerElementActions(Entry::class, [
-                // CopyReferenceTag::class,
-                CopyReferenceLinkTag::class,
-                CopyMarkdownLink::class,
-            ]);
 
             $this->hideBlockTypes();
 
@@ -145,7 +128,7 @@ class MainModule extends BaseModule
 
                     // Add SEO preview target
                     $seoPreviewSections = Craft::$app->config->custom->seoPreviewSections ?? [];
-                    if (in_array($event->sender->section->handle, $seoPreviewSections, true)) {
+                    if ($event->sender->section && in_array($event->sender->section->handle, $seoPreviewSections, true)) {
                         $event->previewTargets[] = [
                             'label' => Craft::t('site', 'SEO Preview'),
                             'urlFormat' => 'cp/preview-seo?id={id}&siteId={object.site.id}',
@@ -208,45 +191,50 @@ class MainModule extends BaseModule
     {
         // TODO: CRAFT5
         // Hide bodyContent block types not relevant for the current entry
-//        Event::on(
-//            Matrix::class,
-//            Matrix::EVENT_SET_FIELD_BLOCK_TYPES,
-//            function(BlockTypesEvent $event) {
-//
-//                // Only hide block types for bodyContent field
-//                if (!$event->element instanceof Entry || $event->sender->handle !== 'bodyContent') {
-//                    return;
-//                }
-//
-//                $entry = $event->element;
-//
-//                // TODO: Make that configurable
-//                // Hide dynamicBlock and contentComponents block types for pages
-//                if ($entry->section->handle !== 'page' || in_array($entry->type->handle, ['faqs', 'sitemap'])) {
-//                    foreach ($event->blockTypes as $i => $blockType) {
-//                        if (in_array($blockType->handle, ['dynamicBlock', 'contentComponents'])) {
-//                            unset($event->blockTypes[$i]);
-//                        }
-//                    }
-//                }
-//
-//                // Hide richText block type if CKEditor is not installed
-//                if (!Craft::$app->plugins->isPluginEnabled('ckeditor')) {
-//                    foreach ($event->blockTypes as $i => $blockType) {
-//                        if ($blockType->handle === 'richText') {
-//                            unset($event->blockTypes[$i]);
-//                        }
-//                    }
-//                }
-//
-//                if (!Craft::$app->config->custom->allowYoutubeVideos) {
-//                    foreach ($event->blockTypes as $i => $blockType) {
-//                        if ($blockType->handle === 'youtubeVideo') {
-//                            unset($event->blockTypes[$i]);
-//                        }
-//                    }
-//                }
-//            });
+        Event::on(
+            Matrix::class,
+            Matrix::EVENT_DEFINE_ENTRY_TYPES,
+            function(DefineEntryTypesForFieldEvent $event) {
+                // Only hide block types for bodyContent field
+
+                if (!$event->element->section) {
+                    return;
+                }
+
+                if (
+                    $event->sender->handle !== 'bodyContent') {
+                    return;
+                }
+
+                $entry = $event->element;
+
+                // TODO: Make that configurable
+                // Hide dynamicBlock and contentComponents block types for pages
+                if ($entry->section->handle !== 'page' || in_array($entry->type->handle, ['faqs', 'sitemap'])) {
+                    foreach ($event->entryTypes as $i => $entryType) {
+                        if (in_array($entryType->handle, ['dynamicBlock', 'contentComponents'])) {
+                            unset($event->entryTypes[$i]);
+                        }
+                    }
+                }
+
+                // Hide richText block type if CKEditor is not installed
+                if (!Craft::$app->plugins->isPluginEnabled('ckeditor')) {
+                    foreach ($event->entryTypes as $i => $entryType) {
+                        if ($entryType->handle === 'richText') {
+                            unset($event->entryTypes[$i]);
+                        }
+                    }
+                }
+
+                if (!Craft::$app->config->custom->allowYoutubeVideos) {
+                    foreach ($event->entryTypes as $i => $entryType) {
+                        if ($entryType->handle === 'youtubeVideo') {
+                            unset($event->entryTypes[$i]);
+                        }
+                    }
+                }
+            });
     }
 
 
@@ -314,32 +302,32 @@ class MainModule extends BaseModule
             Entry::EVENT_BEFORE_SAVE, function($event) {
 
             /** @var Entry $entry */
-                $entry = $event->sender;
+            $entry = $event->sender;
 
-                // TODO: Check conditionals
+            // TODO: Check conditionals
 
-                if ($entry->scenario !== Entry::SCENARIO_LIVE) {
-                    return;
-                }
+            if ($entry->scenario !== Entry::SCENARIO_LIVE) {
+                return;
+            }
 
-                $entry->validate();
+            $entry->validate();
 
-                if ($entry->hasErrors()) {
-                    return;
-                }
+            if ($entry->hasErrors()) {
+                return;
+            }
 
-                foreach ($entry->getLocalized()->all() as $localizedEntry) {
-                    $localizedEntry->scenario = Entry::SCENARIO_LIVE;
+            foreach ($entry->getLocalized()->all() as $localizedEntry) {
+                $localizedEntry->scenario = Entry::SCENARIO_LIVE;
 
-                    if (!$localizedEntry->validate()) {
-                        $entry->addError(
+                if (!$localizedEntry->validate()) {
+                    $entry->addError(
                         $entry->type->hasTitleField ? 'title' : 'slug',
                         Craft::t('site', 'Error validating entry in') .
                         ' "' . $localizedEntry->site->name . '". ' .
                         implode(' ', $localizedEntry->getErrorSummary(false)));
-                        $event->isValid = false;
-                    }
+                    $event->isValid = false;
                 }
-            });
+            }
+        });
     }
 }

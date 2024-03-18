@@ -1,6 +1,10 @@
 defaultPlacement: end
 enableVersioning: true
+entryTypes:
+  - 16e1ce60-0ee3-48c2-ac6a-d34757a52eed # Single Testimonial
+  - 4113a0a0-cb21-4671-9f9c-65575d18e024 # Multiple Testimonials
 handle: testimonial
+maxAuthors: 1
 name: Testimonial
 previewTargets:
   -
@@ -9,11 +13,11 @@ previewTargets:
         - label
         - Preview
       -
-        - urlFormat
-        - '{url}'
-      -
         - refresh
         - '1'
+      -
+        - urlFormat
+        - '{url}'
 propagationMethod: all
 siteSettings:
   5b0c38db-9ab4-47d8-b4a7-913710c08ca6: # English

@@ -1,6 +1,9 @@
 defaultPlacement: end
 enableVersioning: true
+entryTypes:
+  - be108462-0419-43c1-98bf-08b34209a8b9 # Newsletter
 handle: newsletter
+maxAuthors: 1
 name: Newsletter
 previewTargets:
   -
@@ -9,11 +12,11 @@ previewTargets:
         - label
         - Preview
       -
-        - urlFormat
-        - '{url}'
-      -
         - refresh
         - '1'
+      -
+        - urlFormat
+        - '{url}'
 propagationMethod: all
 siteSettings:
   5b0c38db-9ab4-47d8-b4a7-913710c08ca6: # English

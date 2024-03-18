@@ -77,7 +77,17 @@ return [
     'The text shown on the cookie banner' => 'Der auf dem Cookie-Banner angezeigte Text',
     'The text shown in the info popup' => 'Der im Info-Popup angezeigte Text',
     'This entry defines the caption and the info text for the cookie consent banner.' => 'Dieser Eintrag definiert die Beschriftung und den Infotext für das Cookie-Einwilligungsbanner.',
-    
+
+    // Craft 5
+    'New content block' => 'Neuer Inhaltsblock',
+    'New button' => 'Neuer Button',
+    'New FAQ' => 'Neue FAQ',
+    'New feature' => 'Neues Feature',
+    'Show SEO fields' => 'SEO-Felder anzeigen',
+    'New team member' => 'Neues Teammitglied',
+    'Two columns with image' => 'Zwei Spalten mit Bild',
+    'Entry Cards' => 'Eintragskarten',
+
     // Environment field
 
     'No validation' => 'Keine Validierung',

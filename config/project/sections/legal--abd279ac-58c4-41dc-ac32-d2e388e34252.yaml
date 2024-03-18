@@ -1,6 +1,11 @@
 defaultPlacement: end
 enableVersioning: true
+entryTypes:
+  - d1935046-3734-43ba-934d-7512ecd81205 # Cookie Consent
+  - 67a97a95-ddb9-4d73-a10b-649ba6d997cd # Privacy
+  - 3468bd44-82e8-4104-932e-5085601fca12 # Legal - Default
 handle: legal
+maxAuthors: 1
 name: Legal
 propagationMethod: all
 siteSettings:

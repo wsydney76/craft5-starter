@@ -1,6 +1,4 @@
 columnSuffix: gollssan
-contentColumnType: text
-fieldGroup: bd76fb6e-8765-41d3-8e8a-02e37e127c80 # Common
 handle: menuTitle
 instructions: 'Short title for menu'
 name: 'Menu Title'
@@ -9,7 +7,6 @@ settings:
   byteLimit: null
   charLimit: null
   code: false
-  columnType: null
   initialRows: 4
   multiline: false
   placeholder: null

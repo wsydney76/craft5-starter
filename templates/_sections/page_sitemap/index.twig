@@ -7,7 +7,7 @@
     {% block content %}
         <div class="max-w-full grid sm:grid-cols-2 lg:grid-cols-4 gap-4 prose prose-custom dark:prose-invert">
             {% for sectionConfig in sections %}
-                {% set section = craft.app.sections.sectionByHandle(sectionConfig.handle) %}
+                {% set section = craft.app.entries.sectionByHandle(sectionConfig.handle) %}
 
                 <div class="me-8">
                     <h2>{{ section.name|t }}</h2>

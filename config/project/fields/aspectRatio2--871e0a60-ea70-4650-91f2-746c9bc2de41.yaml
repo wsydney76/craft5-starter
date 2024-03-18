@@ -1,0 +1,65 @@
+columnSuffix: rizfjoen
+handle: aspectRatio2
+instructions: null
+name: 'Body Content - Image - Aspect Ratio'
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - 'Default (16/9)'
+        -
+          - value
+          - default
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - 'Full Height'
+        -
+          - value
+          - fullHeight
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Square
+        -
+          - value
+          - square
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Slim (21/9)'
+        -
+          - value
+          - slim
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Classic (4/3)'
+        -
+          - value
+          - classic
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

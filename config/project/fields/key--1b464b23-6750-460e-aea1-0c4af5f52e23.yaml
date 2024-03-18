@@ -1,0 +1,16 @@
+columnSuffix: ieijvjhz
+handle: key
+instructions: 'Parameter ?v= from YouTube Url, e.g. _hoGpYyn4Bs'
+name: 'Body Content - YouTube Video - Key'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 30
+  code: false
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

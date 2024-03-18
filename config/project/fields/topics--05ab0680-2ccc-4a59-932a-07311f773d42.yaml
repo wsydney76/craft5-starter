@@ -1,6 +1,4 @@
 columnSuffix: null
-contentColumnType: string
-fieldGroup: bd76fb6e-8765-41d3-8e8a-02e37e127c80 # Common
 handle: topics
 instructions: null
 name: Topics
@@ -13,6 +11,7 @@ settings:
   maxRelations: null
   minRelations: null
   selectionLabel: 'Add a topic'
+  showCardsInGrid: false
   showSiteMenu: false
   sources:
     - 'section:5042338b-5f7b-4535-96bb-578a829e987c' # Topic

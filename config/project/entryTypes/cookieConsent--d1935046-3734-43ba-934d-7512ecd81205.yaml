@@ -1,3 +1,4 @@
+color: null
 fieldLayouts:
   674b3078-0b6e-4166-8b6d-fa2a29979cd5:
     tabs:
@@ -20,6 +21,7 @@ fieldLayouts:
             disabled: false
             elementCondition: null
             id: null
+            includeInCards: false
             inputType: null
             instructions: 'The text shown on the cookie banner'
             label: Caption
@@ -28,6 +30,7 @@ fieldLayouts:
             name: null
             orientation: null
             placeholder: null
+            providesThumbs: false
             readonly: false
             requirable: false
             size: null
@@ -42,8 +45,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: 710a1bd0-9eeb-4721-9493-f2d7dead49ee # Body
+            handle: null
+            includeInCards: false
             instructions: 'The text shown in the info popup'
             label: 'Info Text'
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -56,12 +62,12 @@ fieldLayouts:
         userCondition: null
 handle: cookieConsent
 hasTitleField: true
+icon: null
 name: 'Cookie Consent'
-section: abd279ac-58c4-41dc-ac32-d2e388e34252 # Legal
+showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-sortOrder: 3
 titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

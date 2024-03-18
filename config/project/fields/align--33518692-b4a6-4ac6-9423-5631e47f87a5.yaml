@@ -1,12 +1,9 @@
 columnSuffix: xkuyhmpj
-contentColumnType: string
-fieldGroup: 169ccd00-9c12-4921-b187-8ef8ca2ad525 # Assets
 handle: align
 instructions: null
 name: Align
 searchable: false
 settings:
-  columnType: string
   options:
     -
       __assoc__:

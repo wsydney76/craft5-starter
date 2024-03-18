@@ -29,7 +29,7 @@ return [
     'heroFallbackTemplate' => 'textonly',
 
     // Body content block types that control their own width
-    'fullWidthBlocks' => ['contentComponents', 'quote'],
+    'fullWidthBlocks' => ['contentComponents', 'quote', 'twoColumnsWithImage'],
 
     // We define image transforms/srcsets here if they are reused among different components
 

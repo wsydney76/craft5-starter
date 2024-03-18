@@ -1,0 +1,10 @@
+columnSuffix: zybjsdrz
+handle: template2
+instructions: null
+name: 'Story Content - Title - Template'
+searchable: false
+settings:
+  includeDirectory: _sections/article_story/title
+translationKeyFormat: null
+translationMethod: none
+type: modules\main\fields\IncludeField

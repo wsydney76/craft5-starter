@@ -1,6 +1,4 @@
 columnSuffix: utamlmxc
-contentColumnType: text
-fieldGroup: b61bea97-e4d4-4de2-9149-15f74906945a # SEO
 handle: seoDescriction
 instructions: null
 name: 'SEO Descriction'
@@ -9,7 +7,6 @@ settings:
   byteLimit: null
   charLimit: null
   code: false
-  columnType: null
   initialRows: 4
   multiline: false
   placeholder: null

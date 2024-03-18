@@ -1,6 +1,6 @@
 assets:
   tempVolumeUid: ed627edd-73bd-4b75-8684-f410bf4e4b9d # Temporary Images
-dateModified: 1710715533
+dateModified: 1710757904
 elementSources:
   craft\elements\Asset:
     -
@@ -294,26 +294,6 @@ elementSources:
     -
       heading: Work
       type: heading
-    -
-      condition:
-        class: craft\elements\conditions\entries\EntryCondition
-        conditionRules:
-          -
-            class: modules\main\conditions\HasDraftsConditionRule
-            uid: a62faf73-8f96-4da2-bd45-fa1a59c3d1d9
-            value: true
-        elementType: craft\elements\Entry
-        fieldContext: global
-      defaultSort:
-        - title
-        - asc
-      key: 'custom:fb2df323-df89-408a-8062-7efaa55f4469'
-      label: Drafts
-      tableAttributes:
-        - section
-        - type
-        - drafts
-      type: custom
 email:
   fromEmail: $EMAIL_ADDRESS
   fromName: $EMAIL_SENDER
@@ -427,9 +407,6 @@ meta:
     81e27c57-c550-407d-bd6b-61aba2df6af4: Profile # Profile
     84b98802-2548-4aed-b67e-fc97f6ed9e30: Page # Page
     94b76905-09aa-4aeb-82a0-222f592d42f8: 'Show in Sites' # Show in Sites
-    99b1f33e-21a3-4870-8165-2b685034a641: Layout # Layout
-    169ccd00-9c12-4921-b187-8ef8ca2ad525: Assets # Assets
-    320fb86e-2364-403c-b8e9-152bac87d58f: 'Environment variables' # Environment variables
     340c3b24-7f05-4789-b077-a502b4310109: 'Background Color' # Background Color
     370cbaec-9bf1-4ecf-b903-276c6da6c861: 'Postal Address' # Postal Address
     400d2e7a-d260-459d-b16d-bc388f093106: Tagline # Tagline
@@ -437,7 +414,6 @@ meta:
     518aea6d-af2d-4e4e-8d4b-a2ca618cd89c: Style # Style
     605e973b-b2e9-4421-9f1a-80d4cddc0cf0: Parameter # Parameter
     621ad41b-f019-4e95-96aa-49f8c56482db: 'SEO Descriction' # SEO Descriction
-    669ee208-7bb0-4800-ba43-454bc31751ac: Story # Story
     710a1bd0-9eeb-4721-9493-f2d7dead49ee: Body # Body
     735b5e6e-8026-4de4-8e32-14e03d975565: Image # Image
     0767f000-e433-4930-9534-b795a48740bb: Teaser # Teaser
@@ -445,7 +421,7 @@ meta:
     871e0a60-ea70-4650-91f2-746c9bc2de41: 'Aspect Ratio' # Aspect Ratio
     956fbff8-1bb5-4c5d-8e58-ec36d77bf04e: Custom # Custom
     2232a9d8-f828-47e8-bb32-6e03f1cd70b6: 'Team Member' # Team Member
-    3468bd44-82e8-4104-932e-5085601fca12: Default # Default
+    3468bd44-82e8-4104-932e-5085601fca12: 'Legal - Default' # Legal - Default
     4113a0a0-cb21-4671-9f9c-65575d18e024: 'Multiple Testimonials' # Multiple Testimonials
     4120c3e9-17c2-464b-8d41-7d009dacb5e3: 'Page Template' # Page Template
     6193ce57-a570-451e-8124-ec3ba985b0b2: Caption # Caption
@@ -453,7 +429,7 @@ meta:
     7602aac5-c98e-44bd-8570-457a85b8abad: Criteria # Criteria
     7681df0f-bb10-47a5-ae54-25d7743237e3: 'Content Components' # Content Components
     8833ee2a-8239-453f-9996-a3af3eabb404: Heading # Heading
-    13852c19-7f9e-4e6b-8790-0063f0f21ab8: Default # Default
+    13852c19-7f9e-4e6b-8790-0063f0f21ab8: 'Hero Area - Default' # Hero Area - Default
     37283b65-80b3-4451-a1d2-03fd68d18a05: 'Content Components' # Content Components
     44993cef-3718-479f-8c88-bdede1d256ba: 'Card Text' # Card Text
     52144f06-b394-45aa-bee6-d00e1f86878f: Primary # Primary
@@ -492,28 +468,22 @@ meta:
     b3aae533-c873-4f67-8df2-d2bde900b30a: 'Last Name' # Last Name
     b7e84646-2ab1-476a-97a1-49ac1fa05852: 'Is Featured' # Is Featured
     b32ea3bc-ee43-4236-864d-972d36f184b2: Sitemap # Sitemap
-    b61bea97-e4d4-4de2-9149-15f74906945a: SEO # SEO
     b40353f4-de5f-4006-813a-15494e63e104: Align # Align
-    b7361735-c91d-4877-a975-cfe6751133b1: Cards # Cards
+    b7361735-c91d-4877-a975-cfe6751133b1: Cards # Entry Cards
     bbc46fd7-2b24-431f-a7d1-aedf86a6c169: Handle # Handle
     bbe2ff0f-6056-4848-80de-3070bb80294d: Email # Email
-    bd76fb6e-8765-41d3-8e8a-02e37e127c80: Common # Common
     be108462-0419-43c1-98bf-08b34209a8b9: Newsletter # Newsletter
-    bef1d233-b346-4d06-a2c1-be50cca6eae2: 'Content Sections' # Content Sections
     bf3d514d-a34d-41d6-bb20-61c6d8119820: 'Social Links' # Social Links
     c0fe6eff-5323-415f-81d9-4f9d42a07b66: 'Story Content' # Story Content
     c8a6470e-a8da-46c4-ae23-4eb68d320a66: 'Show in Sites' # Show in Sites
     c38ac7d1-9663-45a2-a78e-c676b354e27e: Search # Search
     c72e758a-f6c3-42cd-896b-3ff6353ed259: 'Featured Image' # Featured Image
-    c38953ca-ba84-4992-8deb-65aa2fc40b34: 'Hero Area' # Hero Area
     cb919462-37df-4bb3-acf9-09892c4575e5: 'Nav Item' # Nav Item
     cc3fbab0-826f-4aed-b2aa-eeaecc2964bf: 'Alt Text' # Alt Text
     cf1158bf-b524-4684-9147-0ca8295ba477: Text # Text
-    cf487444-d6c2-4c99-9432-e229efa674a2: Person # Person
     d1ce7a99-7ba0-4ad1-9f19-c4cdad3f247e: 'Email Address' # Email Address
     d3f37f0d-7675-4e3b-a223-69995d7b57b6: Standard # Standard
-    d92e63b4-996e-4dcd-8b55-d119540b5831: Default # Default
-    d50026f3-a236-4ae2-b00a-af55076acd17: Site # Site
+    d92e63b4-996e-4dcd-8b55-d119540b5831: 'Article - Default' # Article - Default
     d1935046-3734-43ba-934d-7512ecd81205: 'Cookie Consent' # Cookie Consent
     db16c9e5-2cfe-4821-88ff-7b18648846a1: Testimonial # Testimonial
     db33cf09-8ba1-45f6-9cc0-3e855cbcb809: Template # Template
@@ -529,7 +499,7 @@ meta:
     e3333efd-6726-41c1-9a66-a746a6f0d350: Cards # Cards
     eb6b24cc-83d7-416f-be4b-d002c7688b58: Copyright # Copyright
     eb61b6c1-d43a-4bf6-8091-bc71c44a9dcf: Entries # Entries
-    eb276acd-66e3-48af-88d8-8ed2854da137: Default # Default
+    eb276acd-66e3-48af-88d8-8ed2854da137: 'Topic - Default' # Topic - Default
     ebe8548f-7f01-49b6-af98-56da49668e79: Logo # Logo
     ec70b604-43e4-45f8-bab5-0ab78983f3ce: 'Nav Item Template' # Nav Item Template
     ed627edd-73bd-4b75-8684-f410bf4e4b9d: 'Temporary Images' # Temporary Images
@@ -544,7 +514,7 @@ meta:
     f620927d-baf7-430a-a965-f1e9ea676b83: Text # Text
     fad1f43f-1f3b-4f91-a3d7-fc97622b7767: FAQs # FAQs
     fbaae504-9220-4e1b-a58a-e3819e88194b: 'Use Vite Dev Server' # Use Vite Dev Server
-    fbf00eb2-4a16-40ca-96bb-3fadd2bf459c: Default # Default
+    fbf00eb2-4a16-40ca-96bb-3fadd2bf459c: 'Page - Default' # Page - Default
     fcbda6e5-a26a-4efb-800a-a67a44a88fa1: Person # Person
     fd509893-48ca-4ba0-a755-294ff5a48ca7: 'Two columns with image' # Two columns with image
     fea320b1-c261-431e-b670-048f10cf5285: Image # Image
@@ -582,5 +552,5 @@ system:
   live: true
   name: $SYSTEM_NAME
   retryDuration: 30
-  schemaVersion: 4.5.3.0
+  schemaVersion: 5.0.0.20
   timeZone: $SYSTEM_TIMEZONE

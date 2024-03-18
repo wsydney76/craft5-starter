@@ -1,3 +1,4 @@
+color: null
 fieldLayouts:
   a9532587-12ca-483b-9e53-5aa73b26666a:
     tabs:
@@ -20,6 +21,7 @@ fieldLayouts:
             disabled: false
             elementCondition: null
             id: null
+            includeInCards: false
             inputType: null
             instructions: null
             label: null
@@ -28,6 +30,7 @@ fieldLayouts:
             name: null
             orientation: null
             placeholder: null
+            providesThumbs: false
             readonly: false
             requirable: false
             size: null
@@ -42,8 +45,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: bbc46fd7-2b24-431f-a7d1-aedf86a6c169 # Handle
+            handle: null
+            includeInCards: false
             instructions: 'e.g. ''newsletter'''
             label: 'Email List Id'
+            providesThumbs: false
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -54,8 +60,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: 710a1bd0-9eeb-4721-9493-f2d7dead49ee # Body
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -66,8 +75,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: 502456b5-d67c-412d-927e-d06e8f662eac # Button Caption
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -80,12 +92,12 @@ fieldLayouts:
         userCondition: null
 handle: newsletter
 hasTitleField: true
+icon: null
 name: Newsletter
-section: e26c6ef2-44c5-4a65-bfc1-b0a61124edca # Newsletter
+showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: language

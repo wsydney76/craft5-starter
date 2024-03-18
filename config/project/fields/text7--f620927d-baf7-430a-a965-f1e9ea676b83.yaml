@@ -1,0 +1,16 @@
+columnSuffix: acwqdamq
+handle: text7
+instructions: null
+name: 'Story Content - Heading - Text'
+searchable: true
+settings:
+  byteLimit: 250
+  charLimit: null
+  code: false
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: language
+type: craft\fields\PlainText

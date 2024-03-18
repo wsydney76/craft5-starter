@@ -1,0 +1,16 @@
+columnSuffix: zpaqwywa
+handle: caption2
+instructions: null
+name: 'Body Content - Image - Caption'
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: 60
+  code: false
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: language
+type: craft\fields\PlainText

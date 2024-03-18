@@ -1,16 +1,24 @@
 columnSuffix: null
-contentColumnType: string
-fieldGroup: 669ee208-7bb0-4800-ba43-454bc31751ac # Story
 handle: storyContent
 instructions: null
 name: 'Story Content'
 searchable: true
 settings:
-  contentTable: '{{%matrixcontent_storycontent}}'
-  maxBlocks: null
-  minBlocks: null
+  createButtonLabel: 'New content block'
+  entryTypes:
+    - 49a267d5-a7d3-43e8-979c-b4c3b107154e # Cover
+    - 80e88b1c-5efc-40b5-b15f-db6921165b73 # Title
+    - 8833ee2a-8239-453f-9996-a3af3eabb404 # Heading
+    - 97881295-fc14-4543-bb41-555ad6247d0d # Text
+    - fea320b1-c261-431e-b670-048f10cf5285 # Image
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
   propagationKeyFormat: null
   propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
 translationKeyFormat: null
 translationMethod: site
 type: craft\fields\Matrix

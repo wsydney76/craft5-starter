@@ -1,3 +1,4 @@
+color: null
 fieldLayouts:
   16071f75-24f5-4201-950a-92a09401de15:
     tabs:
@@ -7,8 +8,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: 0767f000-e433-4930-9534-b795a48740bb # Teaser
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -24,6 +28,7 @@ fieldLayouts:
             disabled: false
             elementCondition: null
             id: null
+            includeInCards: false
             inputType: null
             instructions: null
             label: null
@@ -32,6 +37,7 @@ fieldLayouts:
             name: null
             orientation: null
             placeholder: null
+            providesThumbs: false
             readonly: false
             requirable: false
             size: null
@@ -46,8 +52,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: b7e84646-2ab1-476a-97a1-49ac1fa05852 # Is Featured
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -58,8 +67,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: 400d2e7a-d260-459d-b16d-bc388f093106 # Tagline
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -70,8 +82,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: ee886fff-a72a-4a22-b217-f878c7f53ffe # Persons
+            handle: null
+            includeInCards: false
             instructions: null
             label: Authors
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -82,8 +97,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: 05ab0680-2ccc-4a59-932a-07311f773d42 # Topics
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -94,8 +112,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: c72e758a-f6c3-42cd-896b-3ff6353ed259 # Featured Image
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -106,8 +127,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: 44993cef-3718-479f-8c88-bdede1d256ba # Card Text
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -118,8 +142,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: 12ee7163-1896-4afc-b140-3f53c59f8b7d # Text Color
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -130,8 +157,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: 340c3b24-7f05-4789-b077-a502b4310109 # Background Color
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -148,8 +178,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: c0fe6eff-5323-415f-81d9-4f9d42a07b66 # Story Content
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -166,8 +199,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: 7ef9424e-9902-4930-9244-8d7f93d6dc4b # Story Team
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -184,8 +220,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: e62d63b0-c299-42ce-aeef-86a69f7e676c # SEO Fields
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -198,12 +237,12 @@ fieldLayouts:
         userCondition: null
 handle: story
 hasTitleField: true
+icon: null
 name: Story
-section: 2f93cb45-a9ce-4284-8848-9eb001fb8a1c # Article
+showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-sortOrder: 2
 titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: language

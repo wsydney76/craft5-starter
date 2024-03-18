@@ -3,10 +3,116 @@ tabs:
     elementCondition: null
     elements:
       -
+        autocapitalize: true
+        autocomplete: false
+        autocorrect: true
+        class: null
+        disabled: false
         elementCondition: null
-        fieldUid: bf3d514d-a34d-41d6-bb20-61c6d8119820 # Social Links
+        id: null
+        includeInCards: false
+        inputType: null
         instructions: null
         label: null
+        max: null
+        min: null
+        name: null
+        orientation: null
+        placeholder: null
+        providesThumbs: false
+        readonly: false
+        requirable: false
+        size: null
+        step: null
+        tip: null
+        title: null
+        type: craft\fieldlayoutelements\users\UsernameField
+        uid: 4ef5c2f8-9804-48a9-bfb0-9b711f7023b6
+        userCondition: null
+        warning: null
+        width: 100
+      -
+        attribute: fullName
+        autocapitalize: true
+        autocomplete: false
+        autocorrect: true
+        class: null
+        disabled: false
+        elementCondition: null
+        id: null
+        includeInCards: false
+        inputType: null
+        instructions: null
+        label: null
+        max: null
+        min: null
+        name: null
+        orientation: null
+        placeholder: null
+        providesThumbs: false
+        readonly: false
+        requirable: true
+        required: false
+        size: null
+        step: null
+        tip: null
+        title: null
+        type: craft\fieldlayoutelements\users\FullNameField
+        uid: 4f43fd1d-6c2a-448a-adab-e46d653fd811
+        userCondition: null
+        warning: null
+        width: 100
+      -
+        elementCondition: null
+        id: null
+        includeInCards: false
+        instructions: null
+        label: null
+        orientation: null
+        providesThumbs: false
+        requirable: false
+        tip: null
+        type: craft\fieldlayoutelements\users\PhotoField
+        uid: e1097903-57a2-466b-b704-a027a525dd0d
+        userCondition: null
+        warning: null
+        width: 100
+      -
+        autocapitalize: true
+        autocomplete: false
+        autocorrect: true
+        class: null
+        disabled: false
+        elementCondition: null
+        id: null
+        includeInCards: false
+        inputType: null
+        instructions: null
+        label: null
+        max: null
+        min: null
+        name: null
+        orientation: null
+        placeholder: null
+        providesThumbs: false
+        readonly: false
+        requirable: false
+        size: null
+        step: null
+        tip: null
+        title: null
+        type: craft\fieldlayoutelements\users\EmailField
+        uid: 173cd945-2185-4689-acea-0112383ff061
+        userCondition: null
+        width: 100
+      -
+        elementCondition: null
+        fieldUid: bf3d514d-a34d-41d6-bb20-61c6d8119820 # Social Links
+        handle: null
+        includeInCards: false
+        instructions: null
+        label: null
+        providesThumbs: false
         required: false
         tip: null
         type: craft\fieldlayoutelements\CustomField

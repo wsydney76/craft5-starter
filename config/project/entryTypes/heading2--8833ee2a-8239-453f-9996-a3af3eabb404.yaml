@@ -1,0 +1,80 @@
+color: null
+fieldLayouts:
+  0aa55bf9-2527-4724-bfab-1bb3986c4abc:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: dac75ff9-234b-4ddc-a020-1f1d14c82e43
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f620927d-baf7-430a-a965-f1e9ea676b83 # Text
+            handle: text
+            includeInCards: true
+            instructions: null
+            label: Text
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 52978b81-3e02-490b-95b0-f7bafa6addfd
+            userCondition: null
+            warning: null
+            width: 75
+          -
+            elementCondition: null
+            fieldUid: 518aea6d-af2d-4e4e-8d4b-a2ca618cd89c # Style
+            handle: style
+            includeInCards: false
+            instructions: null
+            label: Style
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0c44ee2d-9529-49c3-b3b5-e01e045595d6
+            userCondition: null
+            warning: null
+            width: 25
+        name: Content
+        uid: 2b434a53-4cff-4bda-b391-9765450995c5
+        userCondition: null
+handle: heading2
+hasTitleField: false
+icon: null
+name: 'Heading 2'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,3 +1,4 @@
+color: null
 fieldLayouts:
   9e769ade-981f-4d62-8a34-a99331cadaaa:
     tabs:
@@ -20,6 +21,7 @@ fieldLayouts:
             disabled: false
             elementCondition: null
             id: null
+            includeInCards: false
             inputType: null
             instructions: 'As used in the front end'
             label: 'Site Name'
@@ -28,6 +30,7 @@ fieldLayouts:
             name: null
             orientation: null
             placeholder: null
+            providesThumbs: false
             readonly: false
             requirable: false
             size: null
@@ -42,8 +45,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: eb6b24cc-83d7-416f-be4b-d002c7688b58 # Copyright
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -54,8 +60,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: ebe8548f-7f01-49b6-af98-56da49668e79 # Logo
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -66,8 +75,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: c72e758a-f6c3-42cd-896b-3ff6353ed259 # Featured Image
+            handle: null
+            includeInCards: false
             instructions: null
             label: 'Default Featured Image'
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -84,8 +96,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: 370cbaec-9bf1-4ecf-b903-276c6da6c861 # Postal Address
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -96,8 +111,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: 4bc24da9-fd88-45ec-8410-bc189032e3f8 # Phone Number
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -108,8 +126,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: bbe2ff0f-6056-4848-80de-3070bb80294d # Email
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -120,8 +141,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: bf3d514d-a34d-41d6-bb20-61c6d8119820 # Social Links
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -138,8 +162,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: 621ad41b-f019-4e95-96aa-49f8c56482db # SEO Descriction
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -150,8 +177,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: a1dd83a1-2011-4bef-aa20-b6d6a366d66e # SEO Image
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -164,12 +194,12 @@ fieldLayouts:
         userCondition: null
 handle: siteInfo
 hasTitleField: true
+icon: null
 name: 'Site Info'
-section: 71c1782e-c5bc-4d87-840e-0a4c1a643eff # Site Info
+showSlugField: true
 showStatusField: false
 slugTranslationKeyFormat: null
 slugTranslationMethod: none
-sortOrder: 1
 titleFormat: '{section.name|raw}'
 titleTranslationKeyFormat: null
 titleTranslationMethod: none

@@ -1,0 +1,19 @@
+{# @var field \craft\base\Field #}
+{% set fields = craft.app.fields.allFields %}
+
+<table border="">
+    {% for field in fields %}
+        <tr>
+            <td>{{ loop.index }}</td>
+            <td>{{ field.id }}</td>
+            <td>{{ field.name }}</td>
+            <td>{{ field.handle }}</td>
+            <td>
+                {% if not (craft.app.fields.findFieldUsages(field)) %}
+                    <span style="color:red;">No usages</span>
+                {% endif %}
+            </td>
+            <td>{{ field.uid }}</td>
+        </tr>
+    {% endfor %}
+</table>

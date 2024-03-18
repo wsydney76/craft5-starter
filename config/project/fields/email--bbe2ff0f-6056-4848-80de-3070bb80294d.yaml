@@ -1,6 +1,4 @@
 columnSuffix: syktguie
-contentColumnType: string
-fieldGroup: d50026f3-a236-4ae2-b00a-af55076acd17 # Site
 handle: email
 instructions: null
 name: Email

@@ -1,16 +1,20 @@
 columnSuffix: null
-contentColumnType: string
-fieldGroup: c38953ca-ba84-4992-8deb-65aa2fc40b34 # Hero Area
 handle: buttons
 instructions: null
 name: Buttons
 searchable: true
 settings:
-  contentTable: '{{%matrixcontent_buttons}}'
-  maxBlocks: null
-  minBlocks: null
+  createButtonLabel: 'New button'
+  entryTypes:
+    - dfe86fae-c542-4ae2-8b07-16d57c206b16 # Button
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
   propagationKeyFormat: null
   propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
 translationKeyFormat: null
 translationMethod: site
 type: craft\fields\Matrix

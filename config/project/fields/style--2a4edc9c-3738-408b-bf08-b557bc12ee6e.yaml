@@ -1,0 +1,43 @@
+columnSuffix: gsxskrpg
+handle: style
+instructions: null
+name: 'Body Content - Quote - Style'
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Default
+        -
+          - value
+          - ''
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - Colored
+        -
+          - value
+          - colored
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Bordered
+        -
+          - value
+          - bordered
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

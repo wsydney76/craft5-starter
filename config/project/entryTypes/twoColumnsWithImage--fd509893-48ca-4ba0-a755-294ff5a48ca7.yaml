@@ -1,3 +1,4 @@
+color: null
 fieldLayouts:
   e463be1c-a88a-40f9-9d31-e772cc9690ea:
     tabs:
@@ -7,8 +8,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: 0767f000-e433-4930-9534-b795a48740bb # Teaser
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -24,6 +28,7 @@ fieldLayouts:
             disabled: false
             elementCondition: null
             id: null
+            includeInCards: false
             inputType: null
             instructions: null
             label: null
@@ -32,6 +37,7 @@ fieldLayouts:
             name: null
             orientation: null
             placeholder: null
+            providesThumbs: false
             readonly: false
             requirable: false
             size: null
@@ -46,8 +52,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: 80fa81e4-1f78-4d88-b733-f565d1f5b9bd # Image
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -58,8 +67,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: 85898001-9c9c-4d46-abf9-a928e44f0d48 # Body Content
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -72,12 +84,12 @@ fieldLayouts:
         userCondition: null
 handle: twoColumnsWithImage
 hasTitleField: true
+icon: null
 name: 'Two columns with image'
-section: 07fce1cd-37fc-4742-acf8-6bc0a4efd7d7 # Two Columns With Image
+showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

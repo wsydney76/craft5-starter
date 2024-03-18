@@ -1,6 +1,4 @@
 columnSuffix: null
-contentColumnType: string
-fieldGroup: d50026f3-a236-4ae2-b00a-af55076acd17 # Site
 handle: logo
 instructions: null
 name: Logo
@@ -25,6 +23,7 @@ settings:
   restrictedLocationSource: 'volume:5a0be839-14a2-465e-a504-bb63dd0281e9' # Images
   restrictedLocationSubpath: logo
   selectionLabel: null
+  showCardsInGrid: false
   showSiteMenu: false
   showUnpermittedFiles: false
   showUnpermittedVolumes: false

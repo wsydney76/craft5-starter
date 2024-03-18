@@ -1,6 +1,4 @@
 columnSuffix: null
-contentColumnType: string
-fieldGroup: bef1d233-b346-4d06-a2c1-be50cca6eae2 # Content Sections
 handle: contentComponents
 instructions: 'Select the desired type in the drop-down field at the top right.'
 name: 'Content Components'
@@ -13,6 +11,7 @@ settings:
   maxRelations: null
   minRelations: null
   selectionLabel: 'Add a content component'
+  showCardsInGrid: false
   showSiteMenu: false
   sources:
     - 'section:4da24c3d-bc23-48bc-a26f-407730202ca7' # FAQs

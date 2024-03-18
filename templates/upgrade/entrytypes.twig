@@ -1,0 +1,39 @@
+{# @var type \craft\models\EntryType #}
+{# @var layout \craft\models\FieldLayout #}
+{# @var fieldElement \craft\fieldlayoutelements\CustomField #}
+{% set types = craft.app.entries.allEntryTypes %}
+
+<table border="">
+    {% for type in types %}
+
+        <tr>
+            <td>{{ type.id }}</td>
+            <td>{{ type.name }}</td>
+            <td>{{ type.handle }}</td>
+            <td>
+                {% if not (type.findUsages) %}
+                    <span style="color:red;">No usages</span>
+                {% endif %}
+            </td>
+            {% set layout = type.fieldLayout %}
+            <td>
+                {% for fieldElement in layout.customFieldElements %}
+                    <div>
+                        {% set field = fieldElement.field %}
+                        {{ field.handle }}
+                        {% if fieldElement.originalHandle != field.handle %}
+                            = <span style="color: red">{{ fieldElement.originalHandle }}</span>
+                        {% endif %}
+                    </div>
+                {% endfor %}
+            </td>
+            <td>
+                {% for fieldElement in layout.customFieldElements %}
+                    <div>
+                        {{ fieldElement.uid }}
+                    </div>
+                {% endfor %}
+            </td>
+        </tr>
+    {% endfor %}
+</table>

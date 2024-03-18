@@ -1,0 +1,23 @@
+columnSuffix: null
+handle: entries
+instructions: null
+name: 'Body Content - Cards - Entries'
+searchable: true
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: null
+  selectionLabel: null
+  showCardsInGrid: false
+  showSiteMenu: false
+  sources:
+    - 'section:2f93cb45-a9ce-4284-8848-9eb001fb8a1c' # Article
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

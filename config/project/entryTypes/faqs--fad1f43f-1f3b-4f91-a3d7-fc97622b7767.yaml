@@ -1,3 +1,4 @@
+color: null
 fieldLayouts:
   67348023-43a0-47ff-85c1-e817fd411a16:
     tabs:
@@ -12,6 +13,7 @@ fieldLayouts:
             disabled: false
             elementCondition: null
             id: null
+            includeInCards: false
             inputType: null
             instructions: null
             label: null
@@ -20,6 +22,7 @@ fieldLayouts:
             name: null
             orientation: null
             placeholder: null
+            providesThumbs: false
             readonly: false
             requirable: false
             size: null
@@ -34,8 +37,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: 95358052-5e25-4a5d-bd52-58078b1a5aa2 # FAQs
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -48,12 +54,12 @@ fieldLayouts:
         userCondition: null
 handle: faqs
 hasTitleField: true
+icon: null
 name: FAQs
-section: 4da24c3d-bc23-48bc-a26f-407730202ca7 # FAQs
+showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: language

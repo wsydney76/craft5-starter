@@ -1,3 +1,4 @@
+color: null
 fieldLayouts:
   52ae468f-4303-4b14-9e54-685363b9f8f8:
     tabs:
@@ -12,6 +13,7 @@ fieldLayouts:
             disabled: false
             elementCondition: null
             id: null
+            includeInCards: false
             inputType: null
             instructions: null
             label: Name
@@ -20,6 +22,7 @@ fieldLayouts:
             name: null
             orientation: null
             placeholder: null
+            providesThumbs: false
             readonly: false
             requirable: false
             size: null
@@ -34,8 +37,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: 0767f000-e433-4930-9534-b795a48740bb # Teaser
+            handle: null
+            includeInCards: false
             instructions: null
             label: 'Job description'
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -46,8 +52,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: 78014c80-5d4b-4253-ae59-80f00e516c86 # Photo
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -58,8 +67,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: 710a1bd0-9eeb-4721-9493-f2d7dead49ee # Body
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -70,8 +82,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: bf3d514d-a34d-41d6-bb20-61c6d8119820 # Social Links
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -84,12 +99,12 @@ fieldLayouts:
         userCondition: null
 handle: default
 hasTitleField: true
+icon: null
 name: Default
-section: fcbda6e5-a26a-4efb-800a-a67a44a88fa1 # Person
+showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: none
-sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: none

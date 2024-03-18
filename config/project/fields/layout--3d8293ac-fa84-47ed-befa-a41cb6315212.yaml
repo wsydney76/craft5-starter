@@ -1,0 +1,32 @@
+columnSuffix: gfvnkphp
+handle: layout
+instructions: null
+name: 'Body Content - Cards - Layout'
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Cards
+        -
+          - value
+          - card
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - Cardlets
+        -
+          - value
+          - cardlet
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

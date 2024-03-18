@@ -1,6 +1,9 @@
 defaultPlacement: end
 enableVersioning: true
+entryTypes:
+  - 1dcc69f1-6963-4b8a-9a9a-10b35084db1a # Team
 handle: team
+maxAuthors: 1
 name: Team
 previewTargets:
   -
@@ -9,11 +12,11 @@ previewTargets:
         - label
         - Preview
       -
-        - urlFormat
-        - '{url}'
-      -
         - refresh
         - '1'
+      -
+        - urlFormat
+        - '{url}'
 propagationMethod: all
 siteSettings:
   5b0c38db-9ab4-47d8-b4a7-913710c08ca6: # English

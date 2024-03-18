@@ -1,12 +1,9 @@
 columnSuffix: zvkjsfie
-contentColumnType: string
-fieldGroup: bef1d233-b346-4d06-a2c1-be50cca6eae2 # Content Sections
 handle: testimonialStyle
 instructions: null
 name: 'Testimonial Style'
 searchable: false
 settings:
-  columnType: string
   options:
     -
       __assoc__:

@@ -1,0 +1,16 @@
+columnSuffix: yxoapypa
+handle: text2
+instructions: null
+name: 'Body Content - YouTube Video - Text'
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  initialRows: 2
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: language
+type: craft\fields\PlainText

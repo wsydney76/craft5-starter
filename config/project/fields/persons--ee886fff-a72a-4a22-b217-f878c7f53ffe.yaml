@@ -1,6 +1,4 @@
 columnSuffix: null
-contentColumnType: string
-fieldGroup: bef1d233-b346-4d06-a2c1-be50cca6eae2 # Content Sections
 handle: persons
 instructions: null
 name: Persons
@@ -13,6 +11,7 @@ settings:
   maxRelations: null
   minRelations: null
   selectionLabel: 'Add a person'
+  showCardsInGrid: false
   showSiteMenu: false
   sources:
     - 'section:fcbda6e5-a26a-4efb-800a-a67a44a88fa1' # Person

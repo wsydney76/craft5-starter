@@ -1,16 +1,20 @@
 columnSuffix: null
-contentColumnType: string
-fieldGroup: bd76fb6e-8765-41d3-8e8a-02e37e127c80 # Common
 handle: faqs
 instructions: null
 name: FAQs
 searchable: true
 settings:
-  contentTable: '{{%matrixcontent_faqs}}'
-  maxBlocks: null
-  minBlocks: null
+  createButtonLabel: 'New FAQ'
+  entryTypes:
+    - 97742dae-23f0-4986-a259-c886b727a452 # FAQ
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
   propagationKeyFormat: null
   propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
 translationKeyFormat: null
 translationMethod: site
 type: craft\fields\Matrix

@@ -1,6 +1,9 @@
 defaultPlacement: end
 enableVersioning: true
+entryTypes:
+  - fad1f43f-1f3b-4f91-a3d7-fc97622b7767 # FAQs
 handle: faqs
+maxAuthors: 1
 name: FAQs
 previewTargets:
   -
@@ -9,11 +12,11 @@ previewTargets:
         - label
         - Preview
       -
-        - urlFormat
-        - '{url}'
-      -
         - refresh
         - '1'
+      -
+        - urlFormat
+        - '{url}'
 propagationMethod: all
 siteSettings:
   5b0c38db-9ab4-47d8-b4a7-913710c08ca6: # English

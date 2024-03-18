@@ -1,0 +1,73 @@
+color: null
+fieldLayouts:
+  4daa1c40-4831-4547-b632-2379eac5a701:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dismissible: true
+            elementCondition: null
+            style: tip
+            tip: 'Use the slug of this entry to access it in your templates. Make sure the slug is identical on all sites!'
+            type: craft\fieldlayoutelements\Tip
+            uid: 2900f3d8-16f9-4718-bb30-101f16ce86cd
+            userCondition: null
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 630da346-fc2d-48b1-91b1-de26022d0286
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 710a1bd0-9eeb-4721-9493-f2d7dead49ee # Body
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 28b95090-b3fa-4db4-8c7c-bce9e16cb967
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhalt
+        uid: c7003a67-06d5-4802-8e66-57a4c86154e6
+        userCondition: null
+handle: textModule_default
+hasTitleField: true
+icon: null
+name: Standard
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

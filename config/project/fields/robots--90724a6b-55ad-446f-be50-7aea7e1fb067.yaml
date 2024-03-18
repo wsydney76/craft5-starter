@@ -1,0 +1,43 @@
+columnSuffix: null
+handle: robots
+instructions: null
+name: 'SEO Fields - Settings - Robots'
+searchable: true
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - all
+        -
+          - value
+          - all
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - noindex
+        -
+          - value
+          - noindex
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - nofollow
+        -
+          - value
+          - nofollow
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

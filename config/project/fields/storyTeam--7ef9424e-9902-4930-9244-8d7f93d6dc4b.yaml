@@ -1,16 +1,20 @@
 columnSuffix: null
-contentColumnType: string
-fieldGroup: 669ee208-7bb0-4800-ba43-454bc31751ac # Story
 handle: storyTeam
 instructions: null
 name: 'Story Team'
 searchable: false
 settings:
-  contentTable: '{{%matrixcontent_storyteam}}'
-  maxBlocks: null
-  minBlocks: null
+  createButtonLabel: 'New team member'
+  entryTypes:
+    - 2232a9d8-f828-47e8-bb32-6e03f1cd70b6 # Team Member
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
   propagationKeyFormat: null
   propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
 translationKeyFormat: null
 translationMethod: site
 type: craft\fields\Matrix

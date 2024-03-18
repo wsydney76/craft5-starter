@@ -1,6 +1,4 @@
 columnSuffix: null
-contentColumnType: string
-fieldGroup: 99b1f33e-21a3-4870-8165-2b685034a641 # Layout
 handle: featuredImage
 instructions: 'Full screen width'
 name: 'Featured Image'
@@ -56,6 +54,7 @@ settings:
                 - maxValue
                 - ''
   selectionLabel: 'Add an image'
+  showCardsInGrid: false
   showSiteMenu: false
   showUnpermittedFiles: false
   showUnpermittedVolumes: false

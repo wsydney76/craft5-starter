@@ -1,0 +1,16 @@
+columnSuffix: urypesmv
+handle: text3
+instructions: null
+name: 'Body Content - Quote - Text'
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  initialRows: 1
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: language
+type: craft\fields\PlainText

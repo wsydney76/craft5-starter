@@ -1,6 +1,4 @@
 columnSuffix: null
-contentColumnType: string
-fieldGroup: bd76fb6e-8765-41d3-8e8a-02e37e127c80 # Common
 handle: photo
 instructions: 'Portrait image'
 name: Photo
@@ -25,6 +23,7 @@ settings:
   restrictedLocationSource: 'volume:5a0be839-14a2-465e-a504-bb63dd0281e9' # Images
   restrictedLocationSubpath: photos
   selectionLabel: null
+  showCardsInGrid: false
   showSiteMenu: false
   showUnpermittedFiles: false
   showUnpermittedVolumes: false

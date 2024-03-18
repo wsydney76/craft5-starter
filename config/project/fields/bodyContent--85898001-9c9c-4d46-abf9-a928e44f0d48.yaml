@@ -1,16 +1,29 @@
 columnSuffix: null
-contentColumnType: string
-fieldGroup: bd76fb6e-8765-41d3-8e8a-02e37e127c80 # Common
 handle: bodyContent
 instructions: 'See "Guide" for help.'
 name: 'Body Content'
 searchable: true
 settings:
-  contentTable: '{{%matrixcontent_bodycontent}}'
-  maxBlocks: null
-  minBlocks: null
+  createButtonLabel: 'New content block'
+  entryTypes:
+    - 1b04edb4-5ebc-45da-ba85-afcd734f187b # YouTube Video
+    - 7b8b6f04-9d76-4b26-8276-96a80183750e # Quote
+    - 72a3030d-cba4-4a39-ba7f-553d7116aeaf # Gallery
+    - 81e6a0d6-13c5-47ad-a9e6-c2181276db9c # Text
+    - 7681df0f-bb10-47a5-ae54-25d7743237e3 # Content Components
+    - 69164545-5879-454d-a57e-f703ca431331 # Image
+    - a08f1c5e-b057-468b-b989-6b243df4d213 # Dynamic
+    - ac457f93-1a50-473e-9983-a899a7f0bed7 # Heading
+    - b7361735-c91d-4877-a975-cfe6751133b1 # Entry Cards
+    - fd509893-48ca-4ba0-a755-294ff5a48ca7 # Two columns with image
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
   propagationKeyFormat: null
   propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
 translationKeyFormat: null
 translationMethod: site
 type: craft\fields\Matrix
