@@ -171,12 +171,12 @@ fieldLayouts:
         userCondition: null
 handle: pageTemplate
 hasTitleField: true
-icon: null
+icon: page
 name: 'Page Template'
 showSlugField: true
 showStatusField: true
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: site

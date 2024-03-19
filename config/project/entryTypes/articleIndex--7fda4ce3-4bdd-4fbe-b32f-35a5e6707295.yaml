@@ -108,12 +108,12 @@ fieldLayouts:
         userCondition: null
 handle: articleIndex
 hasTitleField: true
-icon: null
+icon: bars
 name: 'Article Index'
 showSlugField: true
 showStatusField: true
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: site

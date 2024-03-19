@@ -69,12 +69,12 @@ fieldLayouts:
         userCondition: null
 handle: team
 hasTitleField: true
-icon: null
+icon: users
 name: Team
 showSlugField: true
 showStatusField: true
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: language

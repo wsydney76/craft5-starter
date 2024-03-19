@@ -30,7 +30,7 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 7ff02fa0-08c2-482b-bc70-fc98c0c87231
+            uid: 9c93090d-488f-4eec-aae4-c3779d47c9e7
             userCondition: null
             warning: null
             width: 100
@@ -69,12 +69,12 @@ fieldLayouts:
         userCondition: null
 handle: dynamicBlock
 hasTitleField: false
-icon: null
+icon: bolt
 name: Dynamic
-showSlugField: true
-showStatusField: true
-slugTranslationKeyFormat: null
+showSlugField: false
+showStatusField: false
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: site

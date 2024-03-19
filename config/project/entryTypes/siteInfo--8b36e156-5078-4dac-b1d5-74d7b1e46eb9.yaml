@@ -194,12 +194,12 @@ fieldLayouts:
         userCondition: null
 handle: siteInfo
 hasTitleField: true
-icon: null
+icon: gear
 name: 'Site Info'
 showSlugField: true
 showStatusField: false
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: none
 titleFormat: '{section.name|raw}'
-titleTranslationKeyFormat: null
+titleTranslationKeyFormat: ''
 titleTranslationMethod: none

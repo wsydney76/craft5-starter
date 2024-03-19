@@ -189,12 +189,12 @@ fieldLayouts:
         userCondition: null
 handle: profile
 hasTitleField: false
-icon: null
+icon: person-fairy
 name: Profile
 showSlugField: true
 showStatusField: true
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: none
 titleFormat: '{firstName} {nameAffix} {lastName}'
-titleTranslationKeyFormat: null
+titleTranslationKeyFormat: ''
 titleTranslationMethod: site

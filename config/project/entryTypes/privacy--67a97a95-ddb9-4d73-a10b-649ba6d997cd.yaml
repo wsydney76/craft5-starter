@@ -69,12 +69,12 @@ fieldLayouts:
         userCondition: null
 handle: privacy
 hasTitleField: true
-icon: null
+icon: section
 name: Privacy
 showSlugField: true
 showStatusField: true
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: language

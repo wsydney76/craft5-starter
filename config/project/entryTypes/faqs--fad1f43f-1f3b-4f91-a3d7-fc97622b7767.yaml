@@ -54,12 +54,12 @@ fieldLayouts:
         userCondition: null
 handle: faqs
 hasTitleField: true
-icon: null
+icon: question
 name: FAQs
 showSlugField: true
 showStatusField: true
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: language

@@ -12,7 +12,8 @@
     "nystudio107/craft-vite": "^5.0.0-beta.3",
     "putyourlightson/craft-sprig": "^3.0.0-beta.1",
     "vaersaagod/seomate": "^3.0.0-beta.2",
-    "vlucas/phpdotenv": "^5.4"
+    "vlucas/phpdotenv": "^5.4",
+    "wsydney76/extras": "dev-main"
   },
   "require-dev": {
     "craftcms/ecs": "dev-main",
@@ -55,6 +56,10 @@
       "type": "composer",
       "url": "https://composer.craftcms.com",
       "canonical": false
+    },
+    {
+      "type": "path",
+      "url": "/var/www/plugins/extras"
     }
   ]
 }

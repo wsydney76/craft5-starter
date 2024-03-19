@@ -84,12 +84,12 @@ fieldLayouts:
         userCondition: null
 handle: features
 hasTitleField: true
-icon: null
+icon: messages
 name: Features
 showSlugField: true
 showStatusField: true
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: language

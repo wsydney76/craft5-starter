@@ -237,12 +237,12 @@ fieldLayouts:
         userCondition: null
 handle: story
 hasTitleField: true
-icon: null
+icon: chimney
 name: Story
 showSlugField: true
 showStatusField: true
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: language

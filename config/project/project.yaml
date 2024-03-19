@@ -1,6 +1,6 @@
 assets:
   tempVolumeUid: ed627edd-73bd-4b75-8684-f410bf4e4b9d # Temporary Images
-dateModified: 1710761160
+dateModified: 1710841853
 elementSources:
   craft\elements\Asset:
     -
@@ -367,7 +367,7 @@ meta:
     5aa9454e-9fa0-4d8b-b667-023ce4cef5df: 'First Name' # First Name
     05ab0680-2ccc-4a59-932a-07311f773d42: Topics # Topics
     5b0c38db-9ab4-47d8-b4a7-913710c08ca6: English # English
-    5e954ca4-2245-4624-b25e-fc91bbb917bf: Default # Default
+    5e954ca4-2245-4624-b25e-fc91bbb917bf: Person # Person
     6bc951bf-74b3-4218-b3aa-dc427967abe9: Person # Person
     6c3cc577-cf01-4446-9846-f0f2f6ea3655: 'Short Bio' # Short Bio
     6ca3494d-cd87-4b86-a8fa-fbd8a0acab02: Story # Story
@@ -418,15 +418,15 @@ meta:
     871e0a60-ea70-4650-91f2-746c9bc2de41: 'Aspect Ratio' # Aspect Ratio
     956fbff8-1bb5-4c5d-8e58-ec36d77bf04e: Custom # Custom
     2232a9d8-f828-47e8-bb32-6e03f1cd70b6: 'Team Member' # Team Member
-    3468bd44-82e8-4104-932e-5085601fca12: 'Legal - Default' # Legal - Default
+    3468bd44-82e8-4104-932e-5085601fca12: Legal # Legal
     4113a0a0-cb21-4671-9f9c-65575d18e024: 'Multiple Testimonials' # Multiple Testimonials
     4120c3e9-17c2-464b-8d41-7d009dacb5e3: 'Page Template' # Page Template
     6193ce57-a570-451e-8124-ec3ba985b0b2: Caption # Caption
     6739b2cb-a865-433d-9732-cdd6a419188d: 'Page Template' # Page Template
     7602aac5-c98e-44bd-8570-457a85b8abad: Criteria # Criteria
     7681df0f-bb10-47a5-ae54-25d7743237e3: 'Content Components' # Content Components
-    8833ee2a-8239-453f-9996-a3af3eabb404: Heading # Heading
-    13852c19-7f9e-4e6b-8790-0063f0f21ab8: 'Hero Area - Default' # Hero Area - Default
+    8833ee2a-8239-453f-9996-a3af3eabb404: 'Story Heading' # Story Heading
+    13852c19-7f9e-4e6b-8790-0063f0f21ab8: 'Hero Area' # Hero Area
     37283b65-80b3-4451-a1d2-03fd68d18a05: 'Content Components' # Content Components
     44993cef-3718-479f-8c88-bdede1d256ba: 'Card Text' # Card Text
     52144f06-b394-45aa-bee6-d00e1f86878f: Primary # Primary
@@ -450,7 +450,7 @@ meta:
     69164545-5879-454d-a57e-f703ca431331: Image # Image
     85898001-9c9c-4d46-abf9-a928e44f0d48: 'Body Content' # Body Content
     95358052-5e25-4a5d-bd52-58078b1a5aa2: FAQs # FAQs
-    97881295-fc14-4543-bb41-555ad6247d0d: Text # Text
+    97881295-fc14-4543-bb41-555ad6247d0d: 'Story Text' # Story Text
     a08f1c5e-b057-468b-b989-6b243df4d213: Dynamic # Dynamic
     a1dd83a1-2011-4bef-aa20-b6d6a366d66e: 'SEO Image' # SEO Image
     a4fff836-97c9-4c02-b970-c6f28915d8d0: Text # Text
@@ -466,10 +466,9 @@ meta:
     b7e84646-2ab1-476a-97a1-49ac1fa05852: 'Is Featured' # Is Featured
     b32ea3bc-ee43-4236-864d-972d36f184b2: Sitemap # Sitemap
     b40353f4-de5f-4006-813a-15494e63e104: Align # Align
-    b7361735-c91d-4877-a975-cfe6751133b1: Cards # Cards
+    b7361735-c91d-4877-a975-cfe6751133b1: 'Entry Cards' # Entry Cards
     bbc46fd7-2b24-431f-a7d1-aedf86a6c169: Handle # Handle
     bbe2ff0f-6056-4848-80de-3070bb80294d: Email # Email
-    be108462-0419-43c1-98bf-08b34209a8b9: Newsletter # Newsletter
     bf3d514d-a34d-41d6-bb20-61c6d8119820: 'Social Links' # Social Links
     bff90088-ffd2-4e25-aa4d-d9dc27cad56a: 'Column Content' # Column Content
     c0fe6eff-5323-415f-81d9-4f9d42a07b66: 'Story Content' # Story Content
@@ -480,8 +479,8 @@ meta:
     cc3fbab0-826f-4aed-b2aa-eeaecc2964bf: 'Alt Text' # Alt Text
     cf1158bf-b524-4684-9147-0ca8295ba477: Text # Text
     d1ce7a99-7ba0-4ad1-9f19-c4cdad3f247e: 'Email Address' # Email Address
-    d3f37f0d-7675-4e3b-a223-69995d7b57b6: Standard # Standard
-    d92e63b4-996e-4dcd-8b55-d119540b5831: 'Article - Default' # Article - Default
+    d3f37f0d-7675-4e3b-a223-69995d7b57b6: 'Text Module' # Text Module
+    d92e63b4-996e-4dcd-8b55-d119540b5831: Article # Article
     d1935046-3734-43ba-934d-7512ecd81205: 'Cookie Consent' # Cookie Consent
     db16c9e5-2cfe-4821-88ff-7b18648846a1: Testimonial # Testimonial
     db33cf09-8ba1-45f6-9cc0-3e855cbcb809: Template # Template
@@ -497,7 +496,7 @@ meta:
     e3333efd-6726-41c1-9a66-a746a6f0d350: Cards # Cards
     eb6b24cc-83d7-416f-be4b-d002c7688b58: Copyright # Copyright
     eb61b6c1-d43a-4bf6-8091-bc71c44a9dcf: Entries # Entries
-    eb276acd-66e3-48af-88d8-8ed2854da137: 'Topic - Default' # Topic - Default
+    eb276acd-66e3-48af-88d8-8ed2854da137: Topic # Topic
     ebe8548f-7f01-49b6-af98-56da49668e79: Logo # Logo
     ec70b604-43e4-45f8-bab5-0ab78983f3ce: 'Nav Item Template' # Nav Item Template
     ed627edd-73bd-4b75-8684-f410bf4e4b9d: 'Temporary Images' # Temporary Images
@@ -512,12 +511,42 @@ meta:
     f620927d-baf7-430a-a965-f1e9ea676b83: Text # Text
     fad1f43f-1f3b-4f91-a3d7-fc97622b7767: FAQs # FAQs
     fbaae504-9220-4e1b-a58a-e3819e88194b: 'Use Vite Dev Server' # Use Vite Dev Server
-    fbf00eb2-4a16-40ca-96bb-3fadd2bf459c: 'Page - Default' # Page - Default
+    fbf00eb2-4a16-40ca-96bb-3fadd2bf459c: Page # Page
     fcbda6e5-a26a-4efb-800a-a67a44a88fa1: Person # Person
     fd509893-48ca-4ba0-a755-294ff5a48ca7: 'Two columns with image' # Two columns with image
-    fea320b1-c261-431e-b670-048f10cf5285: Image # Image
+    fea320b1-c261-431e-b670-048f10cf5285: 'Story Image' # Story Image
     fed0a20c-7c44-4de7-83d9-7843f8facfb8: 'Blitz Caching Enabled' # Blitz Caching Enabled
 plugins:
+  _extras:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      bodyFontSize: ''
+      customCss: ''
+      diffContext: 1
+      diffDetailLevel: word
+      diffIgnoreCase: false
+      diffIgnoreWhitespace: true
+      diffLineNumbers: true
+      diffMergeThreshold: 0.8
+      diffRendererName: Combined
+      diffSeparateBlock: true
+      diffShowHeader: false
+      enableCollectionMakros: false
+      enableConditionRules: false
+      enableCpAssets: true
+      enableDraftHelpers: true
+      enableElementActions: false
+      enableElementmap: true
+      enableExtrasVariable: false
+      enableFieldLayoutElements: false
+      enableOwnerPath: false
+      enableRestoreDismissedTips: true
+      enableSidebarVisibility: true
+      enableTwigExtension: false
+      enableWidgets: true
+      showAllSites: true
   codefield:
     edition: standard
     enabled: true

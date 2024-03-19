@@ -125,12 +125,12 @@ fieldLayouts:
         userCondition: null
 handle: testimonial
 hasTitleField: false
-icon: null
+icon: user
 name: 'Single Testimonial'
 showSlugField: true
 showStatusField: true
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
 titleFormat: '{body[:50]} - {person.one.title}'
-titleTranslationKeyFormat: null
+titleTranslationKeyFormat: ''
 titleTranslationMethod: language

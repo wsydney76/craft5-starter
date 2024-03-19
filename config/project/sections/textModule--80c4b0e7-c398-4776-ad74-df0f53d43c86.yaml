@@ -1,7 +1,7 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - d3f37f0d-7675-4e3b-a223-69995d7b57b6 # Standard
+  - d3f37f0d-7675-4e3b-a223-69995d7b57b6 # Text Module
 handle: textModule
 maxAuthors: 1
 name: 'Text Module'

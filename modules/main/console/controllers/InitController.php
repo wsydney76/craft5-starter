@@ -239,7 +239,7 @@ class InitController extends BaseController
 
         $this->createEntry([
             'section' => 'page',
-            'type' => 'page_default',
+            'type' => 'page',
             'site' => 'en',
             'title' => 'About',
             'slug' => 'about',
@@ -298,7 +298,7 @@ class InitController extends BaseController
 
         $this->createEntry([
             'section' => 'legal',
-            'type' => 'default',
+            'type' => 'legal',
             'site' => 'en',
             'title' => 'Imprint',
             'slug' => 'imprint',
@@ -364,7 +364,7 @@ class InitController extends BaseController
 
         $this->createEntry([
             'section' => 'textModule',
-            'type' => 'default',
+            'type' => 'textModule',
             'site' => 'en',
             'title' => 'External YouTube Content',
             'slug' => 'youtubeconsent',

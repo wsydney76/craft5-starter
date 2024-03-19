@@ -84,12 +84,12 @@ fieldLayouts:
         userCondition: null
 handle: cards
 hasTitleField: true
-icon: null
+icon: address-card
 name: Cards
 showSlugField: true
 showStatusField: true
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: site

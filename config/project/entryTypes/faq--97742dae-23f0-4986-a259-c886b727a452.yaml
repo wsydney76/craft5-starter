@@ -30,7 +30,7 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 52ac511d-33d3-43aa-8167-06062c5b3df1
+            uid: 1b25bada-aeba-431f-a22e-1bb1d2d34f07
             userCondition: null
             warning: null
             width: 100
@@ -69,12 +69,12 @@ fieldLayouts:
         userCondition: null
 handle: faq
 hasTitleField: false
-icon: null
+icon: question
 name: FAQ
-showSlugField: true
-showStatusField: true
-slugTranslationKeyFormat: null
+showSlugField: false
+showStatusField: false
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: site

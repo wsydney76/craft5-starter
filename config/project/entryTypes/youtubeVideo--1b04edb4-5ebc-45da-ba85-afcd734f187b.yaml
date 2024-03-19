@@ -30,7 +30,7 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: bcff87a4-22a1-4bd3-8536-92a597b73896
+            uid: 25ef3dc8-029f-4c31-a0c6-2bb396330295
             userCondition: null
             warning: null
             width: 100
@@ -114,12 +114,12 @@ fieldLayouts:
         userCondition: null
 handle: youtubeVideo
 hasTitleField: false
-icon: null
+icon: video
 name: 'YouTube Video'
-showSlugField: true
-showStatusField: true
-slugTranslationKeyFormat: null
+showSlugField: false
+showStatusField: false
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: site

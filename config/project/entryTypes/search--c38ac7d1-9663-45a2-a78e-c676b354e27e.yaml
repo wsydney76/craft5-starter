@@ -75,12 +75,12 @@ fieldLayouts:
         userCondition: null
 handle: search
 hasTitleField: true
-icon: null
+icon: magnifying-glass
 name: Search
 showSlugField: true
 showStatusField: true
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: language

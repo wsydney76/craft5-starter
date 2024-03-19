@@ -1,25 +1,10 @@
 color: null
 fieldLayouts:
-  64083172-6049-4f63-a521-593e6ddbf213:
+  52ae468f-4303-4b14-9e54-685363b9f8f8:
     tabs:
       -
         elementCondition: null
         elements:
-          -
-            elementCondition: null
-            fieldUid: 0767f000-e433-4930-9534-b795a48740bb # Teaser
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: eaebfa07-9439-417d-bf82-7e9898e3b2f4
-            userCondition: null
-            warning: null
-            width: 100
           -
             autocapitalize: true
             autocomplete: false
@@ -31,7 +16,7 @@ fieldLayouts:
             includeInCards: false
             inputType: null
             instructions: null
-            label: null
+            label: Name
             max: null
             min: null
             name: null
@@ -45,13 +30,28 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: a4d9f147-20e7-4db5-9154-194add4298d2
+            uid: ab9ab1d4-82b1-4045-8fab-ae96df3a9c72
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: c72e758a-f6c3-42cd-896b-3ff6353ed259 # Featured Image
+            fieldUid: 0767f000-e433-4930-9534-b795a48740bb # Teaser
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: 'Job description'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ecac4a8a-9a60-4a3e-8cd8-f86d99cdd888
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 78014c80-5d4b-4253-ae59-80f00e516c86 # Photo
             handle: null
             includeInCards: false
             instructions: null
@@ -60,13 +60,13 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 98d54ade-ee33-4114-b174-2aadb0fc3234
+            uid: a5233774-4db2-4e16-a351-d06de8f17a16
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 400d2e7a-d260-459d-b16d-bc388f093106 # Tagline
+            fieldUid: 710a1bd0-9eeb-4721-9493-f2d7dead49ee # Body
             handle: null
             includeInCards: false
             instructions: null
@@ -75,13 +75,13 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 590558bc-36d2-438e-b5f9-ca47506c829d
+            uid: 4f6ef390-3592-4371-a5f0-d8f6dd818baa
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 85898001-9c9c-4d46-abf9-a928e44f0d48 # Body Content
+            fieldUid: bf3d514d-a34d-41d6-bb20-61c6d8119820 # Social Links
             handle: null
             includeInCards: false
             instructions: null
@@ -90,42 +90,21 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 36c12736-a522-4c35-84ec-5023c1360409
+            uid: 8cd6fe2e-df5d-45f2-a05c-3cc65ce885f0
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 3a8d6836-53b0-4def-bee6-b774cc87918f
+        uid: 779de023-085f-44a4-b2c3-1e816b25320e
         userCondition: null
-      -
-        elementCondition: null
-        elements:
-          -
-            elementCondition: null
-            fieldUid: e62d63b0-c299-42ce-aeef-86a69f7e676c # SEO Fields
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 81d79fb2-b23f-4c0a-93e4-80ae0298ae5b
-            userCondition: null
-            warning: null
-            width: 100
-        name: SEO
-        uid: d3c7aa2e-b2d2-40ce-aea3-401d0585f6ea
-        userCondition: null
-handle: topic_default
+handle: person
 hasTitleField: true
-icon: null
-name: 'Topic - Default'
+icon: person
+name: Person
 showSlugField: true
 showStatusField: true
-slugTranslationKeyFormat: null
-slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
-titleTranslationMethod: language
+slugTranslationKeyFormat: ''
+slugTranslationMethod: none
+titleFormat: ''
+titleTranslationKeyFormat: ''
+titleTranslationMethod: none

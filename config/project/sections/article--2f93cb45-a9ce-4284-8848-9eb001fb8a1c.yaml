@@ -1,7 +1,7 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - d92e63b4-996e-4dcd-8b55-d119540b5831 # Article - Default
+  - d92e63b4-996e-4dcd-8b55-d119540b5831 # Article
   - 6ca3494d-cd87-4b86-a8fa-fbd8a0acab02 # Story
 handle: article
 maxAuthors: 1

@@ -108,12 +108,12 @@ fieldLayouts:
         userCondition: null
 handle: contact
 hasTitleField: true
-icon: null
+icon: address-book
 name: Contact
 showSlugField: true
 showStatusField: true
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: language

@@ -60,14 +60,14 @@ fieldLayouts:
         name: Inhalt
         uid: c7003a67-06d5-4802-8e66-57a4c86154e6
         userCondition: null
-handle: textModule_default
+handle: textModule
 hasTitleField: true
-icon: null
-name: Standard
+icon: font-case
+name: 'Text Module'
 showSlugField: true
 showStatusField: true
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: site

@@ -84,10 +84,10 @@ fieldLayouts:
         userCondition: null
 handle: twoColumnsWithImage
 hasTitleField: true
-icon: ''
+icon: table-columns
 name: 'Two columns with image'
-showSlugField: true
-showStatusField: true
+showSlugField: false
+showStatusField: false
 slugTranslationKeyFormat: ''
 slugTranslationMethod: site
 titleFormat: ''

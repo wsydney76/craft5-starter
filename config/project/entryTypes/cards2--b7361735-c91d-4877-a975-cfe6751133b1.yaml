@@ -69,12 +69,12 @@ fieldLayouts:
         userCondition: null
 handle: cards2
 hasTitleField: false
-icon: null
+icon: id-card
 name: 'Entry Cards'
-showSlugField: true
-showStatusField: true
-slugTranslationKeyFormat: null
+showSlugField: false
+showStatusField: false
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: site

@@ -1,7 +1,7 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - 5e954ca4-2245-4624-b25e-fc91bbb917bf # Default
+  - 5e954ca4-2245-4624-b25e-fc91bbb917bf # Person
   - 81e27c57-c550-407d-bd6b-61aba2df6af4 # Profile
 handle: person
 maxAuthors: 1

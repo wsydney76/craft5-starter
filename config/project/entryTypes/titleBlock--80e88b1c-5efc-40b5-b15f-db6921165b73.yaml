@@ -30,7 +30,7 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 96d1be2b-d46e-4a52-8fab-5aceb070a40c
+            uid: 6503a5f6-b2fa-436f-be6c-61d20136c4cd
             userCondition: null
             warning: null
             width: 100
@@ -40,7 +40,7 @@ fieldLayouts:
             handle: template
             includeInCards: false
             instructions: null
-            label: Template
+            label: 'Title Template'
             providesThumbs: false
             required: true
             tip: null
@@ -54,12 +54,12 @@ fieldLayouts:
         userCondition: null
 handle: titleBlock
 hasTitleField: false
-icon: null
+icon: text
 name: Title
-showSlugField: true
-showStatusField: true
-slugTranslationKeyFormat: null
+showSlugField: false
+showStatusField: false
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: site

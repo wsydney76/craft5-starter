@@ -14,7 +14,7 @@ settings:
     - 72a3030d-cba4-4a39-ba7f-553d7116aeaf # Gallery
     - 7681df0f-bb10-47a5-ae54-25d7743237e3 # Content Components
     - a08f1c5e-b057-468b-b989-6b243df4d213 # Dynamic
-    - b7361735-c91d-4877-a975-cfe6751133b1 # Cards
+    - b7361735-c91d-4877-a975-cfe6751133b1 # Entry Cards
     - fd509893-48ca-4ba0-a755-294ff5a48ca7 # Two columns with image
   includeTableView: false
   maxEntries: null

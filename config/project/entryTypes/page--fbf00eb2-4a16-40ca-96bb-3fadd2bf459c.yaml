@@ -167,14 +167,14 @@ fieldLayouts:
         name: SEO
         uid: 98c055d9-9b56-486b-b2d0-99fc3dee847e
         userCondition: null
-handle: page_default
+handle: page
 hasTitleField: true
-icon: null
-name: 'Page - Default'
+icon: page
+name: Page
 showSlugField: true
 showStatusField: true
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: language

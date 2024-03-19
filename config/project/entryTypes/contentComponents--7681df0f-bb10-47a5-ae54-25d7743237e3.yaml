@@ -30,7 +30,7 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: b97141e7-283b-4ef9-a761-16eb23c5ec4d
+            uid: c16182e6-28c1-47ff-8b4c-59da9306562d
             userCondition: null
             warning: null
             width: 100
@@ -54,12 +54,12 @@ fieldLayouts:
         userCondition: null
 handle: contentComponents
 hasTitleField: false
-icon: null
+icon: shapes
 name: 'Content Components'
-showSlugField: true
-showStatusField: true
-slugTranslationKeyFormat: null
+showSlugField: false
+showStatusField: false
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: site

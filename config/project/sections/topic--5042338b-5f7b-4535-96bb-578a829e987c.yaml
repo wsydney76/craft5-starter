@@ -1,7 +1,7 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - eb276acd-66e3-48af-88d8-8ed2854da137 # Topic - Default
+  - eb276acd-66e3-48af-88d8-8ed2854da137 # Topic
 handle: topic
 maxAuthors: 1
 name: Topic

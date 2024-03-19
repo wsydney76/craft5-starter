@@ -1,18 +1,25 @@
 color: null
 fieldLayouts:
-  a9532587-12ca-483b-9e53-5aa73b26666a:
+  64083172-6049-4f63-a521-593e6ddbf213:
     tabs:
       -
         elementCondition: null
         elements:
           -
-            dismissible: true
             elementCondition: null
-            style: warning
-            tip: 'The Emaillist plugin must be installed!'
-            type: craft\fieldlayoutelements\Tip
-            uid: d9096f6b-a37f-474b-8d4d-d8d77acd16b6
+            fieldUid: 0767f000-e433-4930-9534-b795a48740bb # Teaser
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: eaebfa07-9439-417d-bf82-7e9898e3b2f4
             userCondition: null
+            warning: null
+            width: 100
           -
             autocapitalize: true
             autocomplete: false
@@ -38,66 +45,87 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: c7f51693-c9c4-4b55-9546-6325a2b0e99c
+            uid: a4d9f147-20e7-4db5-9154-194add4298d2
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: bbc46fd7-2b24-431f-a7d1-aedf86a6c169 # Handle
-            handle: null
-            includeInCards: false
-            instructions: 'e.g. ''newsletter'''
-            label: 'Email List Id'
-            providesThumbs: false
-            required: true
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 93f5d6a4-9902-4056-bdc6-ea8a31755ad2
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: 710a1bd0-9eeb-4721-9493-f2d7dead49ee # Body
+            fieldUid: c72e758a-f6c3-42cd-896b-3ff6353ed259 # Featured Image
             handle: null
             includeInCards: false
             instructions: null
             label: null
             providesThumbs: false
-            required: true
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 22cc98aa-a486-49b9-a0e2-bc1cb9b3d6b2
+            uid: 98d54ade-ee33-4114-b174-2aadb0fc3234
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 502456b5-d67c-412d-927e-d06e8f662eac # Button Caption
+            fieldUid: 400d2e7a-d260-459d-b16d-bc388f093106 # Tagline
             handle: null
             includeInCards: false
             instructions: null
             label: null
             providesThumbs: false
-            required: true
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 56b477a2-afa6-4bca-9689-a11e7348cb7f
+            uid: 590558bc-36d2-438e-b5f9-ca47506c829d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 85898001-9c9c-4d46-abf9-a928e44f0d48 # Body Content
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 36c12736-a522-4c35-84ec-5023c1360409
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: f7bd979f-701a-4c93-b239-5f5ed2a577a3
+        uid: 3a8d6836-53b0-4def-bee6-b774cc87918f
         userCondition: null
-handle: newsletter
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: e62d63b0-c299-42ce-aeef-86a69f7e676c # SEO Fields
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 81d79fb2-b23f-4c0a-93e4-80ae0298ae5b
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: d3c7aa2e-b2d2-40ce-aea3-401d0585f6ea
+        userCondition: null
+handle: topic
 hasTitleField: true
-icon: null
-name: Newsletter
+icon: symbols
+name: Topic
 showSlugField: true
 showStatusField: true
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: language

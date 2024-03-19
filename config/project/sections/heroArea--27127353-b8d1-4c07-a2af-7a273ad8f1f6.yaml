@@ -1,7 +1,7 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - 13852c19-7f9e-4e6b-8790-0063f0f21ab8 # Hero Area - Default
+  - 13852c19-7f9e-4e6b-8790-0063f0f21ab8 # Hero Area
 handle: heroArea
 maxAuthors: 1
 name: 'Hero Area'

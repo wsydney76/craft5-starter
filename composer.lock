@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a9f6d5c5c1372855a0b77259614efd9d",
+    "content-hash": "88be6dbffc3553a8fd6acd6281a41166",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -4949,6 +4949,53 @@
                 "graphql"
             ],
             "time": "2023-07-05T14:23:37+00:00"
+        },
+        {
+            "name": "wsydney76/extras",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "/var/www/plugins/extras",
+                "reference": "2b825b3d9edc06a9f3c6d2e90a7cd204b70e4190"
+            },
+            "require": {
+                "craftcms/cms": "^5.0.0-beta.3",
+                "php": ">=8.2"
+            },
+            "require-dev": {
+                "craftcms/ecs": "dev-main",
+                "craftcms/phpstan": "dev-main",
+                "jfcherng/php-diff": "^6.10.0",
+                "nystudio107/craft-code-editor": "^1.0.7"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "handle": "_extras",
+                "name": "Extras",
+                "developer": "wsydney76",
+                "documentationUrl": "",
+                "class": "wsydney76\\extras\\ExtrasPlugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "wsydney76\\extras\\": "src/"
+                }
+            },
+            "scripts": {
+                "check-cs": [
+                    "ecs check --ansi"
+                ],
+                "fix-cs": [
+                    "ecs check --ansi --fix"
+                ],
+                "phpstan": [
+                    "phpstan --memory-limit=1G"
+                ]
+            },
+            "description": "Extra features for Craft5",
+            "transport-options": {
+                "relative": false
+            }
         },
         {
             "name": "yiisoft/yii2",

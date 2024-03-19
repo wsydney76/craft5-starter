@@ -69,12 +69,12 @@ fieldLayouts:
         userCondition: null
 handle: topicIndex
 hasTitleField: true
-icon: null
+icon: list-ul
 name: 'Topic Index'
 showSlugField: true
 showStatusField: true
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: language

@@ -193,14 +193,14 @@ fieldLayouts:
         name: SEO
         uid: 24a9ee6d-5a1f-44b9-8979-5b7e812dce40
         userCondition: null
-handle: article_default
+handle: article
 hasTitleField: true
-icon: null
-name: 'Article - Default'
+icon: newspaper
+name: Article
 showSlugField: true
 showStatusField: true
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: language

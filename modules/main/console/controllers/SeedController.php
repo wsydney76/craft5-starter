@@ -129,7 +129,7 @@ class SeedController extends InitController
     {
         $entry = $this->createEntry([
             'section' => 'topic',
-            'type' => 'topic_default',
+            'type' => 'topic',
             'site' => 'en',
             'parent' => $parent,
             'title' => $topic['en'],
@@ -191,9 +191,9 @@ class SeedController extends InitController
 
         $this->stdout("Creating {$num} entries of type '{$section->name}'." . PHP_EOL);
 
-        $type = Craft::$app->entries->getEntryTypeByHandle('article_default');
+        $type = Craft::$app->entries->getEntryTypeByHandle('article');
         if (!$type) {
-            $this->stderr("Invalid entry type 'article_default'") . PHP_EOL;
+            $this->stderr("Invalid entry type 'article'") . PHP_EOL;
             return ExitCode::UNSPECIFIED_ERROR;
         }
 
@@ -379,7 +379,7 @@ class SeedController extends InitController
 
             $heroAreaEntry = $this->createEntry([
                 'section' => 'heroArea',
-                'type' => 'heroArea_default',
+                'type' => 'heroArea',
                 'site' => 'en',
                 'title' => 'Craft Starter',
                 'slug' => 'hero1',
@@ -546,7 +546,7 @@ class SeedController extends InitController
             $image = Asset::find()->filename('blind.jpg')->one();
             $contentComponents[] = $this->createEntry([
                 'section' => 'heroArea',
-                'type' => 'heroArea_default',
+                'type' => 'heroArea',
                 'site' => 'en',
                 'title' => $this->faker->text(30),
                 'slug' => 'hero2',
@@ -588,7 +588,7 @@ class SeedController extends InitController
                 'title' => 'Latest Articles',
                 'slug' => 'latest-articles',
                 'fields' => [
-                    'criteria' => ['language' => 'json', 'value' => '{"section": "article", "type": "default", "limit": 9, "showMetaData": true}'],
+                    'criteria' => ['language' => 'json', 'value' => '{"section": "article", "type": "article", "limit": 9, "showMetaData": true}'],
                     'buttons' => [
                         [
                             'type' => 'button',
@@ -750,7 +750,7 @@ class SeedController extends InitController
             $slug = StringHelper::slugify($name);
             $person = $this->createEntry([
                 'section' => 'person',
-                'type' => 'default',
+                'type' => 'person',
                 'site' => 'en',
                 'title' => $name,
                 'slug' => $slug,

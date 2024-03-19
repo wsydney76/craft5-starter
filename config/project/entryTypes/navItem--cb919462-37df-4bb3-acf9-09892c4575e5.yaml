@@ -77,12 +77,12 @@ fieldLayouts:
         userCondition: null
 handle: navItem
 hasTitleField: true
-icon: null
+icon: bars
 name: 'Nav Item'
 showSlugField: true
 showStatusField: true
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: language

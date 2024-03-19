@@ -151,12 +151,12 @@ fieldLayouts:
         userCondition: null
 handle: home
 hasTitleField: true
-icon: null
+icon: house
 name: Home
 showSlugField: true
 showStatusField: true
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: language

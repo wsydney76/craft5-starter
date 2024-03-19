@@ -1,7 +1,7 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - fbf00eb2-4a16-40ca-96bb-3fadd2bf459c # Page - Default
+  - fbf00eb2-4a16-40ca-96bb-3fadd2bf459c # Page
   - ee6f8d07-ca81-4da0-991c-491e5108bff8 # Home
   - 5286148d-12b9-4f55-a35c-0e51c06bbe44 # Contact
   - 7fda4ce3-4bdd-4fbe-b32f-35a5e6707295 # Article Index

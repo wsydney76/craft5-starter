@@ -124,14 +124,14 @@ fieldLayouts:
         name: Content
         uid: 6f404ecd-d5b1-42b3-a674-5d6a0745c5f5
         userCondition: null
-handle: heroArea_default
+handle: heroArea
 hasTitleField: true
-icon: null
-name: 'Hero Area - Default'
+icon: table-layout
+name: 'Hero Area'
 showSlugField: true
 showStatusField: true
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: language
