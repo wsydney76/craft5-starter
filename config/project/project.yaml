@@ -1,6 +1,6 @@
 assets:
   tempVolumeUid: ed627edd-73bd-4b75-8684-f410bf4e4b9d
-dateModified: 1710926406
+dateModified: 1710932366
 elementSources:
   craft\elements\Asset:
     -
@@ -13,7 +13,7 @@ elementSources:
       disabled: false
       key: 'volume:5a0be839-14a2-465e-a504-bb63dd0281e9' # Images
       tableAttributes:
-        - 'field:cc3fbab0-826f-4aed-b2aa-eeaecc2964bf' # Alt Text
+        - 'field:cc3fbab0-826f-4aed-b2aa-eeaecc2964bf'
         - 'field:eb6b24cc-83d7-416f-be4b-d002c7688b58' # Copyright
         - imageSize
         - dateModified
@@ -28,7 +28,7 @@ elementSources:
       disabled: false
       key: 'volume:ed627edd-73bd-4b75-8684-f410bf4e4b9d'
       tableAttributes:
-        - 'field:cc3fbab0-826f-4aed-b2aa-eeaecc2964bf' # Alt Text
+        - 'field:cc3fbab0-826f-4aed-b2aa-eeaecc2964bf'
         - imageSize
         - dateModified
       type: native
@@ -39,7 +39,7 @@ elementSources:
       disabled: false
       key: 'volume:3b60e4f9-36bb-4456-bee5-67160b5a3108' # User Photos
       tableAttributes:
-        - 'field:cc3fbab0-826f-4aed-b2aa-eeaecc2964bf' # Alt Text
+        - 'field:cc3fbab0-826f-4aed-b2aa-eeaecc2964bf'
         - imageSize
         - dateModified
       type: native
@@ -52,7 +52,7 @@ elementSources:
         conditionRules:
           -
             class: craft\fields\conditions\TextFieldConditionRule
-            fieldUid: cc3fbab0-826f-4aed-b2aa-eeaecc2964bf # Alt Text
+            fieldUid: cc3fbab0-826f-4aed-b2aa-eeaecc2964bf
             operator: empty
             uid: 8182e7e7-1f2a-4b12-abf5-9c937e885f4d
             value: ''
@@ -410,7 +410,7 @@ meta:
     605e973b-b2e9-4421-9f1a-80d4cddc0cf0: Parameter # Parameter
     621ad41b-f019-4e95-96aa-49f8c56482db: 'SEO Descriction' # SEO Descriction
     710a1bd0-9eeb-4721-9493-f2d7dead49ee: Body # Body
-    735b5e6e-8026-4de4-8e32-14e03d975565: Image # Image
+    735b5e6e-8026-4de4-8e32-14e03d975565: 'Body Content - Image - Image' # Body Content - Image - Image
     0767f000-e433-4930-9534-b795a48740bb: Teaser # Teaser
     806a473e-c6e7-42cd-a76b-758ed48b5a2b: Role # Role
     871e0a60-ea70-4650-91f2-746c9bc2de41: 'Aspect Ratio' # Aspect Ratio
@@ -425,7 +425,7 @@ meta:
     7681df0f-bb10-47a5-ae54-25d7743237e3: 'Content Components' # Content Components
     8833ee2a-8239-453f-9996-a3af3eabb404: Heading # Heading
     13852c19-7f9e-4e6b-8790-0063f0f21ab8: 'Hero Area' # Hero Area
-    37283b65-80b3-4451-a1d2-03fd68d18a05: 'Content Components' # Content Components
+    37283b65-80b3-4451-a1d2-03fd68d18a05: 'Body Content - Content Components - Content Components' # Body Content - Content Components - Content Components
     44993cef-3718-479f-8c88-bdede1d256ba: 'Card Text' # Card Text
     52144f06-b394-45aa-bee6-d00e1f86878f: Primary # Primary
     75980a78-5a14-4d80-8e9c-b0616d62e02e: 'Hero Area' # Hero Area
@@ -469,7 +469,6 @@ meta:
     c38ac7d1-9663-45a2-a78e-c676b354e27e: Search # Search
     c72e758a-f6c3-42cd-896b-3ff6353ed259: 'Featured Image' # Featured Image
     cb919462-37df-4bb3-acf9-09892c4575e5: 'Nav Item' # Nav Item
-    cc3fbab0-826f-4aed-b2aa-eeaecc2964bf: 'Alt Text' # Alt Text
     cf1158bf-b524-4684-9147-0ca8295ba477: Text # Text
     d3f37f0d-7675-4e3b-a223-69995d7b57b6: 'Text Module' # Text Module
     d92e63b4-996e-4dcd-8b55-d119540b5831: Article # Article

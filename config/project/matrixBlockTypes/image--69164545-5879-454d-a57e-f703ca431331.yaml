@@ -7,7 +7,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: 735b5e6e-8026-4de4-8e32-14e03d975565 # Image
+            fieldUid: 735b5e6e-8026-4de4-8e32-14e03d975565 # Body Content - Image - Image
             instructions: null
             label: null
             required: true
@@ -125,7 +125,7 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\Dropdown
-  735b5e6e-8026-4de4-8e32-14e03d975565: # Image
+  735b5e6e-8026-4de4-8e32-14e03d975565: # Body Content - Image - Image
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null

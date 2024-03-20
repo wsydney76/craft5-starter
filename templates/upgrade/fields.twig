@@ -1,13 +1,57 @@
 {# @var field \craft\base\Field #}
+{# @var usage \craft\models\FieldLayout #}
 {% set fields = craft.app.fields.allFields %}
+{% set type = craft.app.request.queryParam('type') %}
+{% set handles = craft.app.request.queryParam('handles') %}
+
+{% set settingsUrl = "/#{craft.app.config.general.cpTrigger}/settings/" %}
+
+{% if type %}
+    {% set fields = fields|filter (f => className(f) == type) %}
+{% endif %}
+
+{% if handles %}
+    {% set handles = handles|split(',') %}
+    {% set fields = fields|filter(f => f.handle in handles) %}
+{% endif %}
+
+{% if not fields %}
+    {% exit 404 "No fields found" %}
+{% endif %}
+
 
 <table>
+
+    <tr>
+        <th>Nr.</th>
+        <th>ID</th>
+        <th>Name</th>
+        <td>Handle</td>
+        <td>Type</td>
+        <th>Used?</th>
+        {# <th>UID</th> #}
+        <th>Translatable</th>
+        <th>Searchable</th>
+
+        {% if type or handles %}
+            {% for key, value in fields|first.settings %}
+                <th>{{ key }}</th>
+            {% endfor %}
+        {% else %}
+            <th>Settings</th>
+        {% endif %}
+
+
+    </tr>
+
+
     {% for field in fields %}
 
         <tr>
+
             <td>{{ loop.index }}</td>
             <td>{{ field.id }}</td>
-            <td>{{ field.name }}</td>
+            <td><a href="{{ settingsUrl }}fields/edit/{{ field.id }}" target="_blank">{{ field.name }}</a></td>
             <td>{{ field.handle }}</td>
             <td>{{ className(field) }}</td>
             <td>
@@ -15,26 +59,97 @@
                     <span style="color:red;">No usages</span>
                 {% endif %}
             </td>
-            <td>{{ field.uid }}</td>
-            <td>
-                {{ dump(field.settings) }}
-            </td>
+
+            {# <td>{{ field.uid }}</td> #}
+
+            <td>{{ field.translationMethod }}</td>
+            <td>{{ dump(field.searchable) }}</td>
+
+            {% if type or handles %}
+                {% for key, setting in field.settings %}
+                    <td>
+                        {% if key in ['sources', 'restrictedLocationSource', 'defaultUploadLocationSource'] %}
+                            {{ _self.sources(setting) }}
+                            {# TODO: Handle selectionConditions #}
+                        {% elseif key == 'entryTypes' %}
+                            {{ _self.entryTypes(setting) }}
+                        {% elseif key == 'options' %}
+                            {{ _self.options(setting) }}
+                        {% else %}
+                            {{ dump(setting) }}
+                        {% endif %}
+                    </td>
+                {% endfor %}
+            {% else %}
+                <td>
+                    {{ dump(field.settings) }}
+                </td>
+            {% endif %}
 
         </tr>
     {% endfor %}
 </table>
 
+
+{% macro sources(sources) %}
+    {% if sources is string %}
+        {{ _self.source(sources) }}
+    {% else %}
+        {% for source in sources %}
+            {{ _self.source(source) }}
+            <br>
+        {% endfor %}
+    {% endif %}
+{% endmacro %}
+
+{% macro source(source) %}
+    {% if source starts with 'section:' %}
+        {% set uid = source|split(':')[1] %}
+        {% set section = craft.app.entries.sectionByUid(uid) %}
+        {% if section %}
+            {{ section.handle }}
+        {% else %}
+            {{ source }}
+        {% endif %}
+    {% elseif source starts with 'volume' %}
+        {% set uid = source|split(':')[1] %}
+        {% set volume = craft.app.volumes.volumeByUid(uid) %}
+        {% if volume %}
+            {{ volume.handle }}
+        {% else %}
+            {{ source }}
+        {% endif %}
+    {% else %}
+        {{ source }}
+    {% endif %}
+{% endmacro %}
+
+{% macro entryTypes(entryTypes) %}
+	{% for type in entryTypes %}
+        {{ craft.app.entries.entryTypeByUid(type).handle ?? type }}<br>
+	{% endfor %}
+{% endmacro %}
+
+{% macro options(options) %}
+	{% for option in options %}
+        {{ option.label }} ({{ option.value }}) {{ option.default ? 'default' }}<br>
+	{% endfor %}
+{% endmacro %}
+
+
 <style>
     table {
-        width: 100%;
         border-collapse: collapse;
         font-family: sans-serif;
         font-size: 14px;
     }
+
     table, th, td {
         border: 1px solid;
     }
+
     td {
         padding: 6px;
+        white-space: nowrap;
     }
 </style>
