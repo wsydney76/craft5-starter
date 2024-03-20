@@ -88,4 +88,29 @@ class MigrationController extends Controller
 
         return ExitCode::OK;
     }
+
+    public function actionConsolidateFieldsCandidates()
+    {
+        $signatures = [];
+
+        foreach (Craft::$app->getFields()->getAllFields() as $field) {
+            $signature = [
+                'type' => get_class($field),
+                'translationMethod' => $field->translationMethod,
+                'translationKeyFormat' => $field->translationKeyFormat,
+                'searchable' => $field->searchable,
+                'settings' => $field->settings,
+            ];
+
+            $hash = md5(json_encode($signature));
+
+            $signatures[$hash][] = $field->handle;
+
+        }
+        foreach ($signatures as $hash => $handles) {
+            if (count($handles) > 1) {
+                Console::output( implode(', ', $handles));
+            }
+        }
+    }
 }

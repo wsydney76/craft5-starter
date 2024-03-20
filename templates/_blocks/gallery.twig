@@ -39,7 +39,7 @@
         {% endif %}
 
         <a href="{{ lightboxUrl }}" class="overflow-hidden rounded-lg"
-           data-caption="{{ image.altText ?? image.title }} {{ image.copyright ? "&copy; #{image.copyright}" }}">
+           data-caption="{{ image.alt ?? image.title }} {{ image.copyright ? "&copy; #{image.copyright}" }}">
 
             {{ img(image, {
                 transform: thumbnailTransform,

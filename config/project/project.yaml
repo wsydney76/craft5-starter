@@ -1,6 +1,6 @@
 assets:
-  tempVolumeUid: ed627edd-73bd-4b75-8684-f410bf4e4b9d # Temporary Images
-dateModified: 1710841853
+  tempVolumeUid: ed627edd-73bd-4b75-8684-f410bf4e4b9d
+dateModified: 1710926406
 elementSources:
   craft\elements\Asset:
     -
@@ -26,7 +26,7 @@ elementSources:
         - dateCreated
         - desc
       disabled: false
-      key: 'volume:ed627edd-73bd-4b75-8684-f410bf4e4b9d' # Temporary Images
+      key: 'volume:ed627edd-73bd-4b75-8684-f410bf4e4b9d'
       tableAttributes:
         - 'field:cc3fbab0-826f-4aed-b2aa-eeaecc2964bf' # Alt Text
         - imageSize
@@ -287,7 +287,7 @@ elementSources:
       disabled: false
       key: 'section:e26c6ef2-44c5-4a65-bfc1-b0a61124edca' # Newsletter
       tableAttributes:
-        - 'field:bbc46fd7-2b24-431f-a7d1-aedf86a6c169' # Handle
+        - 'field:bbc46fd7-2b24-431f-a7d1-aedf86a6c169'
         - postDate
         - link
       type: native
@@ -340,7 +340,6 @@ meta:
     0c39cdb5-26f9-49ca-9bb4-445a28a61ddf: Images # Images
     1b04edb4-5ebc-45da-ba85-afcd734f187b: 'YouTube Video' # YouTube Video
     1b464b23-6750-460e-aea1-0c4af5f52e23: Key # Key
-    1b934de4-d292-4d6f-b40f-ba2b0120b6c8: 'System Name' # System Name
     1c948380-c11c-45f9-a668-2a5eac6f24c9: Settings # Settings
     1dcc69f1-6963-4b8a-9a9a-10b35084db1a: Team # Team
     1de27fd9-bda6-4977-8d43-b36ef6813c60: Level # Level
@@ -356,7 +355,6 @@ meta:
     3cb8a841-f986-4959-8f1a-c44fe16ff8d1: Answer # Answer
     3d8293ac-fa84-47ed-befa-a41cb6315212: Layout # Layout
     3db074a8-549b-4879-a864-250d2652282e: Cards # Cards
-    3e35a043-a62e-4ede-acd6-44dfb92d6914: 'Site Name' # Site Name
     4a8239eb-1b66-44e0-bd66-5a65d44b0727: Icon # Icon
     4b050685-0425-4094-bde2-85e2eedd0e12: Text # Text
     4bc24da9-fd88-45ec-8410-bc189032e3f8: 'Phone Number' # Phone Number
@@ -425,7 +423,7 @@ meta:
     6739b2cb-a865-433d-9732-cdd6a419188d: 'Page Template' # Page Template
     7602aac5-c98e-44bd-8570-457a85b8abad: Criteria # Criteria
     7681df0f-bb10-47a5-ae54-25d7743237e3: 'Content Components' # Content Components
-    8833ee2a-8239-453f-9996-a3af3eabb404: 'Story Heading' # Story Heading
+    8833ee2a-8239-453f-9996-a3af3eabb404: Heading # Heading
     13852c19-7f9e-4e6b-8790-0063f0f21ab8: 'Hero Area' # Hero Area
     37283b65-80b3-4451-a1d2-03fd68d18a05: 'Content Components' # Content Components
     44993cef-3718-479f-8c88-bdede1d256ba: 'Card Text' # Card Text
@@ -437,8 +435,6 @@ meta:
     97742dae-23f0-4986-a259-c886b727a452: FAQ # FAQ
     367161e2-88c5-4828-92ff-9124ef18da28: Image # Image
     0415563b-b1b2-4756-9f8d-0b86d005deb1: Heading # Heading
-    481205e6-eb29-45a0-8b40-021d4dcfcac1: 'Email Sender' # Email Sender
-    502456b5-d67c-412d-927e-d06e8f662eac: 'Button Caption' # Button Caption
     655243f7-46a2-42c0-8de4-188017c31d53: 'Hero Area Template' # Hero Area Template
     938701ef-3a45-4190-80fc-9326e9cf6f3b: Writer # Writer
     5042338b-5f7b-4535-96bb-578a829e987c: Topic # Topic
@@ -450,15 +446,13 @@ meta:
     69164545-5879-454d-a57e-f703ca431331: Image # Image
     85898001-9c9c-4d46-abf9-a928e44f0d48: 'Body Content' # Body Content
     95358052-5e25-4a5d-bd52-58078b1a5aa2: FAQs # FAQs
-    97881295-fc14-4543-bb41-555ad6247d0d: 'Story Text' # Story Text
+    97881295-fc14-4543-bb41-555ad6247d0d: Text # Text
     a08f1c5e-b057-468b-b989-6b243df4d213: Dynamic # Dynamic
     a1dd83a1-2011-4bef-aa20-b6d6a366d66e: 'SEO Image' # SEO Image
     a4fff836-97c9-4c02-b970-c6f28915d8d0: Text # Text
-    a21f07ce-87f7-431d-b54c-a12786f9fc9c: 'Craft Environment' # Craft Environment
     abd279ac-58c4-41dc-ac32-d2e388e34252: Legal # Legal
     abefa0bd-6b36-4b4f-a9de-a4304e7b66a3: 'Public Schema' # Public Schema
     ac457f93-1a50-473e-9983-a899a7f0bed7: Heading # Heading
-    ad07bc26-df9d-4358-9fd9-f1ceb8e00af0: Sections # Sections
     ae6e4008-f45f-4d7d-bbc1-d8b90290efb8: Team # Team
     af9afec0-f712-4b14-b235-851c6455e267: Text # Text
     b0cfc7f4-d446-41bb-87ab-dc16b1481540: 'Alternative Title' # Alternative Title
@@ -466,8 +460,7 @@ meta:
     b7e84646-2ab1-476a-97a1-49ac1fa05852: 'Is Featured' # Is Featured
     b32ea3bc-ee43-4236-864d-972d36f184b2: Sitemap # Sitemap
     b40353f4-de5f-4006-813a-15494e63e104: Align # Align
-    b7361735-c91d-4877-a975-cfe6751133b1: 'Entry Cards' # Entry Cards
-    bbc46fd7-2b24-431f-a7d1-aedf86a6c169: Handle # Handle
+    b7361735-c91d-4877-a975-cfe6751133b1: Cards # Cards
     bbe2ff0f-6056-4848-80de-3070bb80294d: Email # Email
     bf3d514d-a34d-41d6-bb20-61c6d8119820: 'Social Links' # Social Links
     bff90088-ffd2-4e25-aa4d-d9dc27cad56a: 'Column Content' # Column Content
@@ -478,7 +471,6 @@ meta:
     cb919462-37df-4bb3-acf9-09892c4575e5: 'Nav Item' # Nav Item
     cc3fbab0-826f-4aed-b2aa-eeaecc2964bf: 'Alt Text' # Alt Text
     cf1158bf-b524-4684-9147-0ca8295ba477: Text # Text
-    d1ce7a99-7ba0-4ad1-9f19-c4cdad3f247e: 'Email Address' # Email Address
     d3f37f0d-7675-4e3b-a223-69995d7b57b6: 'Text Module' # Text Module
     d92e63b4-996e-4dcd-8b55-d119540b5831: Article # Article
     d1935046-3734-43ba-934d-7512ecd81205: 'Cookie Consent' # Cookie Consent
@@ -499,7 +491,6 @@ meta:
     eb276acd-66e3-48af-88d8-8ed2854da137: Topic # Topic
     ebe8548f-7f01-49b6-af98-56da49668e79: Logo # Logo
     ec70b604-43e4-45f8-bab5-0ab78983f3ce: 'Nav Item Template' # Nav Item Template
-    ed627edd-73bd-4b75-8684-f410bf4e4b9d: 'Temporary Images' # Temporary Images
     edae774c-4600-499d-8c26-3af51f7bc820: Features # Features
     ee6f8d07-ca81-4da0-991c-491e5108bff8: Home # Home
     ee886fff-a72a-4a22-b217-f878c7f53ffe: Persons # Persons
@@ -510,12 +501,10 @@ meta:
     f76ccc3a-7c88-43a3-9024-5ea619356bbf: Heading # Heading
     f620927d-baf7-430a-a965-f1e9ea676b83: Text # Text
     fad1f43f-1f3b-4f91-a3d7-fc97622b7767: FAQs # FAQs
-    fbaae504-9220-4e1b-a58a-e3819e88194b: 'Use Vite Dev Server' # Use Vite Dev Server
     fbf00eb2-4a16-40ca-96bb-3fadd2bf459c: Page # Page
     fcbda6e5-a26a-4efb-800a-a67a44a88fa1: Person # Person
     fd509893-48ca-4ba0-a755-294ff5a48ca7: 'Two columns with image' # Two columns with image
-    fea320b1-c261-431e-b670-048f10cf5285: 'Story Image' # Story Image
-    fed0a20c-7c44-4de7-83d9-7843f8facfb8: 'Blitz Caching Enabled' # Blitz Caching Enabled
+    fea320b1-c261-431e-b670-048f10cf5285: Image # Image
 plugins:
   _extras:
     edition: standard

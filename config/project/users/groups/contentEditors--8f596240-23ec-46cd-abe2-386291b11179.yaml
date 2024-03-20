@@ -20,9 +20,9 @@ permissions:
   - 'createentries:e3333efd-6726-41c1-9a66-a746a6f0d350' # Cards
   - 'createentries:fcbda6e5-a26a-4efb-800a-a67a44a88fa1' # Person
   - 'createfolders:5a0be839-14a2-465e-a504-bb63dd0281e9' # Images
-  - 'createfolders:ed627edd-73bd-4b75-8684-f410bf4e4b9d' # Temporary Images
+  - 'createfolders:ed627edd-73bd-4b75-8684-f410bf4e4b9d'
   - 'deleteassets:5a0be839-14a2-465e-a504-bb63dd0281e9' # Images
-  - 'deleteassets:ed627edd-73bd-4b75-8684-f410bf4e4b9d' # Temporary Images
+  - 'deleteassets:ed627edd-73bd-4b75-8684-f410bf4e4b9d'
   - 'deleteentries:07fce1cd-37fc-4742-acf8-6bc0a4efd7d7'
   - 'deleteentries:27127353-b8d1-4c07-a2af-7a273ad8f1f6' # Hero Area
   - 'deleteentries:2f93cb45-a9ce-4284-8848-9eb001fb8a1c' # Article
@@ -38,7 +38,7 @@ permissions:
   - 'deleteentries:e3333efd-6726-41c1-9a66-a746a6f0d350' # Cards
   - 'deleteentries:fcbda6e5-a26a-4efb-800a-a67a44a88fa1' # Person
   - 'deletepeerassets:5a0be839-14a2-465e-a504-bb63dd0281e9' # Images
-  - 'deletepeerassets:ed627edd-73bd-4b75-8684-f410bf4e4b9d' # Temporary Images
+  - 'deletepeerassets:ed627edd-73bd-4b75-8684-f410bf4e4b9d'
   - 'deletepeerentries:07fce1cd-37fc-4742-acf8-6bc0a4efd7d7'
   - 'deletepeerentries:27127353-b8d1-4c07-a2af-7a273ad8f1f6' # Hero Area
   - 'deletepeerentries:2f93cb45-a9ce-4284-8848-9eb001fb8a1c' # Article
@@ -69,17 +69,17 @@ permissions:
   - 'deletepeerentrydrafts:e3333efd-6726-41c1-9a66-a746a6f0d350' # Cards
   - 'deletepeerentrydrafts:fcbda6e5-a26a-4efb-800a-a67a44a88fa1' # Person
   - 'editimages:5a0be839-14a2-465e-a504-bb63dd0281e9' # Images
-  - 'editimages:ed627edd-73bd-4b75-8684-f410bf4e4b9d' # Temporary Images
+  - 'editimages:ed627edd-73bd-4b75-8684-f410bf4e4b9d'
   - 'editpeerimages:5a0be839-14a2-465e-a504-bb63dd0281e9' # Images
-  - 'editpeerimages:ed627edd-73bd-4b75-8684-f410bf4e4b9d' # Temporary Images
+  - 'editpeerimages:ed627edd-73bd-4b75-8684-f410bf4e4b9d'
   - 'editsite:5b0c38db-9ab4-47d8-b4a7-913710c08ca6' # English
   - 'editsite:dbf50cb2-37c8-45f7-b375-dcb93e09691b' # Deutsch
   - 'replacefiles:5a0be839-14a2-465e-a504-bb63dd0281e9' # Images
-  - 'replacefiles:ed627edd-73bd-4b75-8684-f410bf4e4b9d' # Temporary Images
+  - 'replacefiles:ed627edd-73bd-4b75-8684-f410bf4e4b9d'
   - 'replacepeerfiles:5a0be839-14a2-465e-a504-bb63dd0281e9' # Images
-  - 'replacepeerfiles:ed627edd-73bd-4b75-8684-f410bf4e4b9d' # Temporary Images
+  - 'replacepeerfiles:ed627edd-73bd-4b75-8684-f410bf4e4b9d'
   - 'saveassets:5a0be839-14a2-465e-a504-bb63dd0281e9' # Images
-  - 'saveassets:ed627edd-73bd-4b75-8684-f410bf4e4b9d' # Temporary Images
+  - 'saveassets:ed627edd-73bd-4b75-8684-f410bf4e4b9d'
   - 'saveentries:07fce1cd-37fc-4742-acf8-6bc0a4efd7d7'
   - 'saveentries:27127353-b8d1-4c07-a2af-7a273ad8f1f6' # Hero Area
   - 'saveentries:2f93cb45-a9ce-4284-8848-9eb001fb8a1c' # Article
@@ -96,7 +96,7 @@ permissions:
   - 'saveentries:e3333efd-6726-41c1-9a66-a746a6f0d350' # Cards
   - 'saveentries:fcbda6e5-a26a-4efb-800a-a67a44a88fa1' # Person
   - 'savepeerassets:5a0be839-14a2-465e-a504-bb63dd0281e9' # Images
-  - 'savepeerassets:ed627edd-73bd-4b75-8684-f410bf4e4b9d' # Temporary Images
+  - 'savepeerassets:ed627edd-73bd-4b75-8684-f410bf4e4b9d'
   - 'savepeerentries:07fce1cd-37fc-4742-acf8-6bc0a4efd7d7'
   - 'savepeerentries:27127353-b8d1-4c07-a2af-7a273ad8f1f6' # Hero Area
   - 'savepeerentries:2f93cb45-a9ce-4284-8848-9eb001fb8a1c' # Article
@@ -127,7 +127,7 @@ permissions:
   - 'savepeerentrydrafts:e3333efd-6726-41c1-9a66-a746a6f0d350' # Cards
   - 'savepeerentrydrafts:fcbda6e5-a26a-4efb-800a-a67a44a88fa1' # Person
   - 'viewassets:5a0be839-14a2-465e-a504-bb63dd0281e9' # Images
-  - 'viewassets:ed627edd-73bd-4b75-8684-f410bf4e4b9d' # Temporary Images
+  - 'viewassets:ed627edd-73bd-4b75-8684-f410bf4e4b9d'
   - 'viewentries:07fce1cd-37fc-4742-acf8-6bc0a4efd7d7'
   - 'viewentries:27127353-b8d1-4c07-a2af-7a273ad8f1f6' # Hero Area
   - 'viewentries:2f93cb45-a9ce-4284-8848-9eb001fb8a1c' # Article
@@ -144,7 +144,7 @@ permissions:
   - 'viewentries:e3333efd-6726-41c1-9a66-a746a6f0d350' # Cards
   - 'viewentries:fcbda6e5-a26a-4efb-800a-a67a44a88fa1' # Person
   - 'viewpeerassets:5a0be839-14a2-465e-a504-bb63dd0281e9' # Images
-  - 'viewpeerassets:ed627edd-73bd-4b75-8684-f410bf4e4b9d' # Temporary Images
+  - 'viewpeerassets:ed627edd-73bd-4b75-8684-f410bf4e4b9d'
   - 'viewpeerentries:07fce1cd-37fc-4742-acf8-6bc0a4efd7d7'
   - 'viewpeerentries:27127353-b8d1-4c07-a2af-7a273ad8f1f6' # Hero Area
   - 'viewpeerentries:2f93cb45-a9ce-4284-8848-9eb001fb8a1c' # Article

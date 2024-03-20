@@ -350,7 +350,7 @@ class BaseModule extends Module
                                 'style' => 'border-radius: 3px;',
                                 'width' => $image->width,
                                 'height' => $image->height,
-                                'alt' => $image->altText ?? $image->title,
+                                'alt' => $image->alt ?? $image->title,
                                 'ondblclick' => "Craft.createElementEditor('craft\\\\elements\\\\Asset', {elementId: {$image->id}, siteId: {$entry->site->id}})",
                             ]);
                         }

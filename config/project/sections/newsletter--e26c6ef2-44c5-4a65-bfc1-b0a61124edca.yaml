@@ -1,7 +1,5 @@
 defaultPlacement: end
 enableVersioning: true
-entryTypes:
-  - be108462-0419-43c1-98bf-08b34209a8b9
 handle: newsletter
 maxAuthors: 1
 name: Newsletter

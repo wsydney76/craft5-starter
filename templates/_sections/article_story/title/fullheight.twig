@@ -8,9 +8,9 @@
     <div class="bg-cover bg-center bg-fixed flex items-end"
          style="background-image: url({{ featuredImage.url({width: 2000, height: 1500, format: 'webp'}) }}); height: calc(100vh - 72px)">
 
-        {% if featuredImage.altText %}
+        {% if featuredImage.alt %}
             <div class="sr-only">
-                {{ 'Background image'|t }}: {{ featuredImage.altText }}
+                {{ 'Background image'|t }}: {{ featuredImage.alt }}
             </div>
         {% endif %}
 

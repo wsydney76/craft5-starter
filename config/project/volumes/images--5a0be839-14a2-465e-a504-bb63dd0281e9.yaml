@@ -36,17 +36,27 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            attribute: alt
+            class: null
+            cols: null
+            disabled: false
             elementCondition: null
-            fieldUid: cc3fbab0-826f-4aed-b2aa-eeaecc2964bf # Alt Text
-            handle: null
+            id: null
             includeInCards: false
             instructions: null
             label: null
+            name: null
+            orientation: null
+            placeholder: null
             providesThumbs: false
+            readonly: false
+            requirable: true
             required: true
+            rows: null
             tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 210d9fa3-32b0-47ac-a970-3859d419f4c1
+            title: null
+            type: craft\fieldlayoutelements\assets\AltField
+            uid: f206efd1-d79c-41aa-9bba-a3b042943690
             userCondition: null
             warning: null
             width: 100

@@ -1097,12 +1097,12 @@ class SeedController extends InitController
             $asset = Craft::$app->assetIndexer->indexFile($volume, 'examples/' . $filename, $session->id);
 
             $asset->setFieldValue('copyright', 'Unsplash via picsum.photos');
-            $asset->setFieldValue('altText', 'Platzhaltertext');
+            $asset->alt = 'Platzhaltertext';
             Craft::$app->elements->saveElement($asset);
 
             $localizedAsset = $asset->getLocalized()->site('en')->one();
             if ($localizedAsset) {
-                $localizedAsset->setFieldValue('altText', 'Placeholder text');
+                $localizedAsset->alt = 'Placeholder text';
                 Craft::$app->elements->saveElement($localizedAsset);
             }
 
@@ -1134,7 +1134,7 @@ class SeedController extends InitController
             ->site('*')
             ->folderId($folder->id)
             ->kind('image')
-            ->altText(':empty:')
+            ->alt(':empty:')
             ->exists();
 
         if (!$hasNoAlt) {
@@ -1163,8 +1163,8 @@ class SeedController extends InitController
             foreach ($images as $image) {
                 $save = false;
                 /* @phpstan-ignore-next-line */
-                if (!$image->altText) {
-                    $image->altText = ucwords($image->title);
+                if (!$image->alt) {
+                    $image->alt = ucwords($image->title);
                     $save = true;
                 }
 

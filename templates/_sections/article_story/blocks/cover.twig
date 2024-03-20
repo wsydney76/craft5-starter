@@ -10,9 +10,9 @@
     <div class="bg-cover bg-center bg-fixed min-h-screen flex flex-col justify-center items-center text-center"
          style="background-image: url({{ image.url({width: 2000, height: 1500, format: 'webp'}) }})">
 
-        {% if image.altText %}
+        {% if image.alt %}
             <div class="sr-only">
-                {{ 'Background image'|t }}: {{ image.altText }}
+                {{ 'Background image'|t }}: {{ image.alt }}
             </div>
         {% endif %}
 

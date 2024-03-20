@@ -129,8 +129,8 @@ icon: user
 name: 'Single Testimonial'
 showSlugField: true
 showStatusField: true
-slugTranslationKeyFormat: ''
+slugTranslationKeyFormat: null
 slugTranslationMethod: site
 titleFormat: '{body[:50]} - {person.one.title}'
-titleTranslationKeyFormat: ''
+titleTranslationKeyFormat: null
 titleTranslationMethod: language

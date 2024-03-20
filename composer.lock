@@ -237,12 +237,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/craftcms/cms.git",
-                "reference": "5ec6db054699db006780c8a0d0b656f57a5f3faf"
+                "reference": "bd7eaa53137a2dfb08bdfe002e2abad822851da0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/5ec6db054699db006780c8a0d0b656f57a5f3faf",
-                "reference": "5ec6db054699db006780c8a0d0b656f57a5f3faf",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/bd7eaa53137a2dfb08bdfe002e2abad822851da0",
+                "reference": "bd7eaa53137a2dfb08bdfe002e2abad822851da0",
                 "shasum": ""
             },
             "require": {
@@ -351,7 +351,7 @@
                 "rss": "https://github.com/craftcms/cms/releases.atom",
                 "source": "https://github.com/craftcms/cms"
             },
-            "time": "2024-03-18T05:03:18+00:00"
+            "time": "2024-03-19T17:35:45+00:00"
         },
         {
             "name": "craftcms/contact-form",
@@ -5639,11 +5639,11 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.62",
+            "version": "1.10.63",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/cd5c8a1660ed3540b211407c77abf4af193a6af9",
-                "reference": "cd5c8a1660ed3540b211407c77abf4af193a6af9",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/ad12836d9ca227301f5fb9960979574ed8628339",
+                "reference": "ad12836d9ca227301f5fb9960979574ed8628339",
                 "shasum": ""
             },
             "require": {
@@ -5670,7 +5670,7 @@
                 "dev",
                 "static analysis"
             ],
-            "time": "2024-03-13T12:27:20+00:00"
+            "time": "2024-03-18T16:53:53+00:00"
         },
         {
             "name": "psy/psysh",
@@ -6022,6 +6022,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "craftcms/cms": 20,
+        "wsydney76/extras": 20,
         "craftcms/ecs": 20,
         "craftcms/phpstan": 20,
         "craftcms/rector": 20

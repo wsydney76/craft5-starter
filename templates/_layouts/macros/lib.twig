@@ -78,7 +78,7 @@
             src: imager.placeholder({ width: transform.height, height: transform.width, color: '#cccccc' }),
             height: transform.height,
             width: transform.width,
-            alt: image.altText ?: image.title,
+            alt: image.alt ?: image.title,
             srcset: imager.srcset(transformedImages),
             loading: 'lazy'
         })|attr(attr) %}
@@ -89,7 +89,7 @@
         {# Craft native transforms, no need to manually calculate anything #}
         {% set attr = attr | merge({
             id: "img-#{image.id}",
-            alt: image.altText ?: image.title
+            alt: image.alt ?: image.title
         }) %}
 
 

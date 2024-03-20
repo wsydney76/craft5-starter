@@ -88,8 +88,8 @@ icon: table-columns
 name: 'Two columns with image'
 showSlugField: false
 showStatusField: false
-slugTranslationKeyFormat: ''
+slugTranslationKeyFormat: null
 slugTranslationMethod: site
-titleFormat: ''
-titleTranslationKeyFormat: ''
+titleFormat: null
+titleTranslationKeyFormat: null
 titleTranslationMethod: site

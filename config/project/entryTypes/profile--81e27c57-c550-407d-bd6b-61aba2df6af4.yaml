@@ -193,8 +193,8 @@ icon: person-fairy
 name: Profile
 showSlugField: true
 showStatusField: true
-slugTranslationKeyFormat: ''
+slugTranslationKeyFormat: null
 slugTranslationMethod: none
 titleFormat: '{firstName} {nameAffix} {lastName}'
-titleTranslationKeyFormat: ''
+titleTranslationKeyFormat: null
 titleTranslationMethod: site

@@ -10,7 +10,6 @@
             <th>Nr.</th>
             <th>ID</th>
             <th>Name</th>
-            <th>Handle</th>
             <th>Usages</th>
             <th>Fields</th>
             <th>Custom Fields</th>
@@ -23,8 +22,10 @@
         <tr>
             <td>{{ loop.index }}</td>
             <td>{{ type.id }}</td>
-            <td><a href="{{ settingsUrl }}entry-types/{{ type.id }}" target="_blank">{{ type.name }}</a> </td>
-            <td>{{ type.handle }}</td>
+            <td>
+                <a href="{{ settingsUrl }}entry-types/{{ type.id }}" target="_blank">{{ type.name }}</a><br>
+                {{ type.handle }}
+            </td>
             <td>
                 {% for usage in type.findUsages %}
                     <div>
