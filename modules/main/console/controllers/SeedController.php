@@ -1130,12 +1130,12 @@ class SeedController extends InitController
         }
 
         /* @phpstan-ignore-next-line */
-        $hasNoAlt = Asset::find()
-            ->site('*')
-            ->folderId($folder->id)
-            ->kind('image')
-            ->hasAlt(false)
-            ->exists();
+//        $hasNoAlt = Asset::find()
+//            ->site('*')
+//            ->folderId($folder->id)
+//            ->kind('image')
+//            ->hasAlt(false)
+//            ->exists();
 
         // TODO: Craft5 https://github.com/craftcms/cms/issues/14640
 //        if (!$hasNoAlt) {
