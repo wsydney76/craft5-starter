@@ -1,4 +1,4 @@
-color: null
+color: red
 fieldLayouts:
   16071f75-24f5-4201-950a-92a09401de15:
     tabs:
@@ -68,7 +68,7 @@ fieldLayouts:
             elementCondition: null
             fieldUid: 400d2e7a-d260-459d-b16d-bc388f093106 # Tagline
             handle: null
-            includeInCards: false
+            includeInCards: true
             instructions: null
             label: null
             providesThumbs: false
@@ -116,7 +116,7 @@ fieldLayouts:
             includeInCards: false
             instructions: null
             label: null
-            providesThumbs: false
+            providesThumbs: true
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -241,8 +241,8 @@ icon: chimney
 name: Story
 showSlugField: true
 showStatusField: true
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: language

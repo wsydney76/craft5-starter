@@ -1,6 +1,6 @@
 assets:
   tempVolumeUid: ed627edd-73bd-4b75-8684-f410bf4e4b9d
-dateModified: 1710932366
+dateModified: 1710970300
 elementSources:
   craft\elements\Asset:
     -
@@ -285,7 +285,7 @@ elementSources:
         - postDate
         - desc
       disabled: false
-      key: 'section:e26c6ef2-44c5-4a65-bfc1-b0a61124edca' # Newsletter
+      key: 'section:e26c6ef2-44c5-4a65-bfc1-b0a61124edca'
       tableAttributes:
         - 'field:bbc46fd7-2b24-431f-a7d1-aedf86a6c169'
         - postDate
@@ -410,7 +410,7 @@ meta:
     605e973b-b2e9-4421-9f1a-80d4cddc0cf0: Parameter # Parameter
     621ad41b-f019-4e95-96aa-49f8c56482db: 'SEO Descriction' # SEO Descriction
     710a1bd0-9eeb-4721-9493-f2d7dead49ee: Body # Body
-    735b5e6e-8026-4de4-8e32-14e03d975565: 'Body Content - Image - Image' # Body Content - Image - Image
+    735b5e6e-8026-4de4-8e32-14e03d975565: Image # Image
     0767f000-e433-4930-9534-b795a48740bb: Teaser # Teaser
     806a473e-c6e7-42cd-a76b-758ed48b5a2b: Role # Role
     871e0a60-ea70-4650-91f2-746c9bc2de41: 'Aspect Ratio' # Aspect Ratio
@@ -425,7 +425,7 @@ meta:
     7681df0f-bb10-47a5-ae54-25d7743237e3: 'Content Components' # Content Components
     8833ee2a-8239-453f-9996-a3af3eabb404: Heading # Heading
     13852c19-7f9e-4e6b-8790-0063f0f21ab8: 'Hero Area' # Hero Area
-    37283b65-80b3-4451-a1d2-03fd68d18a05: 'Body Content - Content Components - Content Components' # Body Content - Content Components - Content Components
+    37283b65-80b3-4451-a1d2-03fd68d18a05: 'Content Components' # Content Components
     44993cef-3718-479f-8c88-bdede1d256ba: 'Card Text' # Card Text
     52144f06-b394-45aa-bee6-d00e1f86878f: Primary # Primary
     75980a78-5a14-4d80-8e9c-b0616d62e02e: 'Hero Area' # Hero Area
@@ -480,7 +480,6 @@ meta:
     dfe86fae-c542-4ae2-8b07-16d57c206b16: Button # Button
     e2e51276-3783-49cb-9ed0-22ae364fd49a: 'Menu Title' # Menu Title
     e5bf7587-80f3-47bf-8e22-d1d8bbcf11ee: Template # Template
-    e26c6ef2-44c5-4a65-bfc1-b0a61124edca: Newsletter # Newsletter
     e62a4659-99c7-4a5b-af65-00d9f6cb1d22: 'Name Affix' # Name Affix
     e62d63b0-c299-42ce-aeef-86a69f7e676c: 'SEO Fields' # SEO Fields
     e842f783-0027-4c81-8136-61f70ccfbd6d: Birthday # Birthday

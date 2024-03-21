@@ -42,7 +42,7 @@ fieldLayouts:
             disabled: false
             elementCondition: null
             id: null
-            includeInCards: false
+            includeInCards: true
             instructions: null
             label: null
             name: null
@@ -64,7 +64,7 @@ fieldLayouts:
             elementCondition: null
             fieldUid: eb6b24cc-83d7-416f-be4b-d002c7688b58 # Copyright
             handle: null
-            includeInCards: false
+            includeInCards: true
             instructions: null
             label: null
             providesThumbs: false

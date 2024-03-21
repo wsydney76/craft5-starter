@@ -16,7 +16,7 @@ permissions:
   - 'createentries:abd279ac-58c4-41dc-ac32-d2e388e34252' # Legal
   - 'createentries:ae6e4008-f45f-4d7d-bbc1-d8b90290efb8' # Team
   - 'createentries:db16c9e5-2cfe-4821-88ff-7b18648846a1' # Testimonial
-  - 'createentries:e26c6ef2-44c5-4a65-bfc1-b0a61124edca' # Newsletter
+  - 'createentries:e26c6ef2-44c5-4a65-bfc1-b0a61124edca'
   - 'createentries:e3333efd-6726-41c1-9a66-a746a6f0d350' # Cards
   - 'createentries:fcbda6e5-a26a-4efb-800a-a67a44a88fa1' # Person
   - 'createfolders:5a0be839-14a2-465e-a504-bb63dd0281e9' # Images
@@ -34,7 +34,7 @@ permissions:
   - 'deleteentries:abd279ac-58c4-41dc-ac32-d2e388e34252' # Legal
   - 'deleteentries:ae6e4008-f45f-4d7d-bbc1-d8b90290efb8' # Team
   - 'deleteentries:db16c9e5-2cfe-4821-88ff-7b18648846a1' # Testimonial
-  - 'deleteentries:e26c6ef2-44c5-4a65-bfc1-b0a61124edca' # Newsletter
+  - 'deleteentries:e26c6ef2-44c5-4a65-bfc1-b0a61124edca'
   - 'deleteentries:e3333efd-6726-41c1-9a66-a746a6f0d350' # Cards
   - 'deleteentries:fcbda6e5-a26a-4efb-800a-a67a44a88fa1' # Person
   - 'deletepeerassets:5a0be839-14a2-465e-a504-bb63dd0281e9' # Images
@@ -50,7 +50,7 @@ permissions:
   - 'deletepeerentries:abd279ac-58c4-41dc-ac32-d2e388e34252' # Legal
   - 'deletepeerentries:ae6e4008-f45f-4d7d-bbc1-d8b90290efb8' # Team
   - 'deletepeerentries:db16c9e5-2cfe-4821-88ff-7b18648846a1' # Testimonial
-  - 'deletepeerentries:e26c6ef2-44c5-4a65-bfc1-b0a61124edca' # Newsletter
+  - 'deletepeerentries:e26c6ef2-44c5-4a65-bfc1-b0a61124edca'
   - 'deletepeerentries:e3333efd-6726-41c1-9a66-a746a6f0d350' # Cards
   - 'deletepeerentries:fcbda6e5-a26a-4efb-800a-a67a44a88fa1' # Person
   - 'deletepeerentrydrafts:07fce1cd-37fc-4742-acf8-6bc0a4efd7d7'
@@ -65,7 +65,7 @@ permissions:
   - 'deletepeerentrydrafts:abd279ac-58c4-41dc-ac32-d2e388e34252' # Legal
   - 'deletepeerentrydrafts:ae6e4008-f45f-4d7d-bbc1-d8b90290efb8' # Team
   - 'deletepeerentrydrafts:db16c9e5-2cfe-4821-88ff-7b18648846a1' # Testimonial
-  - 'deletepeerentrydrafts:e26c6ef2-44c5-4a65-bfc1-b0a61124edca' # Newsletter
+  - 'deletepeerentrydrafts:e26c6ef2-44c5-4a65-bfc1-b0a61124edca'
   - 'deletepeerentrydrafts:e3333efd-6726-41c1-9a66-a746a6f0d350' # Cards
   - 'deletepeerentrydrafts:fcbda6e5-a26a-4efb-800a-a67a44a88fa1' # Person
   - 'editimages:5a0be839-14a2-465e-a504-bb63dd0281e9' # Images
@@ -92,7 +92,7 @@ permissions:
   - 'saveentries:abd279ac-58c4-41dc-ac32-d2e388e34252' # Legal
   - 'saveentries:ae6e4008-f45f-4d7d-bbc1-d8b90290efb8' # Team
   - 'saveentries:db16c9e5-2cfe-4821-88ff-7b18648846a1' # Testimonial
-  - 'saveentries:e26c6ef2-44c5-4a65-bfc1-b0a61124edca' # Newsletter
+  - 'saveentries:e26c6ef2-44c5-4a65-bfc1-b0a61124edca'
   - 'saveentries:e3333efd-6726-41c1-9a66-a746a6f0d350' # Cards
   - 'saveentries:fcbda6e5-a26a-4efb-800a-a67a44a88fa1' # Person
   - 'savepeerassets:5a0be839-14a2-465e-a504-bb63dd0281e9' # Images
@@ -108,7 +108,7 @@ permissions:
   - 'savepeerentries:abd279ac-58c4-41dc-ac32-d2e388e34252' # Legal
   - 'savepeerentries:ae6e4008-f45f-4d7d-bbc1-d8b90290efb8' # Team
   - 'savepeerentries:db16c9e5-2cfe-4821-88ff-7b18648846a1' # Testimonial
-  - 'savepeerentries:e26c6ef2-44c5-4a65-bfc1-b0a61124edca' # Newsletter
+  - 'savepeerentries:e26c6ef2-44c5-4a65-bfc1-b0a61124edca'
   - 'savepeerentries:e3333efd-6726-41c1-9a66-a746a6f0d350' # Cards
   - 'savepeerentries:fcbda6e5-a26a-4efb-800a-a67a44a88fa1' # Person
   - 'savepeerentrydrafts:07fce1cd-37fc-4742-acf8-6bc0a4efd7d7'
@@ -123,7 +123,7 @@ permissions:
   - 'savepeerentrydrafts:abd279ac-58c4-41dc-ac32-d2e388e34252' # Legal
   - 'savepeerentrydrafts:ae6e4008-f45f-4d7d-bbc1-d8b90290efb8' # Team
   - 'savepeerentrydrafts:db16c9e5-2cfe-4821-88ff-7b18648846a1' # Testimonial
-  - 'savepeerentrydrafts:e26c6ef2-44c5-4a65-bfc1-b0a61124edca' # Newsletter
+  - 'savepeerentrydrafts:e26c6ef2-44c5-4a65-bfc1-b0a61124edca'
   - 'savepeerentrydrafts:e3333efd-6726-41c1-9a66-a746a6f0d350' # Cards
   - 'savepeerentrydrafts:fcbda6e5-a26a-4efb-800a-a67a44a88fa1' # Person
   - 'viewassets:5a0be839-14a2-465e-a504-bb63dd0281e9' # Images
@@ -140,7 +140,7 @@ permissions:
   - 'viewentries:abd279ac-58c4-41dc-ac32-d2e388e34252' # Legal
   - 'viewentries:ae6e4008-f45f-4d7d-bbc1-d8b90290efb8' # Team
   - 'viewentries:db16c9e5-2cfe-4821-88ff-7b18648846a1' # Testimonial
-  - 'viewentries:e26c6ef2-44c5-4a65-bfc1-b0a61124edca' # Newsletter
+  - 'viewentries:e26c6ef2-44c5-4a65-bfc1-b0a61124edca'
   - 'viewentries:e3333efd-6726-41c1-9a66-a746a6f0d350' # Cards
   - 'viewentries:fcbda6e5-a26a-4efb-800a-a67a44a88fa1' # Person
   - 'viewpeerassets:5a0be839-14a2-465e-a504-bb63dd0281e9' # Images
@@ -156,7 +156,7 @@ permissions:
   - 'viewpeerentries:abd279ac-58c4-41dc-ac32-d2e388e34252' # Legal
   - 'viewpeerentries:ae6e4008-f45f-4d7d-bbc1-d8b90290efb8' # Team
   - 'viewpeerentries:db16c9e5-2cfe-4821-88ff-7b18648846a1' # Testimonial
-  - 'viewpeerentries:e26c6ef2-44c5-4a65-bfc1-b0a61124edca' # Newsletter
+  - 'viewpeerentries:e26c6ef2-44c5-4a65-bfc1-b0a61124edca'
   - 'viewpeerentries:e3333efd-6726-41c1-9a66-a746a6f0d350' # Cards
   - 'viewpeerentries:fcbda6e5-a26a-4efb-800a-a67a44a88fa1' # Person
   - 'viewpeerentrydrafts:07fce1cd-37fc-4742-acf8-6bc0a4efd7d7'
@@ -171,6 +171,6 @@ permissions:
   - 'viewpeerentrydrafts:abd279ac-58c4-41dc-ac32-d2e388e34252' # Legal
   - 'viewpeerentrydrafts:ae6e4008-f45f-4d7d-bbc1-d8b90290efb8' # Team
   - 'viewpeerentrydrafts:db16c9e5-2cfe-4821-88ff-7b18648846a1' # Testimonial
-  - 'viewpeerentrydrafts:e26c6ef2-44c5-4a65-bfc1-b0a61124edca' # Newsletter
+  - 'viewpeerentrydrafts:e26c6ef2-44c5-4a65-bfc1-b0a61124edca'
   - 'viewpeerentrydrafts:e3333efd-6726-41c1-9a66-a746a6f0d350' # Cards
   - 'viewpeerentrydrafts:fcbda6e5-a26a-4efb-800a-a67a44a88fa1' # Person

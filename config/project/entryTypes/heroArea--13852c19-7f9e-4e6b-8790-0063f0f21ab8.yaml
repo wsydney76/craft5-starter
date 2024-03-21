@@ -110,7 +110,7 @@ fieldLayouts:
             elementCondition: null
             fieldUid: 655243f7-46a2-42c0-8de4-188017c31d53 # Hero Area Template
             handle: null
-            includeInCards: false
+            includeInCards: true
             instructions: null
             label: null
             providesThumbs: false
@@ -130,8 +130,8 @@ icon: table-layout
 name: 'Hero Area'
 showSlugField: true
 showStatusField: true
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: language

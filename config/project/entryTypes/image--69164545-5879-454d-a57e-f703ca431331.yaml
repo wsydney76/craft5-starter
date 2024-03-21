@@ -36,7 +36,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 735b5e6e-8026-4de4-8e32-14e03d975565 # Body Content - Image - Image
+            fieldUid: 735b5e6e-8026-4de4-8e32-14e03d975565 # Image
             handle: image
             includeInCards: false
             instructions: null

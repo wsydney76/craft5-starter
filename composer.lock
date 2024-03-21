@@ -237,12 +237,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/craftcms/cms.git",
-                "reference": "bd7eaa53137a2dfb08bdfe002e2abad822851da0"
+                "reference": "fd237b97fa44d0eee0525f1f338b42501ca5de47"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/bd7eaa53137a2dfb08bdfe002e2abad822851da0",
-                "reference": "bd7eaa53137a2dfb08bdfe002e2abad822851da0",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/fd237b97fa44d0eee0525f1f338b42501ca5de47",
+                "reference": "fd237b97fa44d0eee0525f1f338b42501ca5de47",
                 "shasum": ""
             },
             "require": {
@@ -351,7 +351,7 @@
                 "rss": "https://github.com/craftcms/cms/releases.atom",
                 "source": "https://github.com/craftcms/cms"
             },
-            "time": "2024-03-19T17:35:45+00:00"
+            "time": "2024-03-19T23:32:37+00:00"
         },
         {
             "name": "craftcms/contact-form",
@@ -1610,15 +1610,15 @@
         },
         {
             "name": "nystudio107/craft-code-editor",
-            "version": "1.0.17",
+            "version": "1.0.18",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nystudio107/craft-code-editor/zipball/d2d9c8706fc1a6f40253fc78762101ce9b5ac386",
-                "reference": "d2d9c8706fc1a6f40253fc78762101ce9b5ac386",
+                "url": "https://api.github.com/repos/nystudio107/craft-code-editor/zipball/e86f71c6e1eb46a5bc2e73898cd22315b5bbc1ed",
+                "reference": "e86f71c6e1eb46a5bc2e73898cd22315b5bbc1ed",
                 "shasum": ""
             },
             "require": {
-                "craftcms/cms": "^3.0.0 || ^4.0.0 || ^5.0.0-alpha.1",
+                "craftcms/cms": "^3.0.0 || ^4.0.0 || ^5.0.0-beta.1",
                 "phpdocumentor/reflection-docblock": "^5.0.0"
             },
             "type": "yii2-extension",
@@ -1652,7 +1652,7 @@
                 "markdown",
                 "twig"
             ],
-            "time": "2024-01-30T03:18:54+00:00"
+            "time": "2024-03-19T20:14:01+00:00"
         },
         {
             "name": "nystudio107/craft-code-field",

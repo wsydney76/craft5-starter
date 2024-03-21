@@ -53,7 +53,7 @@ fieldLayouts:
             elementCondition: null
             fieldUid: f26d4aac-c7ec-4b8f-98c8-ab7fc5315445 # Testimonials
             handle: null
-            includeInCards: false
+            includeInCards: true
             instructions: null
             label: null
             providesThumbs: false
@@ -88,8 +88,8 @@ icon: users
 name: 'Multiple Testimonials'
 showSlugField: true
 showStatusField: true
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: language

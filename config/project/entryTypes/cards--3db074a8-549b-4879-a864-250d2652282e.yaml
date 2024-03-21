@@ -38,7 +38,7 @@ fieldLayouts:
             elementCondition: null
             fieldUid: 710a1bd0-9eeb-4721-9493-f2d7dead49ee # Body
             handle: null
-            includeInCards: false
+            includeInCards: true
             instructions: null
             label: null
             providesThumbs: false
@@ -53,7 +53,7 @@ fieldLayouts:
             elementCondition: null
             fieldUid: 7602aac5-c98e-44bd-8570-457a85b8abad # Criteria
             handle: null
-            includeInCards: false
+            includeInCards: true
             instructions: "Must be valid JSON.\r\n\r\nBesides query criteria you can use `\"showMetaData\": true` , `\"layout\":\"card/cardlet\"` `\"width\":\"md/xl\"`"
             label: null
             providesThumbs: false
@@ -88,8 +88,8 @@ icon: address-card
 name: Cards
 showSlugField: true
 showStatusField: true
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: site

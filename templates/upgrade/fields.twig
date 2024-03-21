@@ -1,10 +1,23 @@
+{# {% requireAdmin %} #}
+
 {# @var field \craft\base\Field #}
-{# @var usage \craft\models\FieldLayout #}
+
+{% import 'upgrade/macros.twig' as lib %}
+
 {% set fields = craft.app.fields.allFields %}
 {% set type = craft.app.request.queryParam('type') %}
 {% set handles = craft.app.request.queryParam('handles') %}
+{% set dumpSettings = craft.app.request.queryParam('dumpSettings') %}
 
 {% set settingsUrl = "/#{craft.app.config.general.cpTrigger}/settings/" %}
+
+{# Settings that are always unique in your content model. Case sensitive #}
+{% set defaultIgnoreSettings = 'uiMode,placeholder,code,allowSelfRelations,localizeRelations,showSiteMenu,targetSiteId,maintainHierarchy,branchLimit,showUnpermittedVolumes,showUnpermittedFiles' %}
+
+{# override if needed. &ignoreSettings= to show all settings #}
+{% set ignoreSettings = craft.app.request.queryParam('ignoreSettings', defaultIgnoreSettings) %}
+
+{% set ignoreSettings = ignoreSettings|split(',') %}
 
 {% if type %}
     {% set fields = fields|filter (f => className(f) == type) %}
@@ -19,6 +32,7 @@
     {% exit 404 "No fields found" %}
 {% endif %}
 
+{% set showTranslatable = not (type and (type ends with 'Entries' or type ends with 'Assets')) %}
 
 <table>
 
@@ -26,24 +40,27 @@
         <th>Nr.</th>
         <th>ID</th>
         <th>Name</th>
-        <td>Handle</td>
-        <td>Type</td>
+        <th>Handle</th>
+        <th>Type</th>
         <th>Used?</th>
         {# <th>UID</th> #}
-        <th>Translatable</th>
+        {% if showTranslatable %}
+            <th>Translation</th>
+        {% endif %}
         <th>Searchable</th>
 
         {% if type or handles %}
             {% for key, value in fields|first.settings %}
-                <th>{{ key }}</th>
+                {% if key not in ignoreSettings %}
+                    <th>{{ key }}</th>
+                {% endif %}
             {% endfor %}
-        {% else %}
+        {% elseif dumpSettings %}
             <th>Settings</th>
         {% endif %}
 
 
     </tr>
-
 
     {% for field in fields %}
 
@@ -53,7 +70,7 @@
             <td>{{ field.id }}</td>
             <td><a href="{{ settingsUrl }}fields/edit/{{ field.id }}" target="_blank">{{ field.name }}</a></td>
             <td>{{ field.handle }}</td>
-            <td>{{ className(field) }}</td>
+            <td><a href="?type={{ className(field) }}">{{ className(field) }}</a></td>
             <td>
                 {% if not (craft.app.fields.findFieldUsages(field)) %}
                     <span style="color:red;">No usages</span>
@@ -62,25 +79,32 @@
 
             {# <td>{{ field.uid }}</td> #}
 
-            <td>{{ field.translationMethod }}</td>
+            {% if showTranslatable %}
+                <td>{{ field.translationMethod }}</td>
+            {% endif %}
+
             <td>{{ dump(field.searchable) }}</td>
 
             {% if type or handles %}
                 {% for key, setting in field.settings %}
-                    <td>
-                        {% if key in ['sources', 'restrictedLocationSource', 'defaultUploadLocationSource'] %}
-                            {{ _self.sources(setting) }}
-                            {# TODO: Handle selectionConditions #}
-                        {% elseif key == 'entryTypes' %}
-                            {{ _self.entryTypes(setting) }}
-                        {% elseif key == 'options' %}
-                            {{ _self.options(setting) }}
-                        {% else %}
-                            {{ dump(setting) }}
-                        {% endif %}
-                    </td>
+                    {% if key not in ignoreSettings %}
+                        <td>
+                            {% if key in ['sources', 'restrictedLocationSource', 'defaultUploadLocationSource'] %}
+                                {{ lib.sources(setting) }}
+                                {# TODO: Handle selectionConditions #}
+                            {% elseif key == 'entryTypes' %}
+                                {{ lib.entryTypes(setting) }}
+                            {% elseif key == 'options' %}
+                                {{ lib.options(setting) }}
+                            {% elseif key == 'selectionCondition' %}
+                                {{ lib.conditions(setting) }}
+                            {% else %}
+                                {{ lib.value(setting) }}
+                            {% endif %}
+                        </td>
+                    {% endif %}
                 {% endfor %}
-            {% else %}
+            {% elseif dumpSettings %}
                 <td>
                     {{ dump(field.settings) }}
                 </td>
@@ -90,66 +114,6 @@
     {% endfor %}
 </table>
 
-
-{% macro sources(sources) %}
-    {% if sources is string %}
-        {{ _self.source(sources) }}
-    {% else %}
-        {% for source in sources %}
-            {{ _self.source(source) }}
-            <br>
-        {% endfor %}
-    {% endif %}
-{% endmacro %}
-
-{% macro source(source) %}
-    {% if source starts with 'section:' %}
-        {% set uid = source|split(':')[1] %}
-        {% set section = craft.app.entries.sectionByUid(uid) %}
-        {% if section %}
-            {{ section.handle }}
-        {% else %}
-            {{ source }}
-        {% endif %}
-    {% elseif source starts with 'volume' %}
-        {% set uid = source|split(':')[1] %}
-        {% set volume = craft.app.volumes.volumeByUid(uid) %}
-        {% if volume %}
-            {{ volume.handle }}
-        {% else %}
-            {{ source }}
-        {% endif %}
-    {% else %}
-        {{ source }}
-    {% endif %}
-{% endmacro %}
-
-{% macro entryTypes(entryTypes) %}
-	{% for type in entryTypes %}
-        {{ craft.app.entries.entryTypeByUid(type).handle ?? type }}<br>
-	{% endfor %}
-{% endmacro %}
-
-{% macro options(options) %}
-	{% for option in options %}
-        {{ option.label }} ({{ option.value }}) {{ option.default ? 'default' }}<br>
-	{% endfor %}
-{% endmacro %}
-
-
 <style>
-    table {
-        border-collapse: collapse;
-        font-family: sans-serif;
-        font-size: 14px;
-    }
-
-    table, th, td {
-        border: 1px solid;
-    }
-
-    td {
-        padding: 6px;
-        white-space: nowrap;
-    }
+{% include 'upgrade/styles.css' %}
 </style>

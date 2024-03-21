@@ -108,7 +108,14 @@ class MainModule extends BaseModule
 
             $this->hideBlockTypes();
 
-            $this->setElementIndexColumns();
+
+            // TODO: https://github.com/craftcms/cms/issues/14639
+            if (Craft::$app->request->isAjax) {
+                $isInlineEditing = Craft::$app->request->getBodyParam('viewState.inlineEditing', false);
+                if (!$isInlineEditing) {
+                    $this->setElementIndexColumns();
+                }
+            }
 
 
             Event::on(

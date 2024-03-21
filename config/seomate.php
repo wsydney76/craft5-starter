@@ -13,7 +13,7 @@ return [
 
         'outputAlternate' => true,
 
-        'altTextFieldHandle' => 'altText',
+        'altTextFieldHandle' => 'alt',
 
         'defaultMeta' => [
             'description' => ['siteInfo.seoDescription'],

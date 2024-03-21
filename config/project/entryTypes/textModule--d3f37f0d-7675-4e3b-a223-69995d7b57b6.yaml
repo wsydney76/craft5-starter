@@ -46,7 +46,7 @@ fieldLayouts:
             elementCondition: null
             fieldUid: 710a1bd0-9eeb-4721-9493-f2d7dead49ee # Body
             handle: null
-            includeInCards: false
+            includeInCards: true
             instructions: null
             label: null
             providesThumbs: false
@@ -66,8 +66,8 @@ icon: font-case
 name: 'Text Module'
 showSlugField: true
 showStatusField: true
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: site
