@@ -1137,9 +1137,10 @@ class SeedController extends InitController
             ->hasAlt(false)
             ->exists();
 
-        if (!$hasNoAlt) {
-            return ExitCode::OK;
-        }
+        // TODO: Craft5 https://github.com/craftcms/cms/issues/14640
+//        if (!$hasNoAlt) {
+//            return ExitCode::OK;
+//        }
 
         if ($this->interactive && !$this->confirm("Add provisional alt text/copyright to images?", true)) {
             return ExitCode::OK;
