@@ -1134,7 +1134,7 @@ class SeedController extends InitController
             ->site('*')
             ->folderId($folder->id)
             ->kind('image')
-            ->alt(':empty:')
+            ->hasAlt(false)
             ->exists();
 
         if (!$hasNoAlt) {
