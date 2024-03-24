@@ -65,16 +65,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            elementCondition:
-              class: craft\elements\conditions\entries\EntryCondition
-              conditionRules:
-                -
-                  class: craft\fields\conditions\LightswitchFieldConditionRule
-                  fieldUid: 9a3286bb-91f7-47ba-9862-9d102a8cf5d0
-                  uid: d41d1e61-b062-4275-b69c-87c676ab7737
-                  value: true
-              elementType: craft\elements\Entry
-              fieldContext: global
+            elementCondition: null
             fieldUid: c72e758a-f6c3-42cd-896b-3ff6353ed259 # Featured Image
             handle: null
             includeInCards: false
