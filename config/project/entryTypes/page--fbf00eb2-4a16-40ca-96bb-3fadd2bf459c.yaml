@@ -61,16 +61,16 @@ fieldLayouts:
             width: 25
           -
             elementCondition: null
-            fieldUid: 1f5834fd-ed0d-466a-b4dd-2891fd144893 # Show Structure Navigation
-            handle: null
+            fieldUid: 7fb04ffe-73af-49d3-a840-c4c224d40dcf # Toggle
+            handle: showStructureNavigation
             includeInCards: false
-            instructions: null
-            label: null
+            instructions: 'Show navigation for this entry and it''s descendants'
+            label: 'Show Structure Navigation'
             providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: e4ea9583-0b94-4154-bae7-a0d6bb47ad28
+            uid: f9e80086-0e68-4369-84d0-a307036c5dcd
             userCondition: null
             warning: null
             width: 25
@@ -91,16 +91,16 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 9a3286bb-91f7-47ba-9862-9d102a8cf5d0 # Show Hero Area
-            handle: null
+            fieldUid: 7fb04ffe-73af-49d3-a840-c4c224d40dcf # Toggle
+            handle: showHeroArea
             includeInCards: false
             instructions: null
-            label: null
+            label: 'Show Hero Area'
             providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 68876fb7-52aa-4904-8f3c-29d4cf6dfaa1
+            uid: 11f551bb-d0f6-4e7d-b782-0b1516e6c8c9
             userCondition: null
             warning: null
             width: 25
@@ -110,8 +110,9 @@ fieldLayouts:
               conditionRules:
                 -
                   class: craft\fields\conditions\LightswitchFieldConditionRule
-                  fieldUid: 9a3286bb-91f7-47ba-9862-9d102a8cf5d0 # Show Hero Area
-                  uid: 0286e92e-f408-40e5-807e-1da065650d73
+                  fieldUid: 7fb04ffe-73af-49d3-a840-c4c224d40dcf # Toggle
+                  layoutElementUid: 89de4e9a-2be6-46e6-8d8c-abed7dcfbfb8
+                  uid: 5ca383fd-6cd2-4a61-96d5-6780fd10a6c2
                   value: true
               elementType: craft\elements\Entry
               fieldContext: global

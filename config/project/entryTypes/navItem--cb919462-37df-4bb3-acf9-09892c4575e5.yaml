@@ -44,16 +44,16 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 1f5834fd-ed0d-466a-b4dd-2891fd144893 # Show Structure Navigation
-            handle: null
+            fieldUid: 7fb04ffe-73af-49d3-a840-c4c224d40dcf # Toggle
+            handle: showStructureNavigation
             includeInCards: false
-            instructions: null
-            label: null
+            instructions: 'Show navigation for this entry and it''s descendants'
+            label: 'Show Structure Navigation'
             providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 55dffd0f-7284-4b2d-9e68-1497c03e31c3
+            uid: aced4d79-6d7d-44d1-a3c7-e12c9b7c21f1
             userCondition: null
             warning: null
             width: 100

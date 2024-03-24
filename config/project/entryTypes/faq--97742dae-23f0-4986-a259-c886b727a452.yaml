@@ -36,8 +36,8 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 02d2113e-298a-47c6-a40e-413a682ac7c5 # Question
-            handle: null
+            fieldUid: 0a4ca680-269a-45f0-8eac-eada97e7dc29 # Single Line Text
+            handle: question
             includeInCards: true
             instructions: null
             label: Question
@@ -45,14 +45,14 @@ fieldLayouts:
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 569ed2bd-b8ab-4cb3-be35-832e0ef9bd26
+            uid: ec2062d1-2ae4-4065-8c2f-482756749227
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 3cb8a841-f986-4959-8f1a-c44fe16ff8d1 # Answer
-            handle: null
+            fieldUid: 354b3c11-ae38-4fae-8017-8ddced25fecd # Text
+            handle: answer
             includeInCards: false
             instructions: null
             label: Answer
@@ -60,7 +60,7 @@ fieldLayouts:
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 6f0c8d34-3e23-4f11-b62a-a5e853cca746
+            uid: 700bfbe2-b0f9-4add-99bd-8bcd2f0be6bf
             userCondition: null
             warning: null
             width: 100

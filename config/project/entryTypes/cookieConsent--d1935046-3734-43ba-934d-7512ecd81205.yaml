@@ -44,16 +44,16 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 710a1bd0-9eeb-4721-9493-f2d7dead49ee # Body
-            handle: null
+            fieldUid: 354b3c11-ae38-4fae-8017-8ddced25fecd # Text
+            handle: body
             includeInCards: false
-            instructions: 'The text shown in the info popup'
+            instructions: null
             label: 'Info Text'
             providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: ef06a53b-0980-424d-9111-8d79fe767056
+            uid: 57c0c9d4-8891-4638-9021-ee654e5f6724
             userCondition: null
             warning: null
             width: 100

@@ -66,16 +66,16 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 710a1bd0-9eeb-4721-9493-f2d7dead49ee # Body
-            handle: null
+            fieldUid: 354b3c11-ae38-4fae-8017-8ddced25fecd # Text
+            handle: body
             includeInCards: false
             instructions: null
-            label: null
+            label: Body
             providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 388ca375-23d5-4726-8808-ffedb9297ac7
+            uid: da877cca-c912-473e-a17f-f627b4b74c3c
             userCondition: null
             warning: null
             width: 100

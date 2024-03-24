@@ -1,7 +1,7 @@
-columnSuffix: dfrmvvfg
-handle: showLink
-instructions: 'Whether a link to this page will be shown in menus'
-name: 'Show Link'
+columnSuffix: null
+handle: toggle
+instructions: null
+name: Toggle
 searchable: false
 settings:
   default: false

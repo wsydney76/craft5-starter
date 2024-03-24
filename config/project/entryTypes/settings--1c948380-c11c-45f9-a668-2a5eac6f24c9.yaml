@@ -36,8 +36,8 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: b0cfc7f4-d446-41bb-87ab-dc16b1481540 # Alternative Title
-            handle: null
+            fieldUid: 0a4ca680-269a-45f0-8eac-eada97e7dc29 # Single Line Text
+            handle: alternativeTitle
             includeInCards: true
             instructions: null
             label: 'Alternative Title'
@@ -45,14 +45,14 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: bc0be446-128a-4e51-81f8-7ba23b91142a
+            uid: 77efe43a-3799-4124-973e-b68f77509f29
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 9c7e95a7-7a87-46ad-974e-8ce3846ef68b # Description
-            handle: null
+            fieldUid: 354b3c11-ae38-4fae-8017-8ddced25fecd # Text
+            handle: description
             includeInCards: false
             instructions: null
             label: Description
@@ -60,13 +60,13 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 07ad2848-4e40-43cc-bd11-72d61f7141a9
+            uid: e85d0134-6b1d-49d8-bdb5-918b564ca9de
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 34581043-4880-49b9-b16a-cba691fa21f3 # Image
+            fieldUid: 34581043-4880-49b9-b16a-cba691fa21f3 # SEO Image
             handle: image
             includeInCards: false
             instructions: null

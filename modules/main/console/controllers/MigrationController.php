@@ -109,7 +109,7 @@ class MigrationController extends Controller
         }
         foreach ($signatures as $hash => $handles) {
             if (count($handles) > 1) {
-                Console::output( implode(', ', $handles));
+                Console::output( implode(',', $handles));
             }
         }
     }

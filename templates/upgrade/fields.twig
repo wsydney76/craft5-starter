@@ -59,6 +59,7 @@
             <th>Settings</th>
         {% endif %}
 
+        <th>Instructions</th>
 
     </tr>
 
@@ -109,6 +110,10 @@
                     {{ dump(field.settings) }}
                 </td>
             {% endif %}
+
+            <td>
+                {{ field.instructions }}
+            </td>
 
         </tr>
     {% endfor %}

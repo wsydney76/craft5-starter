@@ -36,31 +36,31 @@ fieldLayouts:
             width: 75
           -
             elementCondition: null
-            fieldUid: 6cd25639-c781-44e3-b74a-d82e6a45e5ec # Show Link
-            handle: null
+            fieldUid: 7fb04ffe-73af-49d3-a840-c4c224d40dcf # Toggle
+            handle: showLink
             includeInCards: false
-            instructions: null
-            label: null
+            instructions: 'Whether a link to this page will be shown in menus'
+            label: 'Show Link'
             providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 2b752ae9-a397-4563-98ef-9d978887869e
+            uid: 01aa744b-3a6d-4899-a883-cd97c16e6041
             userCondition: null
             warning: null
-            width: 25
+            width: 100
           -
             elementCondition: null
-            fieldUid: 710a1bd0-9eeb-4721-9493-f2d7dead49ee # Body
-            handle: null
+            fieldUid: 354b3c11-ae38-4fae-8017-8ddced25fecd # Text
+            handle: body
             includeInCards: false
             instructions: null
-            label: null
+            label: Body
             providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 5aed744c-c447-4bcf-8126-728b32a8930a
+            uid: 6d2803d5-4b1d-4f61-b844-36d6d67ae589
             userCondition: null
             warning: null
             width: 100

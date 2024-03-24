@@ -17,7 +17,7 @@ settings:
     - 'section:fcbda6e5-a26a-4efb-800a-a67a44a88fa1' # Person
   targetSiteId: null
   validateRelatedElements: false
-  viewMode: null
+  viewMode: cards
 translationKeyFormat: null
 translationMethod: site
 type: craft\fields\Entries

@@ -36,19 +36,19 @@ fieldLayouts:
             width: 75
           -
             elementCondition: null
-            fieldUid: 6cd25639-c781-44e3-b74a-d82e6a45e5ec # Show Link
-            handle: null
+            fieldUid: 7fb04ffe-73af-49d3-a840-c4c224d40dcf # Toggle
+            handle: showLink
             includeInCards: false
-            instructions: null
-            label: null
+            instructions: 'Whether a link to this page will be shown in menus'
+            label: 'Show Link'
             providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 424ceece-180b-48e9-9e23-0efe3c80d212
+            uid: 75efab5d-2f47-454a-8a41-b9291a707708
             userCondition: null
             warning: null
-            width: 25
+            width: 100
           -
             elementCondition: null
             fieldUid: 85898001-9c9c-4d46-abf9-a928e44f0d48 # Body Content

@@ -51,19 +51,19 @@ fieldLayouts:
             width: 75
           -
             elementCondition: null
-            fieldUid: b7e84646-2ab1-476a-97a1-49ac1fa05852 # Is Featured
-            handle: null
+            fieldUid: 7fb04ffe-73af-49d3-a840-c4c224d40dcf # Toggle
+            handle: isFeatured
             includeInCards: false
-            instructions: null
-            label: null
+            instructions: 'Show in hero area of the article index page'
+            label: 'Is Featured'
             providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 08c9d081-49d8-4914-a31c-6178344b4dce
+            uid: 86d286af-7178-4170-9712-ed4fdeb98115
             userCondition: null
             warning: null
-            width: 25
+            width: 100
           -
             elementCondition: null
             fieldUid: 400d2e7a-d260-459d-b16d-bc388f093106 # Tagline
@@ -126,16 +126,16 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 44993cef-3718-479f-8c88-bdede1d256ba # Card Text
-            handle: null
+            fieldUid: 0a4ca680-269a-45f0-8eac-eada97e7dc29 # Single Line Text
+            handle: cardText
             includeInCards: false
-            instructions: null
-            label: null
+            instructions: 'Displayed on index pages instead of the tagline'
+            label: 'Card Text'
             providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: a8a89a0e-0163-41f0-aa74-b6ed0fa85e9e
+            uid: c2452a3c-72e3-4735-a7a3-ec72b218bd3b
             userCondition: null
             warning: null
             width: 100

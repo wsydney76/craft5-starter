@@ -7,7 +7,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: b0cfc7f4-d446-41bb-87ab-dc16b1481540 # Alternative Title
+            fieldUid: b0cfc7f4-d446-41bb-87ab-dc16b1481540
             instructions: null
             label: null
             required: false
@@ -19,7 +19,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 9c7e95a7-7a87-46ad-974e-8ce3846ef68b # Description
+            fieldUid: 9c7e95a7-7a87-46ad-974e-8ce3846ef68b
             instructions: null
             label: null
             required: false
@@ -31,7 +31,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 34581043-4880-49b9-b16a-cba691fa21f3 # Image
+            fieldUid: 34581043-4880-49b9-b16a-cba691fa21f3 # SEO Image
             instructions: null
             label: null
             required: false
@@ -57,7 +57,7 @@ fieldLayouts:
         uid: 9fc96fef-7f12-483f-aee5-9c03aece82ad
         userCondition: null
 fields:
-  9c7e95a7-7a87-46ad-974e-8ce3846ef68b: # Description
+  9c7e95a7-7a87-46ad-974e-8ce3846ef68b:
     columnSuffix: null
     contentColumnType: text
     fieldGroup: null
@@ -124,7 +124,7 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\Dropdown
-  34581043-4880-49b9-b16a-cba691fa21f3: # Image
+  34581043-4880-49b9-b16a-cba691fa21f3: # SEO Image
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null
@@ -163,7 +163,7 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Assets
-  b0cfc7f4-d446-41bb-87ab-dc16b1481540: # Alternative Title
+  b0cfc7f4-d446-41bb-87ab-dc16b1481540:
     columnSuffix: null
     contentColumnType: text
     fieldGroup: null

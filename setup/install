@@ -17,9 +17,7 @@ echo Installing npm dependencies...
 ddev exec npm install &&
 ddev exec npm run build &&
 ddev describe &&
-ddev craft db/backup &&
+echo Backing up empty database. Restore this if you want to start again with a clean state.
+ddev craft db/backup /var/www/html/storage/custom-backups/empty.sql --zip --overwrite &&
 ddev craft main/init
 ddev launch
-
-
-

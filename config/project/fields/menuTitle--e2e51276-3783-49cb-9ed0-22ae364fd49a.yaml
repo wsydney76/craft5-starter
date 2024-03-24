@@ -5,7 +5,7 @@ name: 'Menu Title'
 searchable: true
 settings:
   byteLimit: null
-  charLimit: null
+  charLimit: 30
   code: false
   initialRows: 4
   multiline: false

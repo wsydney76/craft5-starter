@@ -36,16 +36,16 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 710a1bd0-9eeb-4721-9493-f2d7dead49ee # Body
-            handle: null
+            fieldUid: 354b3c11-ae38-4fae-8017-8ddced25fecd # Text
+            handle: body
             includeInCards: false
             instructions: null
-            label: null
+            label: Body
             providesThumbs: false
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: ce925d8a-927a-4699-9485-c0e36e9c9b93
+            uid: a5a7f843-c933-4984-891f-62efa78f8418
             userCondition: null
             warning: null
             width: 100
@@ -129,8 +129,8 @@ icon: user
 name: 'Single Testimonial'
 showSlugField: true
 showStatusField: true
-slugTranslationKeyFormat: ''
+slugTranslationKeyFormat: null
 slugTranslationMethod: site
 titleFormat: '{body[:50]} - {person.one.title}'
-titleTranslationKeyFormat: ''
+titleTranslationKeyFormat: null
 titleTranslationMethod: language

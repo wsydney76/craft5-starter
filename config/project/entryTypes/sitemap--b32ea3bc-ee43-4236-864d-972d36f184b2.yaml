@@ -51,26 +51,26 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 9a3286bb-91f7-47ba-9862-9d102a8cf5d0 # Show Hero Area
-            handle: null
+            fieldUid: 7fb04ffe-73af-49d3-a840-c4c224d40dcf # Toggle
+            handle: showHeroArea
             includeInCards: false
             instructions: null
-            label: null
+            label: 'Show Hero Area'
             providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: dcd55391-c8fa-426a-b121-7eddb4162cc1
+            uid: a315b083-5c2e-4127-a0af-ccc5f7ee0956
             userCondition: null
             warning: null
-            width: 25
+            width: 100
           -
             elementCondition:
               class: craft\elements\conditions\entries\EntryCondition
               conditionRules:
                 -
                   class: craft\fields\conditions\LightswitchFieldConditionRule
-                  fieldUid: 9a3286bb-91f7-47ba-9862-9d102a8cf5d0 # Show Hero Area
+                  fieldUid: 9a3286bb-91f7-47ba-9862-9d102a8cf5d0
                   uid: d41d1e61-b062-4275-b69c-87c676ab7737
                   value: true
               elementType: craft\elements\Entry
