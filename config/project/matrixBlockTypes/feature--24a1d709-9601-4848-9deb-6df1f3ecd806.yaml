@@ -7,7 +7,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: 4a8239eb-1b66-44e0-bd66-5a65d44b0727 # Feature Icon
+            fieldUid: 4a8239eb-1b66-44e0-bd66-5a65d44b0727 # Icon
             instructions: null
             label: null
             required: true
@@ -19,7 +19,7 @@ fieldLayouts:
             width: 25
           -
             elementCondition: null
-            fieldUid: 0415563b-b1b2-4756-9f8d-0b86d005deb1 # Features  Heading
+            fieldUid: 0415563b-b1b2-4756-9f8d-0b86d005deb1 # Heading
             instructions: null
             label: null
             required: true
@@ -31,7 +31,7 @@ fieldLayouts:
             width: 25
           -
             elementCondition: null
-            fieldUid: cf1158bf-b524-4684-9147-0ca8295ba477
+            fieldUid: cf1158bf-b524-4684-9147-0ca8295ba477 # Text
             instructions: null
             label: null
             required: false
@@ -45,7 +45,7 @@ fieldLayouts:
         uid: 10f2215c-c1a4-40c7-9a2b-f280ed1a5130
         userCondition: null
 fields:
-  4a8239eb-1b66-44e0-bd66-5a65d44b0727: # Feature Icon
+  4a8239eb-1b66-44e0-bd66-5a65d44b0727: # Icon
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null
@@ -111,7 +111,7 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Assets
-  0415563b-b1b2-4756-9f8d-0b86d005deb1: # Features  Heading
+  0415563b-b1b2-4756-9f8d-0b86d005deb1: # Heading
     columnSuffix: xtypkhgs
     contentColumnType: string(240)
     fieldGroup: null
@@ -131,7 +131,7 @@ fields:
     translationKeyFormat: null
     translationMethod: language
     type: craft\fields\PlainText
-  cf1158bf-b524-4684-9147-0ca8295ba477:
+  cf1158bf-b524-4684-9147-0ca8295ba477: # Text
     columnSuffix: xomjeyiq
     contentColumnType: text
     fieldGroup: null

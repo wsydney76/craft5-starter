@@ -36,7 +36,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 8c826eca-f376-4f7a-92d6-307faddea123 # Story Cover Image
+            fieldUid: 8c826eca-f376-4f7a-92d6-307faddea123 # Image
             handle: image
             includeInCards: false
             instructions: null
@@ -66,7 +66,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 6ecb9b3b-4c70-44df-a0ef-88a4ae27beec # Story Cover Style
+            fieldUid: 6ecb9b3b-4c70-44df-a0ef-88a4ae27beec # Style
             handle: null
             includeInCards: false
             instructions: null

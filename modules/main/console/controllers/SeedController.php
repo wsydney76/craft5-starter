@@ -768,7 +768,7 @@ class SeedController extends InitController
         return ExitCode::OK;
     }
 
-    protected function translateHint(Entry $entry, string $siteHandle, string $fieldHandle = 'bodyContent'): void
+    protected function translateHint(?Entry $entry, string $siteHandle, string $fieldHandle = 'bodyContent'): void
     {
         // TODO: Craft 5
         return;

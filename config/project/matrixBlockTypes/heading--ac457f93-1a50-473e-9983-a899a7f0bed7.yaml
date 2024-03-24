@@ -7,7 +7,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: 4b050685-0425-4094-bde2-85e2eedd0e12
+            fieldUid: 4b050685-0425-4094-bde2-85e2eedd0e12 # Text
             instructions: null
             label: null
             required: true
@@ -19,7 +19,7 @@ fieldLayouts:
             width: 50
           -
             elementCondition: null
-            fieldUid: 1de27fd9-bda6-4977-8d43-b36ef6813c60 # Heading Level
+            fieldUid: 1de27fd9-bda6-4977-8d43-b36ef6813c60 # Level
             instructions: null
             label: null
             required: false
@@ -33,7 +33,7 @@ fieldLayouts:
         uid: be6789a7-64de-4d8d-a3a8-38a75763af9b
         userCondition: null
 fields:
-  1de27fd9-bda6-4977-8d43-b36ef6813c60: # Heading Level
+  1de27fd9-bda6-4977-8d43-b36ef6813c60: # Level
     columnSuffix: fdmibgap
     contentColumnType: string
     fieldGroup: null
@@ -80,7 +80,7 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\Dropdown
-  4b050685-0425-4094-bde2-85e2eedd0e12:
+  4b050685-0425-4094-bde2-85e2eedd0e12: # Text
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null

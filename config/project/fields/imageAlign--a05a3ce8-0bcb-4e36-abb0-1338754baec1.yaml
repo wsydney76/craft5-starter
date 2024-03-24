@@ -1,0 +1,32 @@
+columnSuffix: null
+handle: imageAlign
+instructions: null
+name: 'Image Align'
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Default
+        -
+          - value
+          - ''
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - Wide
+        -
+          - value
+          - wide
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

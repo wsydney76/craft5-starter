@@ -51,7 +51,7 @@ fieldLayouts:
             width: 50
           -
             elementCondition: null
-            fieldUid: 1de27fd9-bda6-4977-8d43-b36ef6813c60 # Heading Level
+            fieldUid: 1de27fd9-bda6-4977-8d43-b36ef6813c60 # Level
             handle: null
             includeInCards: false
             instructions: null

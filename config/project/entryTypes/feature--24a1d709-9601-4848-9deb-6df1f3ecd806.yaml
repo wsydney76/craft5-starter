@@ -36,7 +36,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 4a8239eb-1b66-44e0-bd66-5a65d44b0727 # Feature Icon
+            fieldUid: 4a8239eb-1b66-44e0-bd66-5a65d44b0727 # Icon
             handle: null
             includeInCards: false
             instructions: null
@@ -51,7 +51,7 @@ fieldLayouts:
             width: 25
           -
             elementCondition: null
-            fieldUid: 0415563b-b1b2-4756-9f8d-0b86d005deb1 # Features  Heading
+            fieldUid: 0415563b-b1b2-4756-9f8d-0b86d005deb1 # Heading
             handle: null
             includeInCards: true
             instructions: null

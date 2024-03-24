@@ -66,7 +66,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 2a4edc9c-3738-408b-bf08-b557bc12ee6e # Quote Style
+            fieldUid: 2a4edc9c-3738-408b-bf08-b557bc12ee6e # Style
             handle: null
             includeInCards: false
             instructions: null

@@ -7,7 +7,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: f620927d-baf7-430a-a965-f1e9ea676b83
+            fieldUid: f620927d-baf7-430a-a965-f1e9ea676b83 # Text
             instructions: null
             label: null
             required: true
@@ -19,7 +19,7 @@ fieldLayouts:
             width: 75
           -
             elementCondition: null
-            fieldUid: 518aea6d-af2d-4e4e-8d4b-a2ca618cd89c # Story Heading Style
+            fieldUid: 518aea6d-af2d-4e4e-8d4b-a2ca618cd89c # Style
             instructions: null
             label: null
             required: false
@@ -33,7 +33,7 @@ fieldLayouts:
         uid: 2b434a53-4cff-4bda-b391-9765450995c5
         userCondition: null
 fields:
-  518aea6d-af2d-4e4e-8d4b-a2ca618cd89c: # Story Heading Style
+  518aea6d-af2d-4e4e-8d4b-a2ca618cd89c: # Style
     columnSuffix: hlykmjun
     contentColumnType: string
     fieldGroup: null
@@ -57,7 +57,7 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\Checkboxes
-  f620927d-baf7-430a-a965-f1e9ea676b83:
+  f620927d-baf7-430a-a965-f1e9ea676b83: # Text
     columnSuffix: acwqdamq
     contentColumnType: string(250)
     fieldGroup: null

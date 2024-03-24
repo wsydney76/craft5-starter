@@ -36,7 +36,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 489e5502-a241-4b2e-97c5-d8a0220a72c6 # Target Entry
+            fieldUid: 489e5502-a241-4b2e-97c5-d8a0220a72c6 # Target
             handle: null
             includeInCards: true
             instructions: null
@@ -66,7 +66,7 @@ fieldLayouts:
             width: 25
           -
             elementCondition: null
-            fieldUid: 52144f06-b394-45aa-bee6-d00e1f86878f # Primary Button
+            fieldUid: 52144f06-b394-45aa-bee6-d00e1f86878f # Primary
             handle: null
             includeInCards: false
             instructions: null

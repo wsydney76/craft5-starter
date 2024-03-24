@@ -7,7 +7,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: 489e5502-a241-4b2e-97c5-d8a0220a72c6 # Target Entry
+            fieldUid: 489e5502-a241-4b2e-97c5-d8a0220a72c6 # Target
             instructions: null
             label: null
             required: true
@@ -31,7 +31,7 @@ fieldLayouts:
             width: 25
           -
             elementCondition: null
-            fieldUid: 52144f06-b394-45aa-bee6-d00e1f86878f # Primary Button
+            fieldUid: 52144f06-b394-45aa-bee6-d00e1f86878f # Primary
             instructions: null
             label: null
             required: false
@@ -45,7 +45,7 @@ fieldLayouts:
         uid: 1e9aa5b9-9d0a-41ce-8f11-a8954fd8b777
         userCondition: null
 fields:
-  489e5502-a241-4b2e-97c5-d8a0220a72c6: # Target Entry
+  489e5502-a241-4b2e-97c5-d8a0220a72c6: # Target
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null
@@ -91,7 +91,7 @@ fields:
     translationKeyFormat: null
     translationMethod: language
     type: craft\fields\PlainText
-  52144f06-b394-45aa-bee6-d00e1f86878f: # Primary Button
+  52144f06-b394-45aa-bee6-d00e1f86878f: # Primary
     columnSuffix: ticlfxhq
     contentColumnType: boolean
     fieldGroup: null

@@ -17,6 +17,7 @@ echo Installing npm dependencies...
 ddev exec npm install &&
 ddev exec npm run build &&
 ddev describe &&
+ddev craft db/backup &&
 ddev craft main/init
 ddev launch
 

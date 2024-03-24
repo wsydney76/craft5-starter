@@ -51,16 +51,16 @@ fieldLayouts:
             width: 75
           -
             elementCondition: null
-            fieldUid: 33518692-b4a6-4ac6-9423-5631e47f87a5 # Align
-            handle: null
-            includeInCards: true
+            fieldUid: a05a3ce8-0bcb-4e36-abb0-1338754baec1 # Image Align
+            handle: align
+            includeInCards: false
             instructions: null
-            label: null
+            label: Align
             providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: a0d39213-19d3-4774-ac2b-8220a06287bd
+            uid: 300f911a-eafd-4e73-b171-c9246007abd5
             userCondition: null
             warning: null
             width: 25
@@ -73,8 +73,8 @@ icon: images
 name: Gallery
 showSlugField: false
 showStatusField: false
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: site
