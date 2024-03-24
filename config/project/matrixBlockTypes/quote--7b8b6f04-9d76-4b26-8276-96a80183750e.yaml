@@ -7,7 +7,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: 9efaa99a-273e-47a3-83f7-692251886873 # Text
+            fieldUid: 9efaa99a-273e-47a3-83f7-692251886873
             instructions: null
             label: null
             required: true
@@ -31,7 +31,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 2a4edc9c-3738-408b-bf08-b557bc12ee6e # Style
+            fieldUid: 2a4edc9c-3738-408b-bf08-b557bc12ee6e # Quote Style
             instructions: null
             label: null
             required: false
@@ -45,7 +45,7 @@ fieldLayouts:
         uid: a7e83c0a-3aa6-46d1-9a94-6a845b87b5ce
         userCondition: null
 fields:
-  2a4edc9c-3738-408b-bf08-b557bc12ee6e: # Style
+  2a4edc9c-3738-408b-bf08-b557bc12ee6e: # Quote Style
     columnSuffix: gsxskrpg
     contentColumnType: string
     fieldGroup: null
@@ -92,7 +92,7 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\Dropdown
-  9efaa99a-273e-47a3-83f7-692251886873: # Text
+  9efaa99a-273e-47a3-83f7-692251886873:
     columnSuffix: urypesmv
     contentColumnType: text
     fieldGroup: null

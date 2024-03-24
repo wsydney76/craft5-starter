@@ -8,6 +8,7 @@ use craft\base\Element;
 use craft\base\Field;
 use craft\base\Model;
 use craft\elements\Entry;
+use craft\events\DefineAttributeHtmlEvent;
 use craft\events\DefineBehaviorsEvent;
 use craft\events\DefineRulesEvent;
 use craft\events\ElementIndexTableAttributeEvent;
@@ -329,7 +330,7 @@ class BaseModule extends Module
         Event::on(
             Entry::class,
             Element::EVENT_DEFINE_ATTRIBUTE_HTML,
-            function(\craft\events\DefineAttributeHtmlEvent $event) use ($attribute, $fieldHandle, $transform) {
+            function(DefineAttributeHtmlEvent $event) use ($attribute, $fieldHandle, $transform) {
                 if ($event->attribute === $attribute) {
                     /** @var Entry $entry */
                     $entry = $event->sender;
@@ -360,6 +361,18 @@ class BaseModule extends Module
                     $event->handled = true;
                 }
             });
+
+        // https://github.com/craftcms/cms/issues/14639
+        Event::on(
+            Entry::class,
+            Element::EVENT_DEFINE_INLINE_ATTRIBUTE_INPUT_HTML,
+            function(DefineAttributeHtmlEvent $event) use ($attribute) {
+                if ($event->attribute === $attribute) {
+                    $event->html = $event->sender->getAttributeHtml($attribute);
+                    $event->handled = true;
+                }
+            }
+        );
 
         // Eager load transformed images
         Event::on(

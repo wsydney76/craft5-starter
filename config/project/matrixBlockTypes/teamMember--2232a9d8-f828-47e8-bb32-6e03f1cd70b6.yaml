@@ -7,7 +7,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: 806a473e-c6e7-42cd-a76b-758ed48b5a2b # Role
+            fieldUid: 806a473e-c6e7-42cd-a76b-758ed48b5a2b # Team Member Role
             instructions: null
             label: null
             required: true
@@ -19,7 +19,7 @@ fieldLayouts:
             width: 25
           -
             elementCondition: null
-            fieldUid: 07a23de3-b713-43fc-8310-d9191d851801 # Name
+            fieldUid: 07a23de3-b713-43fc-8310-d9191d851801 # Team Member Name
             instructions: null
             label: null
             required: false
@@ -33,7 +33,7 @@ fieldLayouts:
         uid: a52cf0ba-1c7e-4ffa-8a2f-b6b117d4ad16
         userCondition: null
 fields:
-  07a23de3-b713-43fc-8310-d9191d851801: # Name
+  07a23de3-b713-43fc-8310-d9191d851801: # Team Member Name
     columnSuffix: tyztxjbk
     contentColumnType: string(240)
     fieldGroup: null
@@ -53,7 +53,7 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  806a473e-c6e7-42cd-a76b-758ed48b5a2b: # Role
+  806a473e-c6e7-42cd-a76b-758ed48b5a2b: # Team Member Role
     columnSuffix: yjyvjsph
     contentColumnType: string(240)
     fieldGroup: null

@@ -7,7 +7,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: 02d2113e-298a-47c6-a40e-413a682ac7c5 # Question
+            fieldUid: 02d2113e-298a-47c6-a40e-413a682ac7c5 # FAQ Question
             instructions: null
             label: null
             required: true
@@ -19,7 +19,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 3cb8a841-f986-4959-8f1a-c44fe16ff8d1 # Answer
+            fieldUid: 3cb8a841-f986-4959-8f1a-c44fe16ff8d1 # FAQ Answer
             instructions: null
             label: null
             required: true
@@ -33,7 +33,7 @@ fieldLayouts:
         uid: 5955d950-edfa-4c10-b604-93c576a95048
         userCondition: null
 fields:
-  02d2113e-298a-47c6-a40e-413a682ac7c5: # Question
+  02d2113e-298a-47c6-a40e-413a682ac7c5: # FAQ Question
     columnSuffix: qrdzpvoi
     contentColumnType: text
     fieldGroup: null
@@ -53,7 +53,7 @@ fields:
     translationKeyFormat: null
     translationMethod: language
     type: craft\fields\PlainText
-  3cb8a841-f986-4959-8f1a-c44fe16ff8d1: # Answer
+  3cb8a841-f986-4959-8f1a-c44fe16ff8d1: # FAQ Answer
     columnSuffix: bqjientp
     contentColumnType: text
     fieldGroup: null

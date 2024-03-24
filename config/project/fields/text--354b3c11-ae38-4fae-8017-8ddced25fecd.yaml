@@ -1,7 +1,7 @@
-columnSuffix: uiesayha
-handle: text6
+columnSuffix: null
+handle: text
 instructions: null
-name: 'Story Content - Cover - Text'
+name: Text
 searchable: true
 settings:
   byteLimit: null

@@ -7,7 +7,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: 735b5e6e-8026-4de4-8e32-14e03d975565 # Image
+            fieldUid: 735b5e6e-8026-4de4-8e32-14e03d975565 # Content Image
             instructions: null
             label: null
             required: true
@@ -19,7 +19,7 @@ fieldLayouts:
             width: 25
           -
             elementCondition: null
-            fieldUid: 11f1c188-401c-44c4-bd0e-2b6d7b311fc6 # Align
+            fieldUid: 11f1c188-401c-44c4-bd0e-2b6d7b311fc6
             instructions: null
             label: null
             required: false
@@ -31,7 +31,7 @@ fieldLayouts:
             width: 25
           -
             elementCondition: null
-            fieldUid: 871e0a60-ea70-4650-91f2-746c9bc2de41 # Aspect Ratio
+            fieldUid: 871e0a60-ea70-4650-91f2-746c9bc2de41 # Image Aspect Ratio
             instructions: null
             label: null
             required: false
@@ -43,7 +43,7 @@ fieldLayouts:
             width: 25
           -
             elementCondition: null
-            fieldUid: 4bf7eb3c-ca42-4327-97e2-77533fc27a61 # Caption
+            fieldUid: 4bf7eb3c-ca42-4327-97e2-77533fc27a61
             instructions: null
             label: null
             required: false
@@ -55,7 +55,7 @@ fieldLayouts:
             width: 50
           -
             elementCondition: null
-            fieldUid: c8a6470e-a8da-46c4-ae23-4eb68d320a66 # Show in Sites
+            fieldUid: c8a6470e-a8da-46c4-ae23-4eb68d320a66
             instructions: null
             label: null
             required: false
@@ -69,7 +69,7 @@ fieldLayouts:
         uid: c7f52bda-4083-406b-982c-63def615500a
         userCondition: null
 fields:
-  4bf7eb3c-ca42-4327-97e2-77533fc27a61: # Caption
+  4bf7eb3c-ca42-4327-97e2-77533fc27a61:
     columnSuffix: zpaqwywa
     contentColumnType: string(240)
     fieldGroup: null
@@ -89,7 +89,7 @@ fields:
     translationKeyFormat: null
     translationMethod: language
     type: craft\fields\PlainText
-  11f1c188-401c-44c4-bd0e-2b6d7b311fc6: # Align
+  11f1c188-401c-44c4-bd0e-2b6d7b311fc6:
     columnSuffix: hvxizuqa
     contentColumnType: string
     fieldGroup: null
@@ -125,7 +125,7 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\Dropdown
-  735b5e6e-8026-4de4-8e32-14e03d975565: # Image
+  735b5e6e-8026-4de4-8e32-14e03d975565: # Content Image
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null
@@ -195,7 +195,7 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Assets
-  871e0a60-ea70-4650-91f2-746c9bc2de41: # Aspect Ratio
+  871e0a60-ea70-4650-91f2-746c9bc2de41: # Image Aspect Ratio
     columnSuffix: rizfjoen
     contentColumnType: string
     fieldGroup: null
@@ -264,7 +264,7 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\Dropdown
-  c8a6470e-a8da-46c4-ae23-4eb68d320a66: # Show in Sites
+  c8a6470e-a8da-46c4-ae23-4eb68d320a66:
     columnSuffix: bvyvbpkh
     contentColumnType: string
     fieldGroup: null

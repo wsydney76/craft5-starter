@@ -3,6 +3,13 @@
 {# @var fieldElement \craft\fieldlayoutelements\CustomField #}
 {% set types = collect(craft.app.entries.allEntryTypes) %}
 {% set settingsUrl = "/#{craft.app.config.general.cpTrigger}/settings/" %}
+
+{% set handles = craft.app.request.getQueryParam('handles') %}
+{% if handles %}
+    {% set handles = handles|split(',') %}
+    {% set types = types.filter(t => t.handle in handles) %}
+{% endif %}
+
 <table>
 
     <thead>
@@ -17,7 +24,7 @@
         </tr>
     </thead>
 
-    {% for type in types.sortBy('handle') %}
+    {% for type in types.sortBy('name') %}
         {% set layout = type.fieldLayout %}
         <tr>
             <td>{{ loop.index }}</td>

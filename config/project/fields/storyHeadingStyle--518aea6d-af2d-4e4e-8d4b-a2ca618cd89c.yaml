@@ -1,7 +1,7 @@
 columnSuffix: hlykmjun
-handle: style3
+handle: storyHeadingStyle
 instructions: null
-name: 'Story Content - Heading - Style'
+name: 'Story Heading Style'
 searchable: false
 settings:
   options:

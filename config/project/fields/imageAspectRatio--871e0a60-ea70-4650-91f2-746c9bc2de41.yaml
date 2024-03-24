@@ -1,7 +1,7 @@
 columnSuffix: rizfjoen
-handle: aspectRatio2
+handle: imageAspectRatio
 instructions: null
-name: 'Body Content - Image - Aspect Ratio'
+name: 'Image Aspect Ratio'
 searchable: false
 settings:
   options:

@@ -1,7 +1,7 @@
 columnSuffix: zybjsdrz
-handle: template2
+handle: storyTitleTemplate
 instructions: null
-name: 'Story Content - Title - Template'
+name: 'Story Title Template'
 searchable: false
 settings:
   includeDirectory: _sections/article_story/title

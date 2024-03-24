@@ -1,7 +1,7 @@
 columnSuffix: bqjientp
 handle: answer
 instructions: null
-name: 'FAQs - FAQ - Answer'
+name: 'FAQ Answer'
 searchable: true
 settings:
   byteLimit: null

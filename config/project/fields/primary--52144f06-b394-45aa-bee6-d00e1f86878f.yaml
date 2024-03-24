@@ -1,7 +1,7 @@
 columnSuffix: ticlfxhq
 handle: primary
 instructions: null
-name: 'Buttons - Button - Primary'
+name: 'Primary Button'
 searchable: false
 settings:
   default: false

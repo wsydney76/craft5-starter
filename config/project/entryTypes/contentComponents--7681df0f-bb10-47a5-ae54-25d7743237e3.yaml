@@ -36,16 +36,16 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 37283b65-80b3-4451-a1d2-03fd68d18a05 # Content Components
-            handle: contentComponents
+            fieldUid: 2f9975bd-3ee0-4f17-96cc-e91a163964dc # Content Components
+            handle: null
             includeInCards: true
             instructions: null
-            label: 'Content Components'
+            label: null
             providesThumbs: false
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: ea790753-d6d2-48de-b3c0-1f9a2dd46463
+            uid: fee499d7-0365-437c-8605-c8213ee7b2cc
             userCondition: null
             warning: null
             width: 100

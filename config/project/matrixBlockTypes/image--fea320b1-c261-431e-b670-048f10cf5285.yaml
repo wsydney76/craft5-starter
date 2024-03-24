@@ -7,7 +7,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: 367161e2-88c5-4828-92ff-9124ef18da28 # Image
+            fieldUid: 367161e2-88c5-4828-92ff-9124ef18da28 # Story Image
             instructions: null
             label: null
             required: true
@@ -21,7 +21,7 @@ fieldLayouts:
         uid: 3a957e8d-863e-4c3a-b4e0-0af2ebfbd4d1
         userCondition: null
 fields:
-  367161e2-88c5-4828-92ff-9124ef18da28: # Image
+  367161e2-88c5-4828-92ff-9124ef18da28: # Story Image
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null

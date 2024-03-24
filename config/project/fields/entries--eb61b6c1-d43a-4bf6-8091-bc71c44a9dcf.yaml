@@ -1,7 +1,7 @@
 columnSuffix: null
 handle: entries
 instructions: null
-name: 'Body Content - Cards - Entries'
+name: 'Cards Entries'
 searchable: true
 settings:
   allowSelfRelations: false
@@ -17,7 +17,7 @@ settings:
     - 'section:2f93cb45-a9ce-4284-8848-9eb001fb8a1c' # Article
   targetSiteId: null
   validateRelatedElements: false
-  viewMode: null
+  viewMode: list
 translationKeyFormat: null
 translationMethod: site
 type: craft\fields\Entries

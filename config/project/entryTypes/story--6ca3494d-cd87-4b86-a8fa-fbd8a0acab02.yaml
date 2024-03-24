@@ -141,11 +141,11 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 12ee7163-1896-4afc-b140-3f53c59f8b7d # Text Color
-            handle: null
+            fieldUid: 12ee7163-1896-4afc-b140-3f53c59f8b7d # Color
+            handle: textColor
             includeInCards: false
             instructions: null
-            label: null
+            label: 'Text Color'
             providesThumbs: false
             required: false
             tip: null
@@ -156,16 +156,16 @@ fieldLayouts:
             width: 25
           -
             elementCondition: null
-            fieldUid: 340c3b24-7f05-4789-b077-a502b4310109 # Background Color
-            handle: null
+            fieldUid: 12ee7163-1896-4afc-b140-3f53c59f8b7d # Color
+            handle: backgroundColor
             includeInCards: false
             instructions: null
-            label: null
+            label: 'Background Color'
             providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 4452f89d-cd34-4898-9449-c9929305d727
+            uid: d6c0e218-96ea-4a0c-8bd7-a89b5b50a244
             userCondition: null
             warning: null
             width: 25

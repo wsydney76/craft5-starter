@@ -7,7 +7,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: 37283b65-80b3-4451-a1d2-03fd68d18a05 # Content Components
+            fieldUid: 37283b65-80b3-4451-a1d2-03fd68d18a05
             instructions: null
             label: null
             required: true
@@ -21,7 +21,7 @@ fieldLayouts:
         uid: f56b9d82-2146-47f6-9caf-376000199000
         userCondition: null
 fields:
-  37283b65-80b3-4451-a1d2-03fd68d18a05: # Content Components
+  37283b65-80b3-4451-a1d2-03fd68d18a05:
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null

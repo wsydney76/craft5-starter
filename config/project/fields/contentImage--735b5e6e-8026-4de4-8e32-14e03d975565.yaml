@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: image3
+handle: contentImage
 instructions: null
-name: 'Story Content - Cover - Image'
+name: 'Content Image'
 searchable: false
 settings:
   allowSelfRelations: false
@@ -11,12 +11,12 @@ settings:
     - image
   branchLimit: null
   defaultUploadLocationSource: 'volume:5a0be839-14a2-465e-a504-bb63dd0281e9' # Images
-  defaultUploadLocationSubpath: stories
+  defaultUploadLocationSubpath: null
   localizeRelations: false
   maintainHierarchy: false
   maxRelations: 1
   minRelations: null
-  previewMode: full
+  previewMode: thumbs
   restrictFiles: true
   restrictLocation: false
   restrictedDefaultUploadSubpath: null
@@ -43,25 +43,25 @@ settings:
                 - craft\elements\conditions\assets\WidthConditionRule
               -
                 - uid
-                - bed2b59f-ac5b-4ca3-91ee-7a871af47142
+                - c2f227f4-49cc-4b5a-ab14-43a864cbfaea
               -
                 - operator
                 - '>='
               -
                 - value
-                - '1800'
+                - '800'
               -
                 - maxValue
                 - ''
   selectionLabel: 'Select an image'
   showCardsInGrid: false
-  showSiteMenu: false
+  showSiteMenu: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: false
   sources:
     - 'volume:5a0be839-14a2-465e-a504-bb63dd0281e9' # Images
   targetSiteId: null
-  validateRelatedElements: false
+  validateRelatedElements: true
   viewMode: large
 translationKeyFormat: null
 translationMethod: site

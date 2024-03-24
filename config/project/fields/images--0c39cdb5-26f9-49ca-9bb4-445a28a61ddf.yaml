@@ -1,7 +1,7 @@
 columnSuffix: null
 handle: images
 instructions: null
-name: 'Body Content - Gallery - Images'
+name: Images
 searchable: false
 settings:
   allowSelfRelations: false

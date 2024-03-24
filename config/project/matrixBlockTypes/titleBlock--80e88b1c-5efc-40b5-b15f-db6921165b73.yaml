@@ -7,7 +7,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: e5bf7587-80f3-47bf-8e22-d1d8bbcf11ee # Template
+            fieldUid: e5bf7587-80f3-47bf-8e22-d1d8bbcf11ee # Story Title Template
             instructions: null
             label: null
             required: true
@@ -21,7 +21,7 @@ fieldLayouts:
         uid: 6390c85f-7ed1-4786-8866-8d9501505250
         userCondition: null
 fields:
-  e5bf7587-80f3-47bf-8e22-d1d8bbcf11ee: # Template
+  e5bf7587-80f3-47bf-8e22-d1d8bbcf11ee: # Story Title Template
     columnSuffix: zybjsdrz
     contentColumnType: string
     fieldGroup: null

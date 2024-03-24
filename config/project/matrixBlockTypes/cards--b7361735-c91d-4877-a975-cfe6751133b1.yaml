@@ -7,7 +7,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: eb61b6c1-d43a-4bf6-8091-bc71c44a9dcf # Entries
+            fieldUid: eb61b6c1-d43a-4bf6-8091-bc71c44a9dcf # Cards Entries
             instructions: null
             label: null
             required: true
@@ -19,7 +19,7 @@ fieldLayouts:
             width: 50
           -
             elementCondition: null
-            fieldUid: 3d8293ac-fa84-47ed-befa-a41cb6315212 # Layout
+            fieldUid: 3d8293ac-fa84-47ed-befa-a41cb6315212 # Cards Layout
             instructions: null
             label: null
             required: false
@@ -33,7 +33,7 @@ fieldLayouts:
         uid: 92206a48-c702-4bec-9596-93475e6fa0e6
         userCondition: null
 fields:
-  3d8293ac-fa84-47ed-befa-a41cb6315212: # Layout
+  3d8293ac-fa84-47ed-befa-a41cb6315212: # Cards Layout
     columnSuffix: gfvnkphp
     contentColumnType: string
     fieldGroup: null
@@ -69,7 +69,7 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\Dropdown
-  eb61b6c1-d43a-4bf6-8091-bc71c44a9dcf: # Entries
+  eb61b6c1-d43a-4bf6-8091-bc71c44a9dcf: # Cards Entries
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null

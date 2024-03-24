@@ -1,7 +1,7 @@
 columnSuffix: ieijvjhz
 handle: key
 instructions: 'Parameter ?v= from YouTube Url, e.g. _hoGpYyn4Bs'
-name: 'Body Content - YouTube Video - Key'
+name: 'YouTube Video Key'
 searchable: false
 settings:
   byteLimit: null

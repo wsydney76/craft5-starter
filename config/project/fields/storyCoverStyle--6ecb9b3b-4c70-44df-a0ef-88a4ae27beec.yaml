@@ -1,7 +1,7 @@
-columnSuffix: dotdgaao
-handle: align2
+columnSuffix: fqakpihs
+handle: storyCoverStyle
 instructions: null
-name: 'Body Content - Gallery - Align'
+name: 'Story Cover Style'
 searchable: false
 settings:
   options:
@@ -9,24 +9,35 @@ settings:
       __assoc__:
         -
           - label
-          - Default
+          - 'Show Meta'
         -
           - value
-          - ''
+          - showMeta
         -
           - default
-          - '1'
+          - ''
     -
       __assoc__:
         -
           - label
-          - Wide
+          - Bold
         -
           - value
-          - wide
+          - bold
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Text Shadow'
+        -
+          - value
+          - textShadow
         -
           - default
           - ''
 translationKeyFormat: null
 translationMethod: none
-type: craft\fields\Dropdown
+type: craft\fields\Checkboxes

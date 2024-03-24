@@ -36,7 +36,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 4b050685-0425-4094-bde2-85e2eedd0e12 # Text
+            fieldUid: 0a4ca680-269a-45f0-8eac-eada97e7dc29 # Single Line Text
             handle: text
             includeInCards: true
             instructions: null
@@ -45,13 +45,13 @@ fieldLayouts:
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: a5f31ac1-d94c-4311-82fa-1ef9ce42f581
+            uid: f2509986-6b97-4fd2-9400-514636d0431e
             userCondition: null
             warning: null
             width: 50
           -
             elementCondition: null
-            fieldUid: 1de27fd9-bda6-4977-8d43-b36ef6813c60 # Level
+            fieldUid: 1de27fd9-bda6-4977-8d43-b36ef6813c60 # Heading Level
             handle: null
             includeInCards: false
             instructions: null

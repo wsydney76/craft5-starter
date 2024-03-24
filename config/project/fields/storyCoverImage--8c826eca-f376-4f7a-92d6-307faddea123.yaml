@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: image4
+handle: storyCoverImage
 instructions: null
-name: 'Story Content - Image - Image'
+name: 'Story Cover Image'
 searchable: false
 settings:
   allowSelfRelations: false
@@ -43,13 +43,13 @@ settings:
                 - craft\elements\conditions\assets\WidthConditionRule
               -
                 - uid
-                - 6f4cb09a-afad-43d9-8d4d-7532032197a3
+                - bed2b59f-ac5b-4ca3-91ee-7a871af47142
               -
                 - operator
                 - '>='
               -
                 - value
-                - '768'
+                - '1800'
               -
                 - maxValue
                 - ''

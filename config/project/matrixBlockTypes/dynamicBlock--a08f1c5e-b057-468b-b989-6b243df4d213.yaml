@@ -7,7 +7,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: db33cf09-8ba1-45f6-9cc0-3e855cbcb809 # Template
+            fieldUid: db33cf09-8ba1-45f6-9cc0-3e855cbcb809 # Dynamic Block Template
             instructions: null
             label: null
             required: true
@@ -53,7 +53,7 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  db33cf09-8ba1-45f6-9cc0-3e855cbcb809: # Template
+  db33cf09-8ba1-45f6-9cc0-3e855cbcb809: # Dynamic Block Template
     columnSuffix: paidlzyc
     contentColumnType: string
     fieldGroup: null

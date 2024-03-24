@@ -1,7 +1,7 @@
 columnSuffix: qrdzpvoi
 handle: question
 instructions: null
-name: 'FAQs - FAQ - Question'
+name: 'FAQ Question'
 searchable: true
 settings:
   byteLimit: null

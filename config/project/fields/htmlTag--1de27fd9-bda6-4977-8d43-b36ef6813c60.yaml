@@ -1,7 +1,7 @@
 columnSuffix: fdmibgap
 handle: htmlTag
 instructions: null
-name: 'Body Content - Heading - Level'
+name: 'Heading Level'
 searchable: false
 settings:
   options:

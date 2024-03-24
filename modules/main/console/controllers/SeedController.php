@@ -956,7 +956,7 @@ class SeedController extends InitController
             switch ($blockType) {
                 case 'text':
                     $block = [
-                        'type' => 'text',
+                        'type' => 'storyText',
                         'fields' => [
                             'text' => $this->getMarkdownParagraphs($this->faker->numberBetween(3, 5)),
                         ],
@@ -964,7 +964,7 @@ class SeedController extends InitController
                     break;
                 case 'heading':
                     $block = [
-                        'type' => 'heading',
+                        'type' => 'storyHeading',
                         'fields' => [
                             'text' => $this->faker->text(40),
                         ],
@@ -972,24 +972,24 @@ class SeedController extends InitController
                     break;
                 case 'titleBlock':
                     $block = [
-                        'type' => 'titleBlock',
+                        'type' => 'storyTitleBlock',
                         'fields' => [
-                            'template' => 'fullheight.twig',
+                            'storyTitleTemplate' => 'fullheight.twig',
                         ],
                     ];
                     break;
                 case 'titleBlock2':
                     $block = [
-                        'type' => 'titleBlock',
+                        'type' => 'storyTitleBlock',
                         'fields' => [
-                            'template' => 'textonly.twig',
+                            'storyTitleTemplate' => 'textonly.twig',
                         ],
                     ];
                     break;
                 case 'image':
                     $image = $this->getRandomImage(900);
                     $block = [
-                        'type' => 'image',
+                        'type' => 'storyImage',
                         'fields' => [
                             'image' => $image ? [$image->id] : null,
                         ],
@@ -998,7 +998,7 @@ class SeedController extends InitController
                 case 'cover':
                     $image = $this->getRandomImage(1800);
                     $block = [
-                        'type' => 'cover',
+                        'type' => 'storyCover',
                         'fields' => [
                             'image' => $image ? [$image->id] : null,
                             'text' => $this->faker->text(120),
@@ -1130,17 +1130,16 @@ class SeedController extends InitController
         }
 
         /* @phpstan-ignore-next-line */
-//        $hasNoAlt = Asset::find()
-//            ->site('*')
-//            ->folderId($folder->id)
-//            ->kind('image')
-//            ->hasAlt(false)
-//            ->exists();
+        $hasNoAlt = Asset::find()
+            ->site('*')
+            ->folderId($folder->id)
+            ->kind('image')
+            ->hasAlt(false)
+            ->exists();
 
-        // TODO: Craft5 https://github.com/craftcms/cms/issues/14640
-//        if (!$hasNoAlt) {
-//            return ExitCode::OK;
-//        }
+        if (!$hasNoAlt) {
+            return ExitCode::OK;
+        }
 
         if ($this->interactive && !$this->confirm("Add provisional alt text/copyright to images?", true)) {
             return ExitCode::OK;

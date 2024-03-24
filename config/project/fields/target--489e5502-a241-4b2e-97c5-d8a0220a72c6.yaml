@@ -1,7 +1,7 @@
 columnSuffix: null
 handle: target
 instructions: null
-name: 'Buttons - Button - Target'
+name: 'Target Entry'
 searchable: false
 settings:
   allowSelfRelations: false
@@ -18,7 +18,7 @@ settings:
     - 'section:84b98802-2548-4aed-b67e-fc97f6ed9e30' # Page
   targetSiteId: null
   validateRelatedElements: false
-  viewMode: null
+  viewMode: list
 translationKeyFormat: null
 translationMethod: site
 type: craft\fields\Entries

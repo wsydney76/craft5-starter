@@ -1,6 +1,6 @@
 color: null
 fieldLayouts:
-  24f25949-87b5-4e02-9006-d0231bc96c08:
+  4e536a94-a8cb-4bfa-a89f-0e3fcbda0db8:
     tabs:
       -
         elementCondition: null
@@ -30,32 +30,32 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 6503a5f6-b2fa-436f-be6c-61d20136c4cd
+            uid: f4eaf6e0-7150-4d52-8024-c1c5d01d5895
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: e5bf7587-80f3-47bf-8e22-d1d8bbcf11ee # Template
-            handle: template
-            includeInCards: false
+            fieldUid: 367161e2-88c5-4828-92ff-9124ef18da28 # Story Image
+            handle: image
+            includeInCards: true
             instructions: null
-            label: 'Title Template'
-            providesThumbs: false
+            label: Image
+            providesThumbs: true
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: a693085b-fb07-4cb3-8d63-2c625a47a120
+            uid: 3009c528-5ec1-4b09-9b81-8da3e7b3ba24
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 6390c85f-7ed1-4786-8866-8d9501505250
+        uid: 3a957e8d-863e-4c3a-b4e0-0af2ebfbd4d1
         userCondition: null
-handle: titleBlock
+handle: storyImage
 hasTitleField: false
-icon: text
-name: Title
+icon: image
+name: 'Story Image'
 showSlugField: false
 showStatusField: false
 slugTranslationKeyFormat: null

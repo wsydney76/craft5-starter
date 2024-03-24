@@ -1,8 +1,8 @@
 columnSuffix: fmpkzsew
 handle: caption
 instructions: null
-name: 'Buttons - Button - Caption'
-searchable: false
+name: Caption
+searchable: true
 settings:
   byteLimit: null
   charLimit: 60

@@ -1,7 +1,7 @@
 columnSuffix: kylmvrit
-handle: textColor
+handle: color
 instructions: null
-name: 'Text Color'
+name: Color
 searchable: false
 settings:
   defaultColor: null

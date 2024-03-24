@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: image5
+handle: seoFieldsSettingImage
 instructions: null
-name: 'SEO Fields - Settings - Image'
+name: 'SEO Fields Settings Image'
 searchable: true
 settings:
   allowSelfRelations: false

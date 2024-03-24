@@ -1,7 +1,7 @@
 columnSuffix: wjuxwjsu
 handle: parameter
 instructions: 'Parameters in JSON-Format that will be available to the template'
-name: 'Body Content - Dynamic - Parameter'
+name: Parameter
 searchable: false
 settings:
   byteLimit: null

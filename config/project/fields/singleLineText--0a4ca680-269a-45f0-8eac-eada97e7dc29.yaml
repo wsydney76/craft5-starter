@@ -1,14 +1,14 @@
-columnSuffix: efglxxyh
-handle: text8
+columnSuffix: null
+handle: singleLineText
 instructions: null
-name: 'Story Content - Text - Text'
+name: 'Single Line Text'
 searchable: true
 settings:
   byteLimit: null
-  charLimit: null
+  charLimit: 250
   code: false
   initialRows: 4
-  multiline: true
+  multiline: false
   placeholder: null
   uiMode: normal
 translationKeyFormat: null

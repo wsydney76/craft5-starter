@@ -1,7 +1,7 @@
 columnSuffix: qmwcncnc
-handle: aspectRatio
+handle: videoAspectRatio
 instructions: 'Sets the aspect ratio for the video iframe'
-name: 'Body Content - YouTube Video - Aspect Ratio'
+name: 'Video Aspect Ratio'
 searchable: false
 settings:
   options:

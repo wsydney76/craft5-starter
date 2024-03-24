@@ -7,7 +7,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: 8c826eca-f376-4f7a-92d6-307faddea123 # Image
+            fieldUid: 8c826eca-f376-4f7a-92d6-307faddea123 # Story Cover Image
             instructions: null
             label: null
             required: true
@@ -19,7 +19,7 @@ fieldLayouts:
             width: 25
           -
             elementCondition: null
-            fieldUid: dfe29fea-361a-48b4-b260-f547abb65701 # Text
+            fieldUid: dfe29fea-361a-48b4-b260-f547abb65701
             instructions: null
             label: null
             required: true
@@ -31,7 +31,7 @@ fieldLayouts:
             width: 50
           -
             elementCondition: null
-            fieldUid: 6ecb9b3b-4c70-44df-a0ef-88a4ae27beec # Style
+            fieldUid: 6ecb9b3b-4c70-44df-a0ef-88a4ae27beec # Story Cover Style
             instructions: null
             label: null
             required: false
@@ -45,7 +45,7 @@ fieldLayouts:
         uid: 70d18cd1-3e82-4fb3-98f0-17d01de281be
         userCondition: null
 fields:
-  6ecb9b3b-4c70-44df-a0ef-88a4ae27beec: # Style
+  6ecb9b3b-4c70-44df-a0ef-88a4ae27beec: # Story Cover Style
     columnSuffix: fqakpihs
     contentColumnType: string
     fieldGroup: null
@@ -91,7 +91,7 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\Checkboxes
-  8c826eca-f376-4f7a-92d6-307faddea123: # Image
+  8c826eca-f376-4f7a-92d6-307faddea123: # Story Cover Image
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null
@@ -161,7 +161,7 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Assets
-  dfe29fea-361a-48b4-b260-f547abb65701: # Text
+  dfe29fea-361a-48b4-b260-f547abb65701:
     columnSuffix: uiesayha
     contentColumnType: text
     fieldGroup: null

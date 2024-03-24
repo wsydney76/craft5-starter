@@ -16,7 +16,7 @@
             </div>
         {% endif %}
 
-        {% if block.style.contains('textShadow') %}
+        {% if block.storyCoverStyle.contains('textShadow') %}
         	<div class="max-w-screen-md mx-auto m-8 px-16 py-8 x">
                 <div class="text-white font-bold font-serif text-3xl/relaxed tracking-wider"
                      style="text-shadow: 2px 2px 6px rgba(0,0,0,0.8)">
@@ -32,11 +32,11 @@
         {% else %}
             <div class="max-w-screen-md mx-auto bg-white/80 m-8 px-16 py-8 text-gray-900">
 
-                {% if block.style.contains('showMeta') %}
+                {% if block.storyCoverStyle.contains('showMeta') %}
                     {% include '_sections/article_story/includes/meta.twig' %}
                 {% endif %}
 
-                <div class="font-serif text-2xl/relaxed {{ block.style.contains('bold') ? 'font-semibold' }}">
+                <div class="font-serif text-2xl/relaxed {{ block.storyCoverStyle.contains('bold') ? 'font-semibold' }}">
                     {{ block.text|nl2br|parseRefs }}
                 </div>
 
