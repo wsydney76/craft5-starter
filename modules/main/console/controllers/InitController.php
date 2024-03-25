@@ -3,6 +3,7 @@
 namespace modules\main\console\controllers;
 
 use Craft;
+use craft\elements\Address;
 use craft\elements\Asset;
 use craft\elements\Entry;
 use craft\elements\MatrixBlock;
@@ -56,6 +57,7 @@ class InitController extends BaseController
 
         $this->stdout('Setting global content...' . PHP_EOL);
         $this->actionSetupGlobals();
+        $this->actionSetAddresses();
         $this->stdout(PHP_EOL);
 
         if ($this->interactive && !$this->confirm('Seed database with fake elements?', true)) {
@@ -153,7 +155,6 @@ class InitController extends BaseController
         if ($global) {
             $global->title = $siteName;
             $global->setFieldValue('copyright', $copyright);
-            $global->setFieldValue('postalAddress', $faker->address());
             $global->setFieldValue('email', App::env('EMAIL_ADDRESS'));
             $global->setFieldValue('phoneNumber', $faker->phoneNumber());
             $global->setFieldValue('featuredImage', [$this->getImagesFromFolder('starter/')[0]->id ?? null]);
@@ -167,6 +168,24 @@ class InitController extends BaseController
 
 
         return ExitCode::OK;
+    }
+
+    public function actionSetAddresses()
+    {
+        $faker = Factory::create('de_DE');
+
+        $siteInfo = Entry::find()->section('siteInfo')->one();
+
+        $address = new Address();
+        $address->title = 'Main Office';
+        $address->addressLine1 = $faker->streetAddress();
+        $address->locality = $faker->city();
+        $address->postalCode = $faker->postcode();
+        $address->countryCode = 'DE';
+
+        $siteInfo->setFieldValue('addresses', [$address]);
+
+        Craft::$app->elements->saveElement($siteInfo);
     }
 
     /**

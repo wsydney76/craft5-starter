@@ -5,13 +5,25 @@
 {% embed '_layouts/embeds/prose.twig' %}
     {% block content %}
         <dl class="space-y-4">
-            {% if siteInfo.postalAddress %}
-                <div>
-                    <dt class="font-semibold text-headings">{{ "Postal address"|t }}</dt>
-                    <dd>
-                        {{ siteInfo.postalAddress|nl2br }}
-                    </dd>
-                </div>
+            {% set addresses = siteInfo.addresses.all %}
+            {% if addresses %}
+                {% for address in addresses %}
+                    <div>
+                        <dt class="font-semibold text-headings">{{ address.title }}</dt>
+                        <dd>
+                            {{ address.addressLine1 }}<br>
+                            {% if address.addressLine2 %}
+                                {{ address.addressLine2 }}<br>
+                            {% endif %}
+                            {% if address.addressLine3 %}
+                                {{ address.addressLine3 }}<br>
+                            {% endif %}
+                            {{ address.postalCode }} {{ address.locality }}<br>
+                            {{ craft.app.addresses.countryRepository.get(address.countryCode, currentSite.language).name }}
+                            
+                        </dd>
+                    </div>
+                {% endfor %}
             {% endif %}
             {% if siteInfo.phoneNumber %}
                 <div>

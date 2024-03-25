@@ -1,6 +1,6 @@
 assets:
   tempVolumeUid: ed627edd-73bd-4b75-8684-f410bf4e4b9d
-dateModified: 1711361993
+dateModified: 1711364299
 elementSources:
   craft\elements\Asset:
     -
@@ -372,6 +372,7 @@ meta:
     81e6a0d6-13c5-47ad-a9e6-c2181276db9c: Text # Text
     84b98802-2548-4aed-b67e-fc97f6ed9e30: Page # Page
     94b76905-09aa-4aeb-82a0-222f592d42f8: 'Show in Sites' # Show in Sites
+    324e8b16-2907-4fe0-99bb-9d46526eec07: Addresses # Addresses
     354b3c11-ae38-4fae-8017-8ddced25fecd: Text # Text
     400d2e7a-d260-459d-b16d-bc388f093106: Tagline # Tagline
     489e5502-a241-4b2e-97c5-d8a0220a72c6: Target # Target

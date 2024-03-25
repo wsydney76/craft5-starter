@@ -22,6 +22,7 @@
 
 namespace modules\_faux;
 
+use craft\elements\Address;
 use craft\elements\Asset;
 use craft\elements\ElementCollection;
 use craft\elements\Entry;
@@ -55,6 +56,7 @@ class FauxTwigExtension extends AbstractExtension implements GlobalsInterface
             'image' => new Asset(),
             'block' => new Entry(),
             'user' => new User(),
+            'address' => new Address(),
 
 
             // Global Set

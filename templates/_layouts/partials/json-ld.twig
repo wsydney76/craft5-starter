@@ -3,14 +3,18 @@
 {% if not craft.app.request.isPreview %}
 
     {% set schema = craft.schema %}
-
+    
     {% set organization = schema.organization
         .url(siteUrl('/'))
-        .location(schema.place
-            .address(siteInfo.postalAddress))
         .email(siteInfo.email)
         .telephone(siteInfo.phoneNumber)
         .name(siteInfo.copyright ?? siteInfo.title) %}
+
+    {% set address = siteInfo.addresses.one %}
+    {% if address %}
+        {% set organization = organization.location(schema.place
+            .address("#{address.addressLine1} #{address.postalCode} #{address.locality}")) %}
+    {% endif %}
 
     {% set sectionRoots = customConfig.sectionRoots ?? ['_sections'] %}
 

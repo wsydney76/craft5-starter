@@ -95,16 +95,16 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: c5912111-be84-47af-8f06-5df24eb99d67 # Text (not translatable)
-            handle: postalAddress
+            fieldUid: 324e8b16-2907-4fe0-99bb-9d46526eec07 # Addresses
+            handle: null
             includeInCards: false
             instructions: null
-            label: 'Postal Address'
+            label: null
             providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 0ba07188-6e61-4b02-9826-c6950a45725a
+            uid: c59308ea-84a6-4982-bf94-3d1a3a6b005f
             userCondition: null
             warning: null
             width: 100
