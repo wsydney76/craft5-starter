@@ -59,16 +59,16 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: ec70b604-43e4-45f8-bab5-0ab78983f3ce # Nav Item Template
-            handle: null
+            fieldUid: 0e5d9cbb-86fe-4e68-9632-75129c02b391 # Short Text (not translatable)
+            handle: navItemTemplate
             includeInCards: false
-            instructions: null
-            label: null
+            instructions: 'The template that renders the dropdown panel. If empty, the direct descendants of this entry will be shown'
+            label: 'Nav Item Template'
             providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: e8f64447-9feb-49b6-9548-b20a4e0fa992
+            uid: df194adb-97e3-4ec3-a8aa-228d88c9834f
             userCondition: null
             warning: null
             width: 100
@@ -81,8 +81,8 @@ icon: bars
 name: 'Nav Item'
 showSlugField: true
 showStatusField: true
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: language

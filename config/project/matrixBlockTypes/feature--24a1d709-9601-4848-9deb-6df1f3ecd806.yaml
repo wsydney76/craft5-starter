@@ -19,7 +19,7 @@ fieldLayouts:
             width: 25
           -
             elementCondition: null
-            fieldUid: 0415563b-b1b2-4756-9f8d-0b86d005deb1 # Heading
+            fieldUid: 0415563b-b1b2-4756-9f8d-0b86d005deb1
             instructions: null
             label: null
             required: true
@@ -111,7 +111,7 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Assets
-  0415563b-b1b2-4756-9f8d-0b86d005deb1: # Heading
+  0415563b-b1b2-4756-9f8d-0b86d005deb1:
     columnSuffix: xtypkhgs
     contentColumnType: string(240)
     fieldGroup: null

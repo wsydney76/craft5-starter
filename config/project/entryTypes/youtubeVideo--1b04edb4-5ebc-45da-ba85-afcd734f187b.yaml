@@ -66,16 +66,16 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 1b464b23-6750-460e-aea1-0c4af5f52e23 # Key
-            handle: null
+            fieldUid: 0e5d9cbb-86fe-4e68-9632-75129c02b391 # Short Text (not translatable)
+            handle: key
             includeInCards: false
-            instructions: null
+            instructions: 'Parameter ?v= from YouTube Url, e.g. _hoGpYyn4Bs'
             label: Key
             providesThumbs: false
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: a0034279-bbcf-4c1d-8892-85e416ccdd35
+            uid: 880ffed4-8941-4a31-af0e-4986d61d3ee2
             userCondition: null
             warning: null
             width: 25
@@ -118,8 +118,8 @@ icon: video
 name: 'YouTube Video'
 showSlugField: false
 showStatusField: false
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: site

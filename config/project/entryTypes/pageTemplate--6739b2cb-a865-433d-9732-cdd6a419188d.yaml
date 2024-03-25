@@ -163,16 +163,16 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 4120c3e9-17c2-464b-8d41-7d009dacb5e3 # Page Template
-            handle: null
+            fieldUid: 0e5d9cbb-86fe-4e68-9632-75129c02b391 # Short Text (not translatable)
+            handle: pageTemplate
             includeInCards: false
             instructions: null
-            label: null
+            label: 'Page Template'
             providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: ee811fc6-ff29-4451-b430-aecc3c3c82fb
+            uid: 4661c976-44fd-41e5-9b88-0acda615da5d
             userCondition: null
             warning: null
             width: 100
@@ -185,8 +185,8 @@ icon: page
 name: 'Page Template'
 showSlugField: true
 showStatusField: true
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: site

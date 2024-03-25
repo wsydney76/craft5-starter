@@ -51,8 +51,8 @@ fieldLayouts:
             width: 50
           -
             elementCondition: null
-            fieldUid: 6193ce57-a570-451e-8124-ec3ba985b0b2 # Caption
-            handle: null
+            fieldUid: 0a4ca680-269a-45f0-8eac-eada97e7dc29 # Single Line Text
+            handle: caption
             includeInCards: false
             instructions: null
             label: Caption
@@ -60,10 +60,10 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: c77ac28b-6775-46df-87a0-737959495778
+            uid: cd3f5c8c-f4e8-4864-a514-6d2c8f0f0e74
             userCondition: null
             warning: null
-            width: 25
+            width: 100
           -
             elementCondition: null
             fieldUid: 7fb04ffe-73af-49d3-a840-c4c224d40dcf # Toggle
@@ -78,7 +78,7 @@ fieldLayouts:
             uid: 669a6d03-17c1-43da-82d2-76ada1c720da
             userCondition: null
             warning: null
-            width: 100
+            width: 25
         name: Content
         uid: 1e9aa5b9-9d0a-41ce-8f11-a8954fd8b777
         userCondition: null
@@ -88,8 +88,8 @@ icon: circle-dot
 name: Button
 showSlugField: false
 showStatusField: false
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: site

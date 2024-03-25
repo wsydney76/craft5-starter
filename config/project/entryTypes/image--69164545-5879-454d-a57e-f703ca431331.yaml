@@ -51,6 +51,42 @@ fieldLayouts:
             width: 25
           -
             elementCondition: null
+            fieldUid: 0a4ca680-269a-45f0-8eac-eada97e7dc29 # Single Line Text
+            handle: caption
+            includeInCards: false
+            instructions: null
+            label: Caption
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8d9deebb-e644-486a-b13c-5422b36eada0
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 94b76905-09aa-4aeb-82a0-222f592d42f8 # Show in Sites
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ad355451-2097-4b8f-be9c-5e40aa941447
+            userCondition: null
+            warning: null
+            width: 25
+        name: Content
+        uid: c7f52bda-4083-406b-982c-63def615500a
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
             fieldUid: a05a3ce8-0bcb-4e36-abb0-1338754baec1 # Image Align
             handle: align
             includeInCards: false
@@ -78,39 +114,9 @@ fieldLayouts:
             uid: 317ec3fc-8fee-45dc-a2e6-2770b50e0ead
             userCondition: null
             warning: null
-            width: 25
-          -
-            elementCondition: null
-            fieldUid: 6193ce57-a570-451e-8124-ec3ba985b0b2 # Caption
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 7ff7f6de-01d6-437d-b1b9-a3235372ddda
-            userCondition: null
-            warning: null
-            width: 50
-          -
-            elementCondition: null
-            fieldUid: 94b76905-09aa-4aeb-82a0-222f592d42f8 # Show in Sites
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: ad355451-2097-4b8f-be9c-5e40aa941447
-            userCondition: null
-            warning: null
             width: 100
-        name: Content
-        uid: c7f52bda-4083-406b-982c-63def615500a
+        name: Style
+        uid: 548d9269-9772-4c0f-8d3f-f20f4c38e491
         userCondition: null
 handle: image
 hasTitleField: false
@@ -118,8 +124,8 @@ icon: image
 name: Image
 showSlugField: false
 showStatusField: false
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: site

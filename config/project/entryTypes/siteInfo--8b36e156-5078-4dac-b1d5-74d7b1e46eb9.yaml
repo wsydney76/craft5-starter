@@ -44,16 +44,16 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: eb6b24cc-83d7-416f-be4b-d002c7688b58 # Copyright
-            handle: null
+            fieldUid: 0a4ca680-269a-45f0-8eac-eada97e7dc29 # Single Line Text
+            handle: copyright
             includeInCards: true
             instructions: null
-            label: null
+            label: Copyright
             providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 29d387be-3278-42fc-a9d2-2fd1e9a23c71
+            uid: 01c219f0-d181-4b4f-8c9e-1d8988993a97
             userCondition: null
             warning: null
             width: 100
@@ -95,34 +95,34 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: 370cbaec-9bf1-4ecf-b903-276c6da6c861 # Postal Address
-            handle: null
+            fieldUid: c5912111-be84-47af-8f06-5df24eb99d67 # Text (not translatable)
+            handle: postalAddress
             includeInCards: false
             instructions: null
-            label: null
+            label: 'Postal Address'
             providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 9d9cf86d-66cf-4e6c-8d8f-ffa9e5dcf475
+            uid: 0ba07188-6e61-4b02-9826-c6950a45725a
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 4bc24da9-fd88-45ec-8410-bc189032e3f8 # Phone Number
-            handle: null
+            fieldUid: 0e5d9cbb-86fe-4e68-9632-75129c02b391 # Short Text (not translatable)
+            handle: phoneNumber
             includeInCards: false
             instructions: null
-            label: null
+            label: 'Phone Number'
             providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: b921a404-e21a-4930-a0c4-d9ad9da5e1c3
+            uid: 672c1ddc-ab4f-47fd-8613-1dacd55a0b0f
             userCondition: null
             warning: null
-            width: 50
+            width: 100
           -
             elementCondition: null
             fieldUid: bbe2ff0f-6056-4848-80de-3070bb80294d # Email
@@ -198,8 +198,8 @@ icon: gear
 name: 'Site Info'
 showSlugField: true
 showStatusField: false
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: none
 titleFormat: '{section.name|raw}'
-titleTranslationKeyFormat: null
+titleTranslationKeyFormat: ''
 titleTranslationMethod: none

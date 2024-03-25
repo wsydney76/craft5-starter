@@ -36,8 +36,8 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 806a473e-c6e7-42cd-a76b-758ed48b5a2b # Role
-            handle: null
+            fieldUid: 0a4ca680-269a-45f0-8eac-eada97e7dc29 # Single Line Text
+            handle: teamRole
             includeInCards: true
             instructions: null
             label: Role
@@ -45,22 +45,22 @@ fieldLayouts:
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: eeffa0cc-99fc-426e-9068-a6a8ca83f87d
+            uid: 2b30f85e-5c17-4bfc-936c-f6c0459abbee
             userCondition: null
             warning: null
             width: 25
           -
             elementCondition: null
-            fieldUid: 07a23de3-b713-43fc-8310-d9191d851801 # Name
-            handle: null
-            includeInCards: false
+            fieldUid: 0e5d9cbb-86fe-4e68-9632-75129c02b391 # Short Text (not translatable)
+            handle: teamName
+            includeInCards: true
             instructions: null
             label: Name
             providesThumbs: false
-            required: false
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 966c9041-7120-48ab-b245-08a059dc4e59
+            uid: 769616de-493e-4ede-a94c-a60c8a2769ac
             userCondition: null
             warning: null
             width: 25
@@ -73,8 +73,8 @@ icon: user
 name: 'Team Member'
 showSlugField: false
 showStatusField: false
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: site

@@ -1,7 +1,7 @@
-columnSuffix: wjuxwjsu
-handle: parameter
-instructions: 'Parameters in JSON-Format that will be available to the template'
-name: Parameter
+columnSuffix: null
+handle: textNotTranslatable
+instructions: null
+name: 'Text (not translatable)'
 searchable: false
 settings:
   byteLimit: null

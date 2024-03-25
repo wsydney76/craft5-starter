@@ -51,8 +51,8 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 605e973b-b2e9-4421-9f1a-80d4cddc0cf0 # Parameter
-            handle: null
+            fieldUid: c5912111-be84-47af-8f06-5df24eb99d67 # Text (not translatable)
+            handle: parameter
             includeInCards: true
             instructions: null
             label: Parameter
@@ -60,7 +60,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 68d74649-9098-4dc8-8c47-901bb525658a
+            uid: 1e4d9c07-cf9b-4b56-a38b-c7ec9a42fd69
             userCondition: null
             warning: null
             width: 100
@@ -73,8 +73,8 @@ icon: bolt
 name: Dynamic
 showSlugField: false
 showStatusField: false
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: site

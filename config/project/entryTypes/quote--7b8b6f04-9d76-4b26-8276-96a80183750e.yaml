@@ -51,8 +51,8 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: f8ff18c6-ca19-4910-8753-62aa768dd3a3 # Cite
-            handle: null
+            fieldUid: 0a4ca680-269a-45f0-8eac-eada97e7dc29 # Single Line Text
+            handle: cite
             includeInCards: false
             instructions: null
             label: Cite
@@ -60,7 +60,7 @@ fieldLayouts:
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 50aae2a6-2d77-403b-8081-18050d69550c
+            uid: 445e5821-eb2f-40d7-b3d8-4ad91943a99f
             userCondition: null
             warning: null
             width: 100
@@ -88,8 +88,8 @@ icon: quotes
 name: Quote
 showSlugField: false
 showStatusField: false
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: site

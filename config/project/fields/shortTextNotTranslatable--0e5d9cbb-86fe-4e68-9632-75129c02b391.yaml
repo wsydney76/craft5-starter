@@ -1,11 +1,11 @@
-columnSuffix: xecykfwo
-handle: nameAffix
+columnSuffix: null
+handle: shortTextNotTranslatable
 instructions: null
-name: 'Name Affix'
-searchable: false
+name: 'Short Text (not translatable)'
+searchable: true
 settings:
   byteLimit: null
-  charLimit: 10
+  charLimit: 60
   code: false
   initialRows: 4
   multiline: false

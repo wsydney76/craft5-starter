@@ -65,7 +65,17 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            elementCondition: null
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\LightswitchFieldConditionRule
+                  fieldUid: 7fb04ffe-73af-49d3-a840-c4c224d40dcf # Toggle
+                  layoutElementUid: 89de4e9a-2be6-46e6-8d8c-abed7dcfbfb8
+                  uid: 432c6430-827a-41b3-baf8-c2bf52b8c544
+                  value: true
+              elementType: craft\elements\Entry
+              fieldContext: global
             fieldUid: c72e758a-f6c3-42cd-896b-3ff6353ed259 # Featured Image
             handle: null
             includeInCards: false

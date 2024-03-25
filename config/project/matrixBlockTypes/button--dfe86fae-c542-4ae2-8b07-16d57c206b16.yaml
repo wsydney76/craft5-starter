@@ -19,7 +19,7 @@ fieldLayouts:
             width: 50
           -
             elementCondition: null
-            fieldUid: 6193ce57-a570-451e-8124-ec3ba985b0b2 # Caption
+            fieldUid: 6193ce57-a570-451e-8124-ec3ba985b0b2
             instructions: null
             label: null
             required: false
@@ -31,7 +31,7 @@ fieldLayouts:
             width: 25
           -
             elementCondition: null
-            fieldUid: 52144f06-b394-45aa-bee6-d00e1f86878f
+            fieldUid: 52144f06-b394-45aa-bee6-d00e1f86878f # Primary
             instructions: null
             label: null
             required: false
@@ -71,7 +71,7 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Entries
-  6193ce57-a570-451e-8124-ec3ba985b0b2: # Caption
+  6193ce57-a570-451e-8124-ec3ba985b0b2:
     columnSuffix: fmpkzsew
     contentColumnType: string(240)
     fieldGroup: null
@@ -91,7 +91,7 @@ fields:
     translationKeyFormat: null
     translationMethod: language
     type: craft\fields\PlainText
-  52144f06-b394-45aa-bee6-d00e1f86878f:
+  52144f06-b394-45aa-bee6-d00e1f86878f: # Primary
     columnSuffix: ticlfxhq
     contentColumnType: boolean
     fieldGroup: null

@@ -51,8 +51,8 @@ fieldLayouts:
             width: 25
           -
             elementCondition: null
-            fieldUid: 0415563b-b1b2-4756-9f8d-0b86d005deb1 # Heading
-            handle: null
+            fieldUid: 0a4ca680-269a-45f0-8eac-eada97e7dc29 # Single Line Text
+            handle: heading
             includeInCards: true
             instructions: null
             label: Heading
@@ -60,10 +60,10 @@ fieldLayouts:
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: a64923b8-6763-4e78-935d-3882ca5730ac
+            uid: 257a6064-4fe6-420e-b6a3-1e7e07928f19
             userCondition: null
             warning: null
-            width: 25
+            width: 100
           -
             elementCondition: null
             fieldUid: 354b3c11-ae38-4fae-8017-8ddced25fecd # Text
@@ -88,8 +88,8 @@ icon: message
 name: Feature
 showSlugField: false
 showStatusField: false
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: site
