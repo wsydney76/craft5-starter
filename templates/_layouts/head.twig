@@ -11,9 +11,6 @@
 
 {% if craft.app.plugins.pluginEnabled('seomate') %}
     {% hook 'seomateMeta' %}
-    {% include '_layouts/partials/json-ld.twig' with {
-        entry
-    } only %}
 {% endif %}
 
 {% include '_layouts/partials/json-ld.twig' with {

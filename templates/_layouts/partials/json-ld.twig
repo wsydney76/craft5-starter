@@ -12,7 +12,7 @@
 
     {% set address = siteInfo.addresses.one %}
     {% if address %}
-        {% set organization = organization.location(schema.place
+        {% do organization.location(schema.place
             .address("#{address.addressLine1} #{address.postalCode} #{address.locality}")) %}
     {% endif %}
 
