@@ -1,6 +1,6 @@
 assets:
   tempVolumeUid: ed627edd-73bd-4b75-8684-f410bf4e4b9d
-dateModified: 1711364299
+dateModified: 1711447719
 elementSources:
   craft\elements\Asset:
     -
@@ -318,6 +318,7 @@ meta:
     0c39cdb5-26f9-49ca-9bb4-445a28a61ddf: Images # Images
     0e5d9cbb-86fe-4e68-9632-75129c02b391: 'Short Text (not translatable)' # Short Text (not translatable)
     1b04edb4-5ebc-45da-ba85-afcd734f187b: 'YouTube Video' # YouTube Video
+    1b464b23-6750-460e-aea1-0c4af5f52e23: Key
     1c948380-c11c-45f9-a668-2a5eac6f24c9: Settings # Settings
     1dcc69f1-6963-4b8a-9a9a-10b35084db1a: Team # Team
     1de27fd9-bda6-4977-8d43-b36ef6813c60: Level # Level
@@ -344,6 +345,7 @@ meta:
     6bc951bf-74b3-4218-b3aa-dc427967abe9: Person # Person
     6ca3494d-cd87-4b86-a8fa-fbd8a0acab02: Story # Story
     6ecb9b3b-4c70-44df-a0ef-88a4ae27beec: Style # Style
+    07a23de3-b713-43fc-8310-d9191d851801: Name
     7b8b6f04-9d76-4b26-8276-96a80183750e: Quote # Quote
     7ef9424e-9902-4930-9244-8d7f93d6dc4b: 'Story Team' # Story Team
     7fb04ffe-73af-49d3-a840-c4c224d40dcf: Toggle # Toggle
@@ -377,14 +379,17 @@ meta:
     400d2e7a-d260-459d-b16d-bc388f093106: Tagline # Tagline
     489e5502-a241-4b2e-97c5-d8a0220a72c6: Target # Target
     518aea6d-af2d-4e4e-8d4b-a2ca618cd89c: Style # Style
+    605e973b-b2e9-4421-9f1a-80d4cddc0cf0: Parameter
     621ad41b-f019-4e95-96aa-49f8c56482db: 'SEO Descriction' # SEO Descriction
     735b5e6e-8026-4de4-8e32-14e03d975565: Image # Image
     0767f000-e433-4930-9534-b795a48740bb: Teaser # Teaser
+    806a473e-c6e7-42cd-a76b-758ed48b5a2b: Role
     871e0a60-ea70-4650-91f2-746c9bc2de41: 'Aspect Ratio' # Aspect Ratio
     956fbff8-1bb5-4c5d-8e58-ec36d77bf04e: Custom # Custom
     2232a9d8-f828-47e8-bb32-6e03f1cd70b6: 'Team Member' # Team Member
     3468bd44-82e8-4104-932e-5085601fca12: Legal # Legal
     4113a0a0-cb21-4671-9f9c-65575d18e024: 'Multiple Testimonials' # Multiple Testimonials
+    6193ce57-a570-451e-8124-ec3ba985b0b2: Caption
     6739b2cb-a865-433d-9732-cdd6a419188d: 'Page Template' # Page Template
     7602aac5-c98e-44bd-8570-457a85b8abad: Criteria # Criteria
     7681df0f-bb10-47a5-ae54-25d7743237e3: 'Content Components' # Content Components
@@ -398,6 +403,7 @@ meta:
     90724a6b-55ad-446f-be50-7aea7e1fb067: Robots # Robots
     97742dae-23f0-4986-a259-c886b727a452: FAQ # FAQ
     367161e2-88c5-4828-92ff-9124ef18da28: Image # Image
+    0415563b-b1b2-4756-9f8d-0b86d005deb1: Heading
     655243f7-46a2-42c0-8de4-188017c31d53: 'Hero Area Template' # Hero Area Template
     938701ef-3a45-4190-80fc-9326e9cf6f3b: Writer # Writer
     5042338b-5f7b-4535-96bb-578a829e987c: Topic # Topic
@@ -451,6 +457,7 @@ meta:
     ee6f8d07-ca81-4da0-991c-491e5108bff8: Home # Home
     ee886fff-a72a-4a22-b217-f878c7f53ffe: Persons # Persons
     f3c6560d-3487-4f65-a4f9-ac2926397b57: 'Aspect Ratio' # Aspect Ratio
+    f8ff18c6-ca19-4910-8753-62aa768dd3a3: Cite
     f26d4aac-c7ec-4b8f-98c8-ab7fc5315445: Testimonials # Testimonials
     f76ccc3a-7c88-43a3-9024-5ea619356bbf: Heading # Heading
     f620927d-baf7-430a-a965-f1e9ea676b83: Text # Text

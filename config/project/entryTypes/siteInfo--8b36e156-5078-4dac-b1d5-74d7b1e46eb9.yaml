@@ -198,8 +198,8 @@ icon: gear
 name: 'Site Info'
 showSlugField: true
 showStatusField: false
-slugTranslationKeyFormat: ''
+slugTranslationKeyFormat: null
 slugTranslationMethod: none
 titleFormat: '{section.name|raw}'
-titleTranslationKeyFormat: ''
+titleTranslationKeyFormat: null
 titleTranslationMethod: none

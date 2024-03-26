@@ -88,8 +88,8 @@ icon: circle-dot
 name: Button
 showSlugField: false
 showStatusField: false
-slugTranslationKeyFormat: ''
+slugTranslationKeyFormat: null
 slugTranslationMethod: site
-titleFormat: ''
-titleTranslationKeyFormat: ''
+titleFormat: null
+titleTranslationKeyFormat: null
 titleTranslationMethod: site
