@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c0dd02e3de87c753f1745c635d978009",
+    "content-hash": "34c43860469a7c1788f8bfcba6a2788c",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -233,11 +233,11 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "5.0.0-RC1",
+            "version": "5.0.0",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/04755d93f86d07cc183db47db8a0eee106892e30",
-                "reference": "04755d93f86d07cc183db47db8a0eee106892e30",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/f6a8fb685d44e387435825e3a96809eeda4973a6",
+                "reference": "f6a8fb685d44e387435825e3a96809eeda4973a6",
                 "shasum": ""
             },
             "require": {
@@ -330,7 +330,7 @@
                 "docs": "https://craftcms.com/docs/5.x/",
                 "rss": "https://github.com/craftcms/cms/releases.atom"
             },
-            "time": "2024-03-25T21:41:37+00:00"
+            "time": "2024-03-26T17:19:11+00:00"
         },
         {
             "name": "craftcms/contact-form",
@@ -2588,18 +2588,18 @@
         },
         {
             "name": "putyourlightson/craft-sprig",
-            "version": "3.0.0-beta.1",
+            "version": "3.0.0-beta.2",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/putyourlightson/craft-sprig/zipball/ebe312cd56f7203a935b20772063ad6b83e47299",
-                "reference": "ebe312cd56f7203a935b20772063ad6b83e47299",
+                "url": "https://api.github.com/repos/putyourlightson/craft-sprig/zipball/35cb9d0de8fd53123a71c260517bd116f0b05a6e",
+                "reference": "35cb9d0de8fd53123a71c260517bd116f0b05a6e",
                 "shasum": ""
             },
             "require": {
-                "craftcms/cms": "^5.0.0-beta.1",
+                "craftcms/cms": "^5.0.0",
                 "nystudio107/craft-code-editor": "^1.0.0",
                 "php": "^8.2",
-                "putyourlightson/craft-sprig-core": "^3.0.0-beta.1"
+                "putyourlightson/craft-sprig-core": "^3.0.0-beta.2"
             },
             "type": "craft-plugin",
             "extra": {
@@ -2608,7 +2608,7 @@
                 "developer": "PutYourLightsOn",
                 "developerUrl": "https://putyourlightson.com/",
                 "documentationUrl": "https://putyourlightson.com/plugins/sprig",
-                "changelogUrl": "https://raw.githubusercontent.com/putyourlightson/craft-sprig/v2/CHANGELOG.md",
+                "changelogUrl": "https://raw.githubusercontent.com/putyourlightson/craft-sprig/v3/CHANGELOG.md",
                 "class": "putyourlightson\\sprig\\plugin\\Sprig"
             },
             "autoload": {
@@ -2625,19 +2625,19 @@
                 "source": "https://github.com/putyourlightson/craft-sprig",
                 "issues": "https://github.com/putyourlightson/craft-sprig/issues"
             },
-            "time": "2024-02-14T14:27:37+00:00"
+            "time": "2024-03-27T02:48:17+00:00"
         },
         {
             "name": "putyourlightson/craft-sprig-core",
-            "version": "3.0.0-beta.1",
+            "version": "3.0.0-beta.2",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/putyourlightson/craft-sprig-core/zipball/4b6fec787274f675089d05a408bc35b7105cd27f",
-                "reference": "4b6fec787274f675089d05a408bc35b7105cd27f",
+                "url": "https://api.github.com/repos/putyourlightson/craft-sprig-core/zipball/7e99eef43feb43a5707c8f1dc06a31b40c5099a7",
+                "reference": "7e99eef43feb43a5707c8f1dc06a31b40c5099a7",
                 "shasum": ""
             },
             "require": {
-                "craftcms/cms": "^5.0.0-beta.1",
+                "craftcms/cms": "^5.0.0",
                 "php": "^8.2"
             },
             "type": "craft-module",
@@ -2655,7 +2655,7 @@
                 "source": "https://github.com/putyourlightson/craft-sprig-core",
                 "issues": "https://github.com/putyourlightson/craft-sprig-core/issues"
             },
-            "time": "2024-02-14T14:27:04+00:00"
+            "time": "2024-03-27T02:45:48+00:00"
         },
         {
             "name": "ralouphie/getallheaders",

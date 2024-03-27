@@ -19,7 +19,7 @@ fieldLayouts:
             width: 50
           -
             elementCondition: null
-            fieldUid: 6193ce57-a570-451e-8124-ec3ba985b0b2
+            fieldUid: 6193ce57-a570-451e-8124-ec3ba985b0b2 # Caption
             instructions: null
             label: null
             required: false
@@ -71,7 +71,7 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Entries
-  6193ce57-a570-451e-8124-ec3ba985b0b2:
+  6193ce57-a570-451e-8124-ec3ba985b0b2: # Caption
     columnSuffix: fmpkzsew
     contentColumnType: string(240)
     fieldGroup: null
