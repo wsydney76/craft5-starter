@@ -5,7 +5,11 @@ use craft\elements\Entry;
 return [
     'stickyMenu' => false,
 
+    // Number of entries per page in paginated lists
     'entriesPerPage' => 12,
+    // Number of page links to show in the pagination navigation
+    'paginationRange' => 5,
+
     'latestArticlesLimit' => 6,
 
     // The width of the primary navigation, defined in nav.twig

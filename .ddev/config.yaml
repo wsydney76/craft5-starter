@@ -4,23 +4,23 @@ docroot: web
 php_version: "8.2"
 webserver_type: nginx-fpm
 xdebug_enabled: false
-additional_hostnames: []
-additional_fqdns: []
+additional_hostnames: [ ]
+additional_fqdns: [ ]
 database:
-    type: mysql
-    version: "8.0"
+  type: mysql
+  version: "8.0"
 hooks:
-    pre-stop:
-        - exec: php /var/www/html/craft db/backup /var/www/html/storage/custom-backups/latest.sql --zip --overwrite
+  pre-stop:
+    - exec: php /var/www/html/craft db/backup /var/www/html/storage/custom-backups/latest.sql --zip --overwrite
 use_dns_when_possible: true
 composer_version: "2"
-web_environment: []
+web_environment: [ ]
 nodejs_version: "20"
 web_extra_exposed_ports:
-    - name: Vite
-      container_port: 3000
-      http_port: 3001
-      https_port: 3000
+  - name: Vite
+    container_port: 3000
+    http_port: 3001
+    https_port: 3000
 
 # Key features of DDEV's config.yaml:
 
