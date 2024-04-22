@@ -49,7 +49,7 @@
             {% endfor %}
             
             {% if rangePageNos|last != pageInfo.totalPages %}
-                <a class="{{ paginationLinkClasses }} {{ hoverClasses }}" title="{{ 'Last Page'|t }}"
+                <a class="{{ paginationLinkClasses }} {{ hoverClasses }}" title="{{ 'Last Page'|t }} ({{ pageInfo.totalPages }})"
                    href="{{ pageInfo.lastUrl }}">{{ svg('@templates/_icons/arrow-right-end.svg') }}</a>
             {% endif %}
 

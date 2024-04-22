@@ -6,7 +6,7 @@ return [
     'stickyMenu' => false,
 
     // Number of entries per page in paginated lists
-    'entriesPerPage' => 12,
+    'entriesPerPage' => 6,
     // Number of page links to show in the pagination navigation
     'paginationRange' => 5,
 
