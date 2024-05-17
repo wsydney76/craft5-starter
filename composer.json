@@ -11,8 +11,9 @@
     "nystudio107/craft-code-field": "^5.0.0",
     "nystudio107/craft-vite": "^5.0.0",
     "putyourlightson/craft-sprig": "^3.0.0",
-    "vaersaagod/seomate": "3.0.0-beta.5",
+    "vaersaagod/seomate": "^3.0.0-beta.5",
     "vlucas/phpdotenv": "^5.4",
+    "wsydney76/craft-contentoverview": "^6.0",
     "wsydney76/extras": "dev-main"
   },
   "require-dev": {
@@ -60,6 +61,10 @@
     {
       "type": "path",
       "url": "/var/www/plugins/extras"
+    },
+    {
+      "type": "path",
+      "url": "/var/www/plugins/contentoverview"
     }
   ]
 }

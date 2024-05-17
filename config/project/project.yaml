@@ -1,6 +1,6 @@
 assets:
   tempVolumeUid: ed627edd-73bd-4b75-8684-f410bf4e4b9d
-dateModified: 1713801753
+dateModified: 1715958507
 elementSources:
   craft\elements\Asset:
     -
@@ -271,6 +271,15 @@ elementSources:
     -
       heading: Work
       type: heading
+    -
+      condition:
+        class: craft\elements\conditions\entries\EntryCondition
+        elementType: craft\elements\Entry
+        fieldContext: global
+      key: 'custom:b512cb31-053f-43b8-8050-a309832e4558'
+      label: 'My Drafts'
+      tableAttributes: '-'
+      type: custom
 email:
   fromEmail: $EMAIL_ADDRESS
   fromName: $EMAIL_SENDER
@@ -483,18 +492,18 @@ plugins:
       diffRendererName: Combined
       diffSeparateBlock: true
       diffShowHeader: false
-      enableCollectionMakros: false
-      enableConditionRules: false
-      enableCpAssets: true
+      enableCollectionMakros: true
+      enableConditionRules: true
+      enableCpAssets: false
       enableDraftHelpers: true
-      enableElementActions: false
+      enableElementActions: true
       enableElementmap: true
-      enableExtrasVariable: false
-      enableFieldLayoutElements: false
-      enableOwnerPath: false
+      enableExtrasVariable: true
+      enableFieldLayoutElements: true
+      enableOwnerPath: true
       enableRestoreDismissedTips: true
       enableSidebarVisibility: true
-      enableTwigExtension: false
+      enableTwigExtension: true
       enableWidgets: true
       showAllSites: true
   codefield:
@@ -512,6 +521,10 @@ plugins:
       prependSubject: 'New message'
       successFlashMessage: 'Thank you for your message! We received it and will reply as soon as possible.'
       toEmail: $EMAIL_ADDRESS
+  contentoverview:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
   seomate:
     edition: standard
     enabled: true

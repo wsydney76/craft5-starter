@@ -5,12 +5,12 @@ return [
     $co->createColumn(7, [
         $co->createSection()
             ->section('article')
-            ->entryType('default')
+            ->entryType('article')
             ->heading('Latest Articles')
             ->info('{tagline}, {postDate|date("short")}')
             ->imageField('featuredImage')
             ->layout('cards')
-            ->size('small')
+            ->size('large')
             ->actions(['relationships','view'])
             ->limit(3),
         $co->createSection()
@@ -20,7 +20,7 @@ return [
             ->info('{tagline}, {postDate|date("short")}')
             ->imageField('featuredImage')
             ->layout('cards')
-            ->size('small')
+            ->size('large')
             ->actions(['relationships','view'])
             ->limit(3),
         $co->createSection()
@@ -35,7 +35,7 @@ return [
         $co->createSection()
             ->section('heroArea')
             ->limit(2)
-            ->info('{body}')
+            ->info('{body|truncate(50)}')
             ->imageField('image')
             ->actions(['relationships'])
             ->layout('cardlets'),
