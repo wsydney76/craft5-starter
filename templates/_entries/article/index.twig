@@ -5,7 +5,7 @@
 {% block contentWrapper %}
     {# Display individual content per entry type #}
     {% include [
-        "_sections/article_#{entry.type.handle}",
-        "_sections/article_default"
+        "_entries/article_#{entry.type.handle}",
+        "_entries/article_default"
     ] %}
 {% endblock %}

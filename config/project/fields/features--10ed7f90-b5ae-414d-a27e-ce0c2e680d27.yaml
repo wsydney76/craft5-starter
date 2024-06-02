@@ -10,11 +10,33 @@ settings:
   includeTableView: false
   maxEntries: null
   minEntries: null
-  pageSize: null
+  pageSize: 50
   propagationKeyFormat: null
   propagationMethod: all
-  showCardsInGrid: false
-  viewMode: blocks
+  showCardsInGrid: true
+  siteSettings:
+    __assoc__:
+      -
+        - dbf50cb2-37c8-45f7-b375-dcb93e09691b # Deutsch
+        -
+          __assoc__:
+            -
+              - uriFormat
+              - '{parent.url}/features/{title|kebab}'
+            -
+              - template
+              - _entries/feature
+      -
+        - 5b0c38db-9ab4-47d8-b4a7-913710c08ca6 # English
+        -
+          __assoc__:
+            -
+              - uriFormat
+              - '{parent.url}/features/{title|kebab}'
+            -
+              - template
+              - _entries/feature
+  viewMode: cards
 translationKeyFormat: null
 translationMethod: site
 type: craft\fields\Matrix

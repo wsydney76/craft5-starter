@@ -69,7 +69,7 @@ return [
 
     // This setting allows plugins to inject section specific content via their own templates.
     'sectionRoots' => [
-        '_sections',
+        '_entries',
     ],
 
     // This setting allows plugins to overwrite section specific templates

@@ -16,14 +16,20 @@
             .address("#{address.addressLine1} #{address.postalCode} #{address.locality}")) %}
     {% endif %}
 
-    {% set sectionRoots = customConfig.sectionRoots ?? ['_sections'] %}
+    {% set sectionRoots = customConfig.sectionRoots ?? ['_entries'] %}
 
-    {% set roots = sectionRoots|map(r => "#{r}/#{entry.section.handle}_#{entry.type.handle}/json-ld.twig") %}
-    {% set roots = roots|merge(sectionRoots|map(r => "#{r}/#{entry.section.handle}/json-ld.twig")) %}
-    {% set roots = roots|push('_partials/json-ld.twig') %}
+    {# TODO: Enable for nested entries #}
+    {% if entry.section %}
+        {% set roots = sectionRoots|map(r => "#{r}/#{entry.section.handle}_#{entry.type.handle}/json-ld.twig") %}
+        {% set roots = roots|merge(sectionRoots|map(r => "#{r}/#{entry.section.handle}/json-ld.twig")) %}
+        {% set roots = roots|push('_partials/json-ld.twig') %}
 
-    {% include roots with {
-        entry,
-        organization
-    } only %}
+        {% include roots with {
+            entry,
+            organization
+        } only %}
+        
+    {% endif %}
+
+    
 {% endif %}

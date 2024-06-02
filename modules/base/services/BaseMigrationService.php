@@ -133,7 +133,7 @@ class BaseMigrationService extends BaseService
             $homePage = Entry::findOne(['slug' => '__home__']);
 
             $fields = [
-                'pageTemplate' => "$this->templateRoot/_sections/$section->handle/index",
+                'pageTemplate' => "$this->templateRoot/_entries/$section->handle/index",
             ];
 
             $contentService = BaseModule::getInstance()->contentService;

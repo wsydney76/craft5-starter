@@ -4,7 +4,7 @@ instructions: null
 name: 'Story Title Template'
 searchable: false
 settings:
-  includeDirectory: _sections/article_story/title
+  includeDirectory: _entries/article_story/title
 translationKeyFormat: null
 translationMethod: none
 type: modules\main\fields\IncludeField

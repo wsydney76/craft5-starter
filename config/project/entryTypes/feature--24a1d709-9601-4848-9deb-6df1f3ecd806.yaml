@@ -6,6 +6,21 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
+            elementCondition: null
+            fieldUid: 4a8239eb-1b66-44e0-bd66-5a65d44b0727 # Icon
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: Icon
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 837520f2-2a64-4eef-9ff1-ed161ce2e08c
+            userCondition: null
+            warning: null
+            width: 25
+          -
             autocapitalize: true
             autocomplete: false
             autocorrect: true
@@ -36,40 +51,10 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 4a8239eb-1b66-44e0-bd66-5a65d44b0727 # Icon
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: Icon
-            providesThumbs: true
-            required: true
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 837520f2-2a64-4eef-9ff1-ed161ce2e08c
-            userCondition: null
-            warning: null
-            width: 25
-          -
-            elementCondition: null
-            fieldUid: 0a4ca680-269a-45f0-8eac-eada97e7dc29 # Single Line Text
-            handle: heading
-            includeInCards: true
-            instructions: null
-            label: Heading
-            providesThumbs: false
-            required: true
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 257a6064-4fe6-420e-b6a3-1e7e07928f19
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
             fieldUid: 354b3c11-ae38-4fae-8017-8ddced25fecd # Text
             handle: null
-            includeInCards: false
-            instructions: null
+            includeInCards: true
+            instructions: 'On Feature Summary'
             label: null
             providesThumbs: false
             required: false
@@ -79,17 +64,53 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
-        name: Content
+        name: Summary
         uid: 10f2215c-c1a4-40c7-9a2b-f280ed1a5130
         userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: c72e758a-f6c3-42cd-896b-3ff6353ed259 # Featured Image
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: true
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 239531cc-8ca8-45f8-a375-4c338978c7e5
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 85898001-9c9c-4d46-abf9-a928e44f0d48 # Body Content
+            handle: null
+            includeInCards: false
+            instructions: 'On Detail Page'
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a95a9452-d092-42ed-97b6-444053cded5c
+            userCondition: null
+            warning: null
+            width: 100
+        name: Details
+        uid: 77d08226-35b7-4d28-a064-90ee514c1964
+        userCondition: null
 handle: feature
-hasTitleField: false
+hasTitleField: true
 icon: message
 name: Feature
 showSlugField: false
 showStatusField: false
-slugTranslationKeyFormat: null
-slugTranslationMethod: site
-titleFormat: null
-titleTranslationKeyFormat: null
-titleTranslationMethod: site
+slugTranslationKeyFormat: ''
+slugTranslationMethod: language
+titleFormat: ''
+titleTranslationKeyFormat: ''
+titleTranslationMethod: language

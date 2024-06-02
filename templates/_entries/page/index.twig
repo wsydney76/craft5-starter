@@ -5,7 +5,7 @@
 {% block contentWrapper %}
     {# Display individual content per entry type #}
     {% include [
-        "_sections/legal_#{entry.type.handle}",
-        "_sections/legal_default"
+        "_entries/page_#{entry.type.handle}",
+        "_entries/page_default"
     ] %}
 {% endblock %}

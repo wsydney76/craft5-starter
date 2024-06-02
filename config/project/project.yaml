@@ -1,6 +1,6 @@
 assets:
   tempVolumeUid: ed627edd-73bd-4b75-8684-f410bf4e4b9d
-dateModified: 1717329918
+dateModified: 1717335018
 elementSources:
   craft\elements\Asset:
     -
@@ -456,7 +456,7 @@ meta:
     dfe29fea-361a-48b4-b260-f547abb65701: Text # Text
     dfe86fae-c542-4ae2-8b07-16d57c206b16: Button # Button
     e2e51276-3783-49cb-9ed0-22ae364fd49a: 'Menu Title' # Menu Title
-    e5bf7587-80f3-47bf-8e22-d1d8bbcf11ee: Template # Template
+    e5bf7587-80f3-47bf-8e22-d1d8bbcf11ee: 'Story Title Template' # Story Title Template
     e62d63b0-c299-42ce-aeef-86a69f7e676c: 'SEO Fields' # SEO Fields
     e3333efd-6726-41c1-9a66-a746a6f0d350: Cards # Cards
     eb61b6c1-d43a-4bf6-8091-bc71c44a9dcf: Entries # Entries

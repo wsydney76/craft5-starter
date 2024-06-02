@@ -11,7 +11,6 @@ use craft\errors\InvalidFieldException;
 use craft\errors\SiteNotFoundException;
 use craft\helpers\App;
 use craft\helpers\ArrayHelper;
-use craft\helpers\Assets;
 use craft\helpers\Console;
 use craft\helpers\FileHelper;
 use craft\helpers\StringHelper;
@@ -466,34 +465,42 @@ class SeedController extends InitController
                     'features' => [
                         [
                             'type' => 'feature',
+                            'title' => $this->faker->text(30),
                             'fields' => [
                                 'icon' => [$icons[0]->id],
-                                'heading' => $this->faker->text(30),
                                 'text' => $this->faker->text(120),
+                                'featuredImage' => [$this->getRandomImage()->id ?? null],
+                                'bodyContent' => $this->getBodyContent(),
                             ],
                         ],
                         [
                             'type' => 'feature',
+                            'title' => $this->faker->text(30),
                             'fields' => [
                                 'icon' => [$icons[1]->id],
-                                'heading' => $this->faker->text(30),
                                 'text' => $this->faker->text(120),
+                                'featuredImage' => [$this->getRandomImage()->id ?? null],
+                                'bodyContent' => $this->getBodyContent(),
                             ],
                         ],
                         [
                             'type' => 'feature',
+                            'title' => $this->faker->text(30),
                             'fields' => [
                                 'icon' => [$icons[2]->id],
-                                'heading' => $this->faker->text(30),
                                 'text' => $this->faker->text(120),
+                                'featuredImage' => [$this->getRandomImage()->id ?? null],
+                                'bodyContent' => $this->getBodyContent(),
                             ],
                         ],
                         [
                             'type' => 'feature',
+                            'title' => $this->faker->text(30),
                             'fields' => [
                                 'icon' => [$icons[3]->id],
-                                'heading' => $this->faker->text(30),
                                 'text' => $this->faker->text(120),
+                                'featuredImage' => [$this->getRandomImage()->id ?? null],
+                                'bodyContent' => $this->getBodyContent(),
                             ],
                         ],
                     ],

@@ -1,0 +1,30 @@
+{% extends "_layouts/main.twig" %}
+
+
+{% block heroArea %}
+
+
+<div class="mb-16">
+    {% include '_layouts/partials/hero-area-display.twig' with {
+        teaser: entry.text,
+        image: entry.featuredImage.one,
+        title: entry.title,
+        text: entry.tagline,
+    } only %}
+</div>
+
+
+{% endblock %}
+
+{% block contentWrapper %}
+    {% embed '_layouts/embeds/container-md.twig' %}
+        {% block content %}
+            <div class="my-8">
+                {% include '_layouts/partials/content-blocks.twig' with {
+                    query: entry.bodyContent
+                } only %}
+            </div>
+
+        {% endblock %}
+    {% endembed %}
+{% endblock %}

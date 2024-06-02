@@ -75,7 +75,7 @@
         {% endif %}
 
         {% set html %}
-            {% set sectionRoots = customConfig.sectionRoots ?? ['_sections'] %}
+            {% set sectionRoots = customConfig.sectionRoots ?? ['_entries'] %}
 
             {% for entry in entries %}
                 {% embed "_layouts/embeds/card.twig" with {
