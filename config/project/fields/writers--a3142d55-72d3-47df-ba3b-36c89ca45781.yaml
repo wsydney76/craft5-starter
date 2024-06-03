@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: topics
+handle: writers
 instructions: null
-name: Topics
+name: Writers
 searchable: true
 settings:
   allowSelfRelations: false
@@ -10,14 +10,15 @@ settings:
   maintainHierarchy: false
   maxRelations: null
   minRelations: null
-  selectionLabel: 'Add a topic'
+  selectionLabel: null
   showCardsInGrid: false
-  showSiteMenu: false
+  showSiteMenu: true
   sources:
-    - 'section:5042338b-5f7b-4535-96bb-578a829e987c' # Topic
+    - 'group:8f596240-23ec-46cd-abe2-386291b11179' # Content Editors
+    - 'group:938701ef-3a45-4190-80fc-9326e9cf6f3b' # Writer
   targetSiteId: null
   validateRelatedElements: false
   viewMode: list
 translationKeyFormat: null
 translationMethod: site
-type: craft\fields\Entries
+type: craft\fields\Users

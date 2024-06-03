@@ -4,7 +4,7 @@ entryTypes:
   - d92e63b4-996e-4dcd-8b55-d119540b5831 # Article
   - 6ca3494d-cd87-4b86-a8fa-fbd8a0acab02 # Story
 handle: article
-maxAuthors: 1
+maxAuthors: 3
 name: Article
 previewTargets:
   -
@@ -13,22 +13,22 @@ previewTargets:
         - label
         - 'Article Index'
       -
-        - refresh
-        - '1'
-      -
         - urlFormat
         - '{{ craft.entries.section(''page'').type(''articleIndex'').site(object.site).one.url }}'
+      -
+        - refresh
+        - '1'
   -
     __assoc__:
       -
         - label
         - 'Card Preview'
       -
-        - refresh
-        - '1'
-      -
         - urlFormat
         - 'cp/preview-card?id={id}&siteId={object.site.id}&showMetaData=1'
+      -
+        - refresh
+        - '1'
 propagationMethod: all
 siteSettings:
   5b0c38db-9ab4-47d8-b4a7-913710c08ca6: # English

@@ -11,11 +11,18 @@
 
 {% from '_layouts/macros/lib.twig' import img %}
 
-{% set authors = entry.authors %}
+{# Try external authors first #}
+{# We have a custom field for that, because inactive users can't be added to the entries author system field #}
+{% set authors = entry.writers.all %}
+
+{% if not authors %}
+    {% set authors = entry.authors %}
+{% endif %}
+
 <div class="{{ classes[style] }} ">
     <div class="flex justify-between items-center">
         <div class="grid md:grid-cols-2 gap-4">
-            {% for author in entry.authors %}
+            {% for author in authors %}
                 <div class="flex justify-start items-center">
                     {% if author.photo %}
                         <div class="flex-shrink-0">

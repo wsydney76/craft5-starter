@@ -1,6 +1,6 @@
 assets:
   tempVolumeUid: ed627edd-73bd-4b75-8684-f410bf4e4b9d
-dateModified: 1717402357
+dateModified: 1717404645
 elementSources:
   craft\elements\Asset:
     -
@@ -428,6 +428,7 @@ meta:
     a05a3ce8-0bcb-4e36-abb0-1338754baec1: 'Image Align' # Image Align
     a08f1c5e-b057-468b-b989-6b243df4d213: Dynamic # Dynamic
     a4fff836-97c9-4c02-b970-c6f28915d8d0: Text # Text
+    a3142d55-72d3-47df-ba3b-36c89ca45781: Writers # Writers
     abd279ac-58c4-41dc-ac32-d2e388e34252: Legal # Legal
     abefa0bd-6b36-4b4f-a9de-a4304e7b66a3: 'Public Schema' # Public Schema
     ac457f93-1a50-473e-9983-a899a7f0bed7: Heading # Heading
