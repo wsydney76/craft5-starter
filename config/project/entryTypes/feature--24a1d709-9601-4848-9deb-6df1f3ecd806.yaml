@@ -7,6 +7,12 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
+            heading: Summary
+            type: craft\fieldlayoutelements\Heading
+            uid: 1ac65509-f53e-467d-9e65-b1048aa5a333
+            userCondition: null
+          -
+            elementCondition: null
             fieldUid: 4a8239eb-1b66-44e0-bd66-5a65d44b0727 # Icon
             handle: null
             includeInCards: true
@@ -51,25 +57,25 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 354b3c11-ae38-4fae-8017-8ddced25fecd # Text
+            fieldUid: 400d2e7a-d260-459d-b16d-bc388f093106 # Tagline
             handle: null
             includeInCards: true
-            instructions: 'On Feature Summary'
+            instructions: null
             label: null
             providesThumbs: false
-            required: false
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 65a710b3-b657-4c28-b6a7-113f0e603006
+            uid: 11959022-4eb6-4ff0-8212-4d1c7defb405
             userCondition: null
             warning: null
             width: 100
-        name: Summary
-        uid: 10f2215c-c1a4-40c7-9a2b-f280ed1a5130
-        userCondition: null
-      -
-        elementCondition: null
-        elements:
+          -
+            elementCondition: null
+            heading: Details
+            type: craft\fieldlayoutelements\Heading
+            uid: 6f6f844a-6d90-4e40-a550-e6027d834ca7
+            userCondition: null
           -
             elementCondition: null
             fieldUid: c72e758a-f6c3-42cd-896b-3ff6353ed259 # Featured Image
@@ -90,7 +96,7 @@ fieldLayouts:
             fieldUid: 85898001-9c9c-4d46-abf9-a928e44f0d48 # Body Content
             handle: null
             includeInCards: false
-            instructions: 'On Detail Page'
+            instructions: null
             label: null
             providesThumbs: false
             required: false
@@ -100,11 +106,11 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
-        name: Details
-        uid: 77d08226-35b7-4d28-a064-90ee514c1964
+        name: Content
+        uid: 10f2215c-c1a4-40c7-9a2b-f280ed1a5130
         userCondition: null
 handle: feature
-hasTitleField: true
+hasTitleField: false
 icon: message
 name: Feature
 showSlugField: false

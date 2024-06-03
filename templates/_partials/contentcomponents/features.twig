@@ -46,7 +46,7 @@
                         <a class="underline text-xl" href="{{ feature.url }}">{{ feature.title }}</a>
                     </dt>
                     <dd class="mt-2 leading-7 text-gray-700 dark:text-gray-200">
-                        {{ feature.text|md|purify }}
+                        {{ feature.tagline|md|purify }}
                     </dd>
                 </div>
             {% endfor %}

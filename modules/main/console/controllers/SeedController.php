@@ -468,7 +468,7 @@ class SeedController extends InitController
                             'title' => $this->faker->text(30),
                             'fields' => [
                                 'icon' => [$icons[0]->id],
-                                'text' => $this->faker->text(120),
+                                'tagline' => $this->faker->text(120),
                                 'featuredImage' => [$this->getRandomImage()->id ?? null],
                                 'bodyContent' => $this->getBodyContent(),
                             ],
@@ -478,7 +478,7 @@ class SeedController extends InitController
                             'title' => $this->faker->text(30),
                             'fields' => [
                                 'icon' => [$icons[1]->id],
-                                'text' => $this->faker->text(120),
+                                'tagline' => $this->faker->text(120),
                                 'featuredImage' => [$this->getRandomImage()->id ?? null],
                                 'bodyContent' => $this->getBodyContent(),
                             ],
@@ -488,7 +488,7 @@ class SeedController extends InitController
                             'title' => $this->faker->text(30),
                             'fields' => [
                                 'icon' => [$icons[2]->id],
-                                'text' => $this->faker->text(120),
+                                'tagline' => $this->faker->text(120),
                                 'featuredImage' => [$this->getRandomImage()->id ?? null],
                                 'bodyContent' => $this->getBodyContent(),
                             ],
@@ -498,7 +498,7 @@ class SeedController extends InitController
                             'title' => $this->faker->text(30),
                             'fields' => [
                                 'icon' => [$icons[3]->id],
-                                'text' => $this->faker->text(120),
+                                'tagline' => $this->faker->text(120),
                                 'featuredImage' => [$this->getRandomImage()->id ?? null],
                                 'bodyContent' => $this->getBodyContent(),
                             ],

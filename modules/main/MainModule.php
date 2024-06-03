@@ -11,6 +11,7 @@ use craft\events\DefineEntryTypesForFieldEvent;
 use craft\events\ElementEvent;
 use craft\events\RegisterElementSourcesEvent;
 use craft\events\RegisterPreviewTargetsEvent;
+use craft\events\SetElementRouteEvent;
 use craft\fields\Matrix;
 use craft\helpers\ArrayHelper;
 use craft\helpers\ElementHelper;
@@ -89,6 +90,7 @@ class MainModule extends BaseModule
             return $this;
         });
 
+        $this->setEntryRoute();
 
         if (Craft::$app->request->isCpRequest) {
             $this->registerTemplateRoots(false, true);
@@ -318,5 +320,43 @@ class MainModule extends BaseModule
                 }
             }
         });
+    }
+
+    /**
+     * @return void
+     */
+    private function setEntryRoute(): void
+    {
+        Event::on(
+            Entry::class,
+            Element::EVENT_SET_ROUTE,
+            function(SetElementRouteEvent $event) {
+                /** @var Entry $entry */
+                $entry = $event->sender;
+
+                if ($entry->type->handle === 'random') {
+                    $event->route = 'main/entries/random';
+                    $event->handled = true;
+                    return;
+                }
+
+                // Allow template settings like 'action:mymodule/mycontroller/myaction'
+                $template = $entry->section ?
+                    // craft\elements\Entry::route()
+                    $entry->section->getSiteSettings()[$entry->siteId]->template ?? null :
+                    // craft\fields\Matrix::getRouteForElement()
+                    $entry->field->siteSettings[$entry->site->uid]['template'] ?? '';
+
+                if (!$template) {
+                    return;
+                }
+
+                if (str_starts_with($template, 'action:')) {
+                    // Assume the setting is correct, will throw an error anyway if not
+                    $action = explode(':', $template)[1];
+                    $event->route = $action;
+                    $event->handled = true;
+                }
+            });
     }
 }

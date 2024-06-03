@@ -10,6 +10,7 @@ entryTypes:
   - b32ea3bc-ee43-4236-864d-972d36f184b2 # Sitemap
   - cb919462-37df-4bb3-acf9-09892c4575e5 # Nav Item
   - 6739b2cb-a865-433d-9732-cdd6a419188d # Page Template
+  - adec5a84-87fd-49ac-85be-dd1870e7a3a5 # Random
 handle: page
 maxAuthors: 1
 name: Page
@@ -20,11 +21,11 @@ previewTargets:
         - label
         - 'Primary entry page'
       -
-        - refresh
-        - '1'
-      -
         - urlFormat
         - '{url}'
+      -
+        - refresh
+        - '1'
 propagationMethod: all
 siteSettings:
   5b0c38db-9ab4-47d8-b4a7-913710c08ca6: # English
