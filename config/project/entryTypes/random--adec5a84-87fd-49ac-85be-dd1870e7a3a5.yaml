@@ -6,6 +6,14 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
+            dismissible: false
+            elementCondition: null
+            style: tip
+            tip: 'This entry triggers a redirect to a random article.'
+            type: craft\fieldlayoutelements\Tip
+            uid: 8867beeb-7c97-4975-9f10-2daf4db85cd8
+            userCondition: null
+          -
             autocapitalize: true
             autocomplete: false
             autocorrect: true
