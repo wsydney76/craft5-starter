@@ -10,7 +10,7 @@ return [
             ->info('{teaser}<br>{postDate|date("short")}')
             ->imageField('photo')
             ->layout('cards')
-            ->size('tiny')
+            ->size('medium')
             ->imageRatio(4/5)
             ->actions(['relationships'])
             ->limit(12),
