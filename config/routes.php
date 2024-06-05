@@ -18,6 +18,19 @@
  * set to the value `2012`.
  */
 
-return [
+// Beispiel für custom routes
 
+return [
+    'news' => 'main/redirect/article-index',
+    'blog' => 'main/redirect/article-index',
+
+    'blog/<slug:{slug}>' => 'main/redirect/article',
+    'news/<slug:{slug}>' => 'main/redirect/article',
+
+    'articles.json' => 'main/demo/articles-json',
+
+    'de' => [
+        'nachrichten' => 'main/redirect/article-index',
+        'nachrichten/<slug:{slug}>' => 'main/redirect/article',
+    ]
 ];
