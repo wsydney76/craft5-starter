@@ -15,10 +15,10 @@ fieldLayouts:
             elementCondition: null
             fieldUid: 4a8239eb-1b66-44e0-bd66-5a65d44b0727 # Icon
             handle: null
-            includeInCards: true
+            includeInCards: false
             instructions: null
             label: Icon
-            providesThumbs: false
+            providesThumbs: true
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -83,7 +83,7 @@ fieldLayouts:
             includeInCards: false
             instructions: null
             label: null
-            providesThumbs: true
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -110,13 +110,13 @@ fieldLayouts:
         uid: 10f2215c-c1a4-40c7-9a2b-f280ed1a5130
         userCondition: null
 handle: feature
-hasTitleField: false
+hasTitleField: true
 icon: message
 name: Feature
-showSlugField: false
+showSlugField: true
 showStatusField: false
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: language
-titleFormat: null
-titleTranslationKeyFormat: null
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: language

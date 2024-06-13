@@ -1,6 +1,6 @@
 assets:
   tempVolumeUid: ed627edd-73bd-4b75-8684-f410bf4e4b9d
-dateModified: 1717573847
+dateModified: 1718351849
 elementSources:
   craft\elements\Asset:
     -
@@ -147,6 +147,7 @@ elementSources:
         - bigFeaturedImage
         - type
         - 'field:05ab0680-2ccc-4a59-932a-07311f773d42' # Topics
+        - drafts
         - postDate
         - link
       type: native
