@@ -13,7 +13,7 @@
 
 {# Try external authors first #}
 {# We have a custom field for that, because inactive users can't be added to the entries author system field #}
-{% set authors = entry.writers.all %}
+{% set authors = entry.writers.all ?? null %}
 
 {% if not authors %}
     {% set authors = entry.authors %}
