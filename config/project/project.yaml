@@ -1,6 +1,6 @@
 assets:
   tempVolumeUid: ed627edd-73bd-4b75-8684-f410bf4e4b9d
-dateModified: 1718351849
+dateModified: 1718442941
 elementSources:
   craft\elements\Asset:
     -
@@ -529,6 +529,10 @@ plugins:
     enabled: true
     schemaVersion: 1.0.0
   seomate:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  smith:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0

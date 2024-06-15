@@ -11,7 +11,7 @@ settings:
   maxRelations: null
   minRelations: null
   selectionLabel: 'Add a person'
-  showCardsInGrid: false
+  showCardsInGrid: true
   showSiteMenu: false
   sources:
     - 'section:fcbda6e5-a26a-4efb-800a-a67a44a88fa1' # Person

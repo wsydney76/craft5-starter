@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a98285738f65a79565ee1271cae96746",
+    "content-hash": "6725aedfa286355caadad1b13f6c17b9",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -4732,6 +4732,89 @@
                 "issues": "https://github.com/vaersaagod/seomate/issues"
             },
             "time": "2024-04-24T22:28:54+00:00"
+        },
+        {
+            "name": "verbb/base",
+            "version": "3.0.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/verbb/verbb-base/zipball/7ea47a8734a71fd852a49fa455d581dbcc5f08a7",
+                "reference": "7ea47a8734a71fd852a49fa455d581dbcc5f08a7",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^5.0.0",
+                "php": "^8.2"
+            },
+            "type": "yii-module",
+            "autoload": {
+                "psr-4": {
+                    "verbb\\base\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Verbb",
+                    "homepage": "https://verbb.io"
+                }
+            ],
+            "description": "Common utilities and building-blocks for Verbb plugins for Craft CMS.",
+            "time": "2024-06-10T09:02:06+00:00"
+        },
+        {
+            "name": "verbb/smith",
+            "version": "3.0.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/verbb/smith/zipball/677d7563690699d732459c8353154c6df6606942",
+                "reference": "677d7563690699d732459c8353154c6df6606942",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^5.0.0",
+                "php": "^8.2",
+                "verbb/base": "^3.0.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Smith",
+                "handle": "smith",
+                "changelogUrl": "https://raw.githubusercontent.com/verbb/smith/craft-5/CHANGELOG.md",
+                "class": "verbb\\smith\\Smith"
+            },
+            "autoload": {
+                "psr-4": {
+                    "verbb\\smith\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Verbb",
+                    "homepage": "https://verbb.io"
+                }
+            ],
+            "description": "Add copy, paste and clone functionality to Matrix blocks.",
+            "keywords": [
+                "cms",
+                "craft",
+                "craft-plugin",
+                "craftcms",
+                "smith"
+            ],
+            "support": {
+                "email": "support@verbb.io",
+                "issues": "https://github.com/verbb/smith/issues?state=open",
+                "source": "https://github.com/verbb/smith",
+                "docs": "https://github.com/verbb/smith",
+                "rss": "https://github.com/verbb/smith/commits/v2.atom"
+            },
+            "time": "2024-05-18T13:08:25+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
