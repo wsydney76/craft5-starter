@@ -63,11 +63,11 @@ fieldLayouts:
         name: Content
         uid: 5f070eed-6f7a-42aa-96a6-961429e94f23
         userCondition: null
-fs: $USERPHOTOS_FS
+fs: $PROTECTEDVOLUMES_FS
 handle: userPhotos
 name: 'User Photos'
 sortOrder: 3
-subpath: ''
+subpath: userphotos
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
 transformFs: $IMAGE_TRANSFORM_FS

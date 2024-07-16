@@ -1,6 +1,6 @@
 assets:
   tempVolumeUid: ed627edd-73bd-4b75-8684-f410bf4e4b9d
-dateModified: 1718442941
+dateModified: 1721114353
 elementSources:
   craft\elements\Asset:
     -
@@ -298,30 +298,16 @@ fs:
     hasUrls: true
     name: 'Images Transforms Local'
     settings:
-      path: '@webroot/assets/transforms'
+      path: '@webroot/dist/transforms'
     type: craft\fs\Local
-    url: '@web/assets/transforms'
-  images_local:
+    url: '@weburl/dist/transforms'
+  protectedVolumes_local:
     hasUrls: false
-    name: 'Images Local'
+    name: 'Protected Volumes Local'
     settings:
-      path: '@root/volumes/images'
+      path: '@root/volumes'
     type: craft\fs\Local
     url: null
-  tempimages_local:
-    hasUrls: false
-    name: 'Temp Images Local'
-    settings:
-      path: '@root/volumes/temp'
-    type: craft\fs\Local
-    url: '@web/files/temp'
-  userPhotos_local:
-    hasUrls: false
-    name: 'User Photos Local'
-    settings:
-      path: '@root/volumes/userphotos'
-    type: craft\fs\Local
-    url: '@web/files/userphotos'
 meta:
   __names__:
     0a4ca680-269a-45f0-8eac-eada97e7dc29: 'Single Line Text' # Single Line Text
@@ -549,5 +535,5 @@ system:
   live: true
   name: $SYSTEM_NAME
   retryDuration: 30
-  schemaVersion: 5.0.0.20
+  schemaVersion: 5.0.0.21
   timeZone: $SYSTEM_TIMEZONE

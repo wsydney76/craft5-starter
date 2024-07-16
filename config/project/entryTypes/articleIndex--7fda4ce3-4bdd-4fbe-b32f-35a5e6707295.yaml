@@ -42,6 +42,7 @@ fieldLayouts:
                   class: craft\elements\conditions\LevelConditionRule
                   maxValue: ''
                   operator: '='
+                  step: 1
                   uid: e9882e7b-79f6-4027-afa3-9a1c01d600f7
                   value: '2'
               elementType: craft\elements\Entry

@@ -48,7 +48,9 @@ return
 		->generateTransformsBeforePageLoad(!$isCpRequest)
 		->optimizeImageFilesize(false)
 		->revAssetUrls()
-        ->tempAssetUploadFs(App::env('TEMP_IMAGES_FS'))
+
+        ->resourceBasePath('@webroot/dist/cpresources')
+        ->resourceBaseUrl('@web/dist/cpresources')
 
         // Only allow uploading of images and pdfs, except for AVIF, as it may cause the server to hang when generating transforms
         ->allowedFileExtensions([
@@ -72,8 +74,9 @@ return
         ->extraLastNamePrefixes(['zu', 'und'])
 
 		->aliases([
-			// Prevent the @web alias from being set automatically (cache poisoning vulnerability)
-			'@web' => App::env('PRIMARY_SITE_URL'),
+            // Use the @web alias for the site URL
+			'@weburl' => App::env('PRIMARY_SITE_URL'),
+
 			// Lets `./craft clear-caches all` clear CP resources cache
 			'@webroot' => dirname(__DIR__) . '/web',
 		]);

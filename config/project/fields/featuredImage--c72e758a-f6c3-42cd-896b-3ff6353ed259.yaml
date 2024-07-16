@@ -53,6 +53,9 @@ settings:
               -
                 - maxValue
                 - ''
+              -
+                - step
+                - 1
   selectionLabel: 'Add an image'
   showCardsInGrid: false
   showSiteMenu: false

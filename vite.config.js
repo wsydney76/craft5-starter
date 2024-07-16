@@ -9,13 +9,13 @@ import viteCompression from 'vite-plugin-compression';
  */
 export default ({ command }) => {
     return {
-        base: command === 'serve' ? '' : '/assets/dist/',
+        base: command === 'serve' ? '' : '/dist/assets/',
         build: {
             commonjsOptions: {
                 transformMixedEsModules: true,
             },
             manifest: 'manifest.json',
-            outDir: path.resolve(__dirname, 'web/assets/dist/'),
+            outDir: path.resolve(__dirname, 'web/dist/assets/'),
             assetsDir: './',
             rollupOptions: {
                 input: {

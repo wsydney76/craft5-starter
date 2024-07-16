@@ -108,11 +108,11 @@ fieldLayouts:
         name: Content
         uid: 22529198-b0c8-440f-aa3e-f169a9e3f551
         userCondition: null
-fs: $IMAGES_FS
+fs: $PROTECTEDVOLUMES_FS
 handle: images
 name: Images
 sortOrder: 1
-subpath: ''
+subpath: images
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
 transformFs: $IMAGE_TRANSFORM_FS
