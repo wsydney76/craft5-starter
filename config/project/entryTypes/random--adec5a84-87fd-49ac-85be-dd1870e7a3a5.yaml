@@ -6,6 +6,7 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
+            dateAdded: '2024-09-05T08:38:44+02:00'
             dismissible: false
             elementCondition: null
             style: tip
@@ -18,6 +19,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
+            dateAdded: '2024-09-05T08:38:44+02:00'
             disabled: false
             elementCondition: null
             id: null

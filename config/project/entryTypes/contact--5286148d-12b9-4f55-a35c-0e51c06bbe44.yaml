@@ -10,6 +10,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
+            dateAdded: '2024-09-05T08:38:44+02:00'
             disabled: false
             elementCondition: null
             id: null
@@ -35,6 +36,7 @@ fieldLayouts:
             warning: null
             width: 75
           -
+            dateAdded: '2024-09-05T08:38:44+02:00'
             elementCondition:
               class: craft\elements\conditions\entries\EntryCondition
               conditionRules:
@@ -61,6 +63,7 @@ fieldLayouts:
             warning: null
             width: 25
           -
+            dateAdded: '2024-09-05T08:38:44+02:00'
             elementCondition: null
             fieldUid: 400d2e7a-d260-459d-b16d-bc388f093106 # Tagline
             handle: null
@@ -76,6 +79,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2024-09-05T08:38:44+02:00'
             dismissible: true
             elementCondition: null
             style: tip
@@ -90,6 +94,7 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
+            dateAdded: '2024-09-05T08:38:44+02:00'
             elementCondition: null
             fieldUid: e62d63b0-c299-42ce-aeef-86a69f7e676c # SEO Fields
             handle: null

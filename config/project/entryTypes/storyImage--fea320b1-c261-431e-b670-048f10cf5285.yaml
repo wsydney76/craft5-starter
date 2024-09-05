@@ -10,6 +10,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
+            dateAdded: '2024-09-05T08:38:44+02:00'
             disabled: false
             elementCondition: null
             id: null
@@ -35,6 +36,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2024-09-05T08:38:44+02:00'
             elementCondition: null
             fieldUid: 367161e2-88c5-4828-92ff-9124ef18da28 # Image
             handle: image

@@ -6,6 +6,7 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
+            dateAdded: '2024-09-05T08:38:44+02:00'
             dismissible: true
             elementCondition: null
             style: warning
@@ -14,6 +15,7 @@ fieldLayouts:
             uid: bfd55daa-3cbe-4ba4-a2eb-3dc3daf41b5d
             userCondition: null
           -
+            dateAdded: '2024-09-05T08:38:44+02:00'
             elementCondition: null
             fieldUid: 75980a78-5a14-4d80-8e9c-b0616d62e02e # Hero Area
             handle: null
@@ -33,6 +35,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
+            dateAdded: '2024-09-05T08:38:44+02:00'
             disabled: false
             elementCondition: null
             id: null
@@ -58,6 +61,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2024-09-05T08:38:44+02:00'
             elementCondition: null
             fieldUid: 400d2e7a-d260-459d-b16d-bc388f093106 # Tagline
             handle: null
@@ -73,6 +77,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2024-09-05T08:38:44+02:00'
             elementCondition: null
             fieldUid: 2bfd1710-35e5-41cb-a655-1fdaf49a0d7c # Featured Entries
             handle: null
@@ -88,6 +93,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2024-09-05T08:38:44+02:00'
             elementCondition: null
             fieldUid: 85898001-9c9c-4d46-abf9-a928e44f0d48 # Body Content
             handle: null
@@ -103,6 +109,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2024-09-05T08:38:44+02:00'
             elementCondition: null
             fieldUid: 2f9975bd-3ee0-4f17-96cc-e91a163964dc # Content Components
             handle: null
@@ -118,6 +125,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2024-09-05T08:38:44+02:00'
             dismissible: true
             elementCondition: null
             style: tip
@@ -132,6 +140,7 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
+            dateAdded: '2024-09-05T08:38:44+02:00'
             elementCondition: null
             fieldUid: e62d63b0-c299-42ce-aeef-86a69f7e676c # SEO Fields
             handle: null

@@ -10,6 +10,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
+            dateAdded: '2024-09-05T08:38:44+02:00'
             disabled: false
             elementCondition: null
             id: null
@@ -35,6 +36,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2024-09-05T08:38:44+02:00'
             elementCondition: null
             fieldUid: 0767f000-e433-4930-9534-b795a48740bb # Teaser
             handle: null
@@ -50,6 +52,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2024-09-05T08:38:44+02:00'
             elementCondition: null
             fieldUid: 78014c80-5d4b-4253-ae59-80f00e516c86 # Photo
             handle: null
@@ -65,6 +68,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2024-09-05T08:38:44+02:00'
             elementCondition: null
             fieldUid: 354b3c11-ae38-4fae-8017-8ddced25fecd # Text
             handle: body
@@ -80,6 +84,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2024-09-05T08:38:44+02:00'
             elementCondition: null
             fieldUid: bf3d514d-a34d-41d6-bb20-61c6d8119820 # Social Links
             handle: null
