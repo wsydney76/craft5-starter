@@ -10,7 +10,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2024-09-12T09:38:20+02:00'
+            dateAdded: '2024-09-12T09:47:25+02:00'
             disabled: false
             elementCondition: null
             id: null
@@ -36,7 +36,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2024-09-12T09:38:20+02:00'
+            dateAdded: '2024-09-12T09:47:25+02:00'
             elementCondition: null
             fieldUid: 735b5e6e-8026-4de4-8e32-14e03d975565 # Image
             handle: image
@@ -52,7 +52,7 @@ fieldLayouts:
             warning: null
             width: 25
           -
-            dateAdded: '2024-09-12T09:38:20+02:00'
+            dateAdded: '2024-09-12T09:47:25+02:00'
             elementCondition: null
             fieldUid: 0a4ca680-269a-45f0-8eac-eada97e7dc29 # Single Line Text
             handle: caption
@@ -68,7 +68,7 @@ fieldLayouts:
             warning: null
             width: 50
           -
-            dateAdded: '2024-09-12T09:38:20+02:00'
+            dateAdded: '2024-09-12T09:47:25+02:00'
             elementCondition: null
             fieldUid: 94b76905-09aa-4aeb-82a0-222f592d42f8 # Show in Sites
             handle: null
@@ -90,7 +90,7 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
-            dateAdded: '2024-09-12T09:38:20+02:00'
+            dateAdded: '2024-09-12T09:47:25+02:00'
             elementCondition: null
             fieldUid: a05a3ce8-0bcb-4e36-abb0-1338754baec1 # Image Align
             handle: align
@@ -106,7 +106,7 @@ fieldLayouts:
             warning: null
             width: 25
           -
-            dateAdded: '2024-09-12T09:38:20+02:00'
+            dateAdded: '2024-09-12T09:47:25+02:00'
             elementCondition: null
             fieldUid: 871e0a60-ea70-4650-91f2-746c9bc2de41 # Aspect Ratio
             handle: aspectRatio
