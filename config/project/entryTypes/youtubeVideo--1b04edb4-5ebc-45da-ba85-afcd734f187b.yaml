@@ -10,7 +10,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2024-09-12T09:47:25+02:00'
+            dateAdded: '2024-10-05T13:40:37+02:00'
             disabled: false
             elementCondition: null
             id: null
@@ -36,7 +36,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2024-09-12T09:47:25+02:00'
+            dateAdded: '2024-10-05T13:40:37+02:00'
             elementCondition: null
             fieldUid: 0a4ca680-269a-45f0-8eac-eada97e7dc29 # Single Line Text
             handle: heading
@@ -52,7 +52,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2024-09-12T09:47:25+02:00'
+            dateAdded: '2024-10-05T13:40:37+02:00'
             elementCondition: null
             fieldUid: 354b3c11-ae38-4fae-8017-8ddced25fecd # Text
             handle: null
@@ -68,7 +68,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2024-09-12T09:47:25+02:00'
+            dateAdded: '2024-10-05T13:40:37+02:00'
             elementCondition: null
             fieldUid: 0e5d9cbb-86fe-4e68-9632-75129c02b391 # Short Text (not translatable)
             handle: key
@@ -84,7 +84,7 @@ fieldLayouts:
             warning: null
             width: 25
           -
-            dateAdded: '2024-09-12T09:47:25+02:00'
+            dateAdded: '2024-10-05T13:40:37+02:00'
             elementCondition: null
             fieldUid: f3c6560d-3487-4f65-a4f9-ac2926397b57 # Aspect Ratio
             handle: null
@@ -100,7 +100,7 @@ fieldLayouts:
             warning: null
             width: 25
           -
-            dateAdded: '2024-09-12T09:47:25+02:00'
+            dateAdded: '2024-10-05T13:40:37+02:00'
             elementCondition: null
             fieldUid: 94b76905-09aa-4aeb-82a0-222f592d42f8 # Show in Sites
             handle: null

@@ -6,7 +6,7 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
-            dateAdded: '2024-09-12T09:47:25+02:00'
+            dateAdded: '2024-10-05T13:40:37+02:00'
             elementCondition: null
             fieldUid: 0767f000-e433-4930-9534-b795a48740bb # Teaser
             handle: null
@@ -26,7 +26,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2024-09-12T09:47:25+02:00'
+            dateAdded: '2024-10-05T13:40:37+02:00'
             disabled: false
             elementCondition: null
             id: null
@@ -52,7 +52,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2024-09-12T09:47:25+02:00'
+            dateAdded: '2024-10-05T13:40:37+02:00'
             elementCondition: null
             fieldUid: 80fa81e4-1f78-4d88-b733-f565d1f5b9bd # Image
             handle: null
@@ -68,7 +68,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2024-09-12T09:47:25+02:00'
+            dateAdded: '2024-10-05T13:40:37+02:00'
             elementCondition: null
             fieldUid: 354b3c11-ae38-4fae-8017-8ddced25fecd # Text
             handle: body
@@ -84,14 +84,14 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2024-09-12T09:47:25+02:00'
+            dateAdded: '2024-10-05T13:40:37+02:00'
             elementCondition: null
             heading: CTA
             type: craft\fieldlayoutelements\Heading
             uid: e46dd8dc-23df-436d-8254-fb77a656369a
             userCondition: null
           -
-            dateAdded: '2024-09-12T09:47:25+02:00'
+            dateAdded: '2024-10-05T13:40:37+02:00'
             elementCondition: null
             fieldUid: 08f7545c-870e-4727-a418-660af19052ea # Buttons
             handle: null
@@ -107,14 +107,14 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2024-09-12T09:47:25+02:00'
+            dateAdded: '2024-10-05T13:40:37+02:00'
             elementCondition: null
             heading: Layout
             type: craft\fieldlayoutelements\Heading
             uid: b5509a70-3403-4dd3-a8db-77f6adecd776
             userCondition: null
           -
-            dateAdded: '2024-09-12T09:47:25+02:00'
+            dateAdded: '2024-10-05T13:40:37+02:00'
             elementCondition: null
             fieldUid: 655243f7-46a2-42c0-8de4-188017c31d53 # Hero Area Template
             handle: null
