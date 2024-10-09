@@ -10,7 +10,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2024-10-05T13:40:37+02:00'
+            dateAdded: '2024-10-09T11:10:45+02:00'
             disabled: false
             elementCondition: null
             id: null
@@ -36,7 +36,7 @@ fieldLayouts:
             warning: null
             width: 75
           -
-            dateAdded: '2024-10-05T13:40:37+02:00'
+            dateAdded: '2024-10-09T11:10:45+02:00'
             elementCondition: null
             fieldUid: e2e51276-3783-49cb-9ed0-22ae364fd49a # Menu Title
             handle: null
@@ -52,7 +52,7 @@ fieldLayouts:
             warning: null
             width: 25
           -
-            dateAdded: '2024-10-05T13:40:37+02:00'
+            dateAdded: '2024-10-09T11:10:45+02:00'
             elementCondition: null
             fieldUid: 400d2e7a-d260-459d-b16d-bc388f093106 # Tagline
             handle: null
@@ -68,14 +68,14 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2024-10-05T13:40:37+02:00'
+            dateAdded: '2024-10-09T11:10:45+02:00'
             elementCondition: null
             heading: 'Header Layout'
             type: craft\fieldlayoutelements\Heading
             uid: 86e849d3-dc2d-4999-b8e6-2cbacb705a41
             userCondition: null
           -
-            dateAdded: '2024-10-05T13:40:37+02:00'
+            dateAdded: '2024-10-09T11:10:45+02:00'
             elementCondition: null
             fieldUid: c72e758a-f6c3-42cd-896b-3ff6353ed259 # Featured Image
             handle: null
@@ -91,7 +91,7 @@ fieldLayouts:
             warning: null
             width: 25
           -
-            dateAdded: '2024-10-05T13:40:37+02:00'
+            dateAdded: '2024-10-09T11:10:45+02:00'
             elementCondition: null
             fieldUid: 7fb04ffe-73af-49d3-a840-c4c224d40dcf # Toggle
             handle: showHeroArea
@@ -107,7 +107,7 @@ fieldLayouts:
             warning: null
             width: 25
           -
-            dateAdded: '2024-10-05T13:40:37+02:00'
+            dateAdded: '2024-10-09T11:10:45+02:00'
             elementCondition:
               class: craft\elements\conditions\entries\EntryCondition
               conditionRules:
@@ -133,7 +133,7 @@ fieldLayouts:
             warning: null
             width: 25
           -
-            dateAdded: '2024-10-05T13:40:37+02:00'
+            dateAdded: '2024-10-09T11:10:45+02:00'
             elementCondition: null
             fieldUid: 655243f7-46a2-42c0-8de4-188017c31d53 # Hero Area Template
             handle: null
@@ -149,14 +149,14 @@ fieldLayouts:
             warning: null
             width: 25
           -
-            dateAdded: '2024-10-05T13:40:37+02:00'
+            dateAdded: '2024-10-09T11:10:45+02:00'
             elementCondition: null
             heading: Content
             type: craft\fieldlayoutelements\Heading
             uid: 3028b2cb-b21b-42e9-acb2-de4f11747015
             userCondition: null
           -
-            dateAdded: '2024-10-05T13:40:37+02:00'
+            dateAdded: '2024-10-09T11:10:45+02:00'
             elementCondition: null
             fieldUid: 85898001-9c9c-4d46-abf9-a928e44f0d48 # Body Content
             handle: null
@@ -172,7 +172,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2024-10-05T13:40:37+02:00'
+            dateAdded: '2024-10-09T11:10:45+02:00'
             elementCondition: null
             fieldUid: 0e5d9cbb-86fe-4e68-9632-75129c02b391 # Short Text (not translatable)
             handle: pageTemplate
