@@ -11,7 +11,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2024-10-09T11:10:45+02:00'
+            dateAdded: '2024-10-23T16:10:53+02:00'
             disabled: false
             elementCondition: null
             id: null
@@ -40,7 +40,7 @@ fieldLayouts:
             attribute: alt
             class: null
             cols: null
-            dateAdded: '2024-10-09T11:10:45+02:00'
+            dateAdded: '2024-10-23T16:10:53+02:00'
             disabled: false
             elementCondition: null
             id: null

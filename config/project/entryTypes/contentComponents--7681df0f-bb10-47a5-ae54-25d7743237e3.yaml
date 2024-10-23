@@ -10,7 +10,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2024-10-09T11:10:45+02:00'
+            dateAdded: '2024-10-23T16:10:53+02:00'
             disabled: false
             elementCondition: null
             id: null
@@ -36,7 +36,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2024-10-09T11:10:45+02:00'
+            dateAdded: '2024-10-23T16:10:53+02:00'
             elementCondition: null
             fieldUid: 2f9975bd-3ee0-4f17-96cc-e91a163964dc # Content Components
             handle: null

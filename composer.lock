@@ -233,11 +233,11 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "5.4.7.1",
+            "version": "5.4.9",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/7f26db4a36c374117c281707a22b5493335e042b",
-                "reference": "7f26db4a36c374117c281707a22b5493335e042b",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/8c354fc15b0fba8a8b9363f0f98883a76e57795f",
+                "reference": "8c354fc15b0fba8a8b9363f0f98883a76e57795f",
                 "shasum": ""
             },
             "require": {
@@ -334,7 +334,7 @@
                 "docs": "https://craftcms.com/docs/5.x/",
                 "rss": "https://github.com/craftcms/cms/releases.atom"
             },
-            "time": "2024-10-09T08:30:12+00:00"
+            "time": "2024-10-22T19:14:27+00:00"
         },
         {
             "name": "craftcms/contact-form",
@@ -1040,11 +1040,11 @@
         },
         {
             "name": "guzzlehttp/promises",
-            "version": "2.0.3",
+            "version": "2.0.4",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/6ea8dd08867a2a42619d65c3deb2c0fcbf81c8f8",
-                "reference": "6ea8dd08867a2a42619d65c3deb2c0fcbf81c8f8",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/f9c436286ab2892c7db7be8c8da4ef61ccf7b455",
+                "reference": "f9c436286ab2892c7db7be8c8da4ef61ccf7b455",
                 "shasum": ""
             },
             "require": {
@@ -1091,7 +1091,7 @@
             "keywords": [
                 "promise"
             ],
-            "time": "2024-07-18T10:29:17+00:00"
+            "time": "2024-10-17T10:06:22+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -2278,11 +2278,11 @@
         },
         {
             "name": "phpstan/phpdoc-parser",
-            "version": "1.32.0",
+            "version": "1.33.0",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/6ca22b154efdd9e3c68c56f5d94670920a1c19a4",
-                "reference": "6ca22b154efdd9e3c68c56f5d94670920a1c19a4",
+                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/82a311fd3690fb2bf7b64d5c98f912b3dd746140",
+                "reference": "82a311fd3690fb2bf7b64d5c98f912b3dd746140",
                 "shasum": ""
             },
             "require": {
@@ -2300,7 +2300,7 @@
                 "MIT"
             ],
             "description": "PHPDoc parser with support for nullable, intersection and generic types",
-            "time": "2024-09-26T07:23:32+00:00"
+            "time": "2024-10-13T11:25:22+00:00"
         },
         {
             "name": "pixelandtonic/imagine",
@@ -5563,12 +5563,11 @@
             "dist": {
                 "type": "path",
                 "url": "/var/www/plugins/extras",
-                "reference": "b00eab75ca48d891e828e1cb9cf4e84b5ba0c5f0"
+                "reference": "2c13932e305e18be63954937c3f46bbe40bed3c0"
             },
             "require": {
                 "craftcms/cms": "^5.0.0-beta.3",
                 "jfcherng/php-diff": "^6.16.2",
-                "nystudio107/craft-code-editor": "^1.0.7",
                 "php": ">=8.2"
             },
             "require-dev": {
@@ -6246,11 +6245,11 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.12.6",
+            "version": "1.12.7",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/dc4d2f145a88ea7141ae698effd64d9df46527ae",
-                "reference": "dc4d2f145a88ea7141ae698effd64d9df46527ae",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/dc2b9976bd8b0f84ec9b0e50cc35378551de7af0",
+                "reference": "dc2b9976bd8b0f84ec9b0e50cc35378551de7af0",
                 "shasum": ""
             },
             "require": {
@@ -6277,7 +6276,7 @@
                 "dev",
                 "static analysis"
             ],
-            "time": "2024-10-06T15:03:59+00:00"
+            "time": "2024-10-18T11:12:07+00:00"
         },
         {
             "name": "psy/psysh",
@@ -6348,16 +6347,16 @@
         },
         {
             "name": "rector/rector",
-            "version": "1.2.6",
+            "version": "1.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rectorphp/rector.git",
-                "reference": "6ca85da28159dbd3bb36211c5104b7bc91278e99"
+                "reference": "05755bf43617449c08ee8e50fb840c85ad3b1240"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rectorphp/rector/zipball/6ca85da28159dbd3bb36211c5104b7bc91278e99",
-                "reference": "6ca85da28159dbd3bb36211c5104b7bc91278e99",
+                "url": "https://api.github.com/repos/rectorphp/rector/zipball/05755bf43617449c08ee8e50fb840c85ad3b1240",
+                "reference": "05755bf43617449c08ee8e50fb840c85ad3b1240",
                 "shasum": ""
             },
             "require": {
@@ -6395,7 +6394,7 @@
             ],
             "support": {
                 "issues": "https://github.com/rectorphp/rector/issues",
-                "source": "https://github.com/rectorphp/rector/tree/1.2.6"
+                "source": "https://github.com/rectorphp/rector/tree/1.2.8"
             },
             "funding": [
                 {
@@ -6403,7 +6402,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-10-03T08:56:44+00:00"
+            "time": "2024-10-18T11:54:27+00:00"
         },
         {
             "name": "symfony/console",
@@ -6568,15 +6567,15 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "wsydney76/extras": 20,
         "craftcms/ecs": 20,
         "craftcms/phpstan": 20,
-        "craftcms/rector": 20
+        "craftcms/rector": 20,
+        "wsydney76/extras": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
+    "platform": {},
+    "platform-dev": {},
     "platform-overrides": {
         "php": "8.2"
     },
