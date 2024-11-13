@@ -5,6 +5,7 @@ name: 'Story Team'
 searchable: false
 settings:
   createButtonLabel: 'New team member'
+  defaultIndexViewMode: cards
   entryTypes:
     - 2232a9d8-f828-47e8-bb32-6e03f1cd70b6 # Team Member
   includeTableView: false

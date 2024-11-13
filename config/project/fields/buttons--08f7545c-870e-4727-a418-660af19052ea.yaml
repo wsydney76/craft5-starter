@@ -5,6 +5,7 @@ name: Buttons
 searchable: true
 settings:
   createButtonLabel: 'New button'
+  defaultIndexViewMode: cards
   entryTypes:
     - dfe86fae-c542-4ae2-8b07-16d57c206b16 # Button
   includeTableView: false

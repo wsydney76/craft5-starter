@@ -5,6 +5,7 @@ name: FAQs
 searchable: true
 settings:
   createButtonLabel: 'New FAQ'
+  defaultIndexViewMode: cards
   entryTypes:
     - 97742dae-23f0-4986-a259-c886b727a452 # FAQ
   includeTableView: false

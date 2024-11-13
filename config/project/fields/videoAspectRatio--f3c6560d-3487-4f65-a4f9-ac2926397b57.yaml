@@ -4,6 +4,7 @@ instructions: 'Sets the aspect ratio for the video iframe'
 name: 'Video Aspect Ratio'
 searchable: false
 settings:
+  customOptions: false
   options:
     -
       __assoc__:

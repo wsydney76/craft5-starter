@@ -10,7 +10,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2024-10-23T16:10:53+02:00'
+            dateAdded: '2024-11-13T11:37:24+01:00'
             disabled: false
             elementCondition: null
             id: null
@@ -25,7 +25,7 @@ fieldLayouts:
             placeholder: null
             providesThumbs: false
             readonly: false
-            requirable: false
+            required: true
             size: null
             step: null
             tip: null
@@ -36,7 +36,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2024-10-23T16:10:53+02:00'
+            dateAdded: '2024-11-13T11:37:24+01:00'
             elementCondition: null
             fieldUid: 0a4ca680-269a-45f0-8eac-eada97e7dc29 # Single Line Text
             handle: alternativeTitle
@@ -52,7 +52,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2024-10-23T16:10:53+02:00'
+            dateAdded: '2024-11-13T11:37:24+01:00'
             elementCondition: null
             fieldUid: 354b3c11-ae38-4fae-8017-8ddced25fecd # Text
             handle: description
@@ -68,7 +68,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2024-10-23T16:10:53+02:00'
+            dateAdded: '2024-11-13T11:37:24+01:00'
             elementCondition: null
             fieldUid: 34581043-4880-49b9-b16a-cba691fa21f3 # Image
             handle: image
@@ -84,7 +84,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2024-10-23T16:10:53+02:00'
+            dateAdded: '2024-11-13T11:37:24+01:00'
             elementCondition: null
             fieldUid: 90724a6b-55ad-446f-be50-7aea7e1fb067 # Robots
             handle: null

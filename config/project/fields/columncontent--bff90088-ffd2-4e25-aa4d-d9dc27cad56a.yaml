@@ -5,6 +5,7 @@ name: 'Column Content'
 searchable: true
 settings:
   createButtonLabel: 'New content block'
+  defaultIndexViewMode: cards
   entryTypes:
     - ac457f93-1a50-473e-9983-a899a7f0bed7 # Heading
     - 81e6a0d6-13c5-47ad-a9e6-c2181276db9c # Text

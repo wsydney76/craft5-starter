@@ -10,7 +10,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2024-10-23T16:10:53+02:00'
+            dateAdded: '2024-11-13T11:37:24+01:00'
             disabled: false
             elementCondition: null
             id: null
@@ -25,7 +25,7 @@ fieldLayouts:
             placeholder: null
             providesThumbs: false
             readonly: false
-            requirable: false
+            required: true
             size: null
             step: null
             tip: null
@@ -36,7 +36,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2024-10-23T16:10:53+02:00'
+            dateAdded: '2024-11-13T11:37:24+01:00'
             elementCondition: null
             fieldUid: 0c39cdb5-26f9-49ca-9bb4-445a28a61ddf # Images
             handle: null
@@ -52,7 +52,7 @@ fieldLayouts:
             warning: null
             width: 75
           -
-            dateAdded: '2024-10-23T16:10:53+02:00'
+            dateAdded: '2024-11-13T11:37:24+01:00'
             elementCondition: null
             fieldUid: a05a3ce8-0bcb-4e36-abb0-1338754baec1 # Image Align
             handle: align

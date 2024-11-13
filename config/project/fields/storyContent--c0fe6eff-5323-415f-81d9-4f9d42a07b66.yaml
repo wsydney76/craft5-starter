@@ -5,6 +5,7 @@ name: 'Story Content'
 searchable: true
 settings:
   createButtonLabel: 'New content block'
+  defaultIndexViewMode: cards
   entryTypes:
     - 49a267d5-a7d3-43e8-979c-b4c3b107154e # Cover
     - 80e88b1c-5efc-40b5-b15f-db6921165b73 # Title

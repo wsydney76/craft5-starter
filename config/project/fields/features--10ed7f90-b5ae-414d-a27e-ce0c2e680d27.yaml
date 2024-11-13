@@ -5,6 +5,7 @@ name: Features
 searchable: true
 settings:
   createButtonLabel: 'New feature'
+  defaultIndexViewMode: cards
   entryTypes:
     - 24a1d709-9601-4848-9deb-6df1f3ecd806 # Feature
   includeTableView: false
