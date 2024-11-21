@@ -13,7 +13,8 @@
 {% set handleCopyright = customConfig.handleCopyright %}
 
 {% set lightboxTransform = {height: 800} %}
-{% set thumbnailTransform = {width: 320, height: 250} %}
+{# Don't use 320x250, will probably be blocked by ad blockers #}
+{% set thumbnailTransform = {width: 320, height: 255} %}
 
 {% set query = block.images %}
 
