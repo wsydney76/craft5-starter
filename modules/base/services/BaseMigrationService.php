@@ -12,17 +12,20 @@ use craft\errors\EntryTypeNotFoundException;
 use craft\errors\SectionNotFoundException;
 use craft\errors\StaleResourceException;
 use craft\fieldlayoutelements\CustomField;
+use craft\fieldlayoutelements\entries\EntryTitleField;
 use craft\fieldlayoutelements\LineBreak;
 use craft\fieldlayoutelements\Tip;
 use craft\fieldlayoutelements\TitleField;
 use craft\fields\Entries;
 use craft\fields\Matrix;
+use craft\helpers\StringHelper;
+use craft\models\EntryType;
+use craft\models\FieldLayout;
 use craft\models\FieldLayoutTab;
-use craft\models\MatrixBlockType;
 use craft\models\Section;
 use craft\models\Section_SiteSettings;
 use craft\models\Site;
-use craft\records\FieldGroup as FieldGroupRecord;
+use DateTime;
 use Faker\Generator;
 use modules\base\BaseModule;
 use Throwable;
@@ -46,7 +49,7 @@ class BaseMigrationService extends BaseService
     protected string $logCategory = 'migration';
     protected string $imageVolume = 'images';
     protected int $minHeroImageWidth = 1900;
-    
+
     protected string $translationCategory = 'site';
     protected string $templateRoot = 'base';
 
@@ -55,8 +58,6 @@ class BaseMigrationService extends BaseService
 
     /** @var array<FieldInterface> $fields */
     protected array $fields = [];
-
-    protected FieldGroupRecord $fieldGroup;
 
     /** @var array<string> $doUpdateFieldlayout */
     protected array $doUpdateFieldlayout = [];
@@ -72,19 +73,28 @@ class BaseMigrationService extends BaseService
      * @throws EntryTypeNotFoundException
      * @throws SectionNotFoundException
      */
-    protected function createSection(array $config): bool
+    public function createSection(array $config): bool
     {
+
         $name = $config['name'];
         $type = $config['type'] ?? Section::TYPE_CHANNEL;
-        $handle = $config['handle'] ?? strtolower($config['name']);
         $plural = $config['plural'] ?? $config['name'];
+        $handle = $config['handle'] ?? strtolower($config['name']);
         $baseUri = $config['baseUri'] ?? strtolower($plural);
         $titleFormat = $config['titleFormat'] ?? '';
         $addIndexPage = $config['addIndexPage'] ?? false;
+        $parent = $config['parent'] ?? null;
         $withHeroFields = $config['withHeroFields'] ?? false;
         $createEntriesField = $config['createEntriesField'] ?? false;
         $template = $config['template'] ?? "$this->templateRoot/sections/$handle";
         $hasUrls = isset($config['hasUrls']) ? $config['hasUrls'] : true;
+        $entryTypes = $config['entryTypes'] ?? [];
+        $createExtraEntriesFields = $config['createExtraEntriesFields'] ?? [];
+
+
+        if (!$entryTypes) {
+            throw new InvalidConfigException('No entry types provided');
+        }
 
         $this->sections[$handle] = Craft::$app->entries->getSectionByHandle($handle);
         if ($this->sections[$handle]) {
@@ -95,6 +105,7 @@ class BaseMigrationService extends BaseService
                 'name' => $name,
                 'handle' => $handle,
                 'type' => $type,
+                'entryTypes' => $entryTypes,
                 'siteSettings' => collect(Craft::$app->sites->getAllSites())
                     ->map(fn(Site $site) => new Section_SiteSettings([
                         'siteId' => $site->id,
@@ -108,7 +119,7 @@ class BaseMigrationService extends BaseService
         );
 
         if (!Craft::$app->entries->saveSection($section)) {
-            $this->error("Could not create section $handle: {$section}");
+            $this->error("Could not create section $handle: " . implode(', ', $section->firstErrors));
             return false;
         }
 
@@ -116,7 +127,7 @@ class BaseMigrationService extends BaseService
 
         $this->doUpdateFieldlayout[] = $section->handle;
 
-        $type = $section->getEntryTypes()[0];
+        /*$type = $section->getEntryTypes()[0];
         $type->titleTranslationMethod = Field::TRANSLATION_METHOD_LANGUAGE;
         if ($titleFormat) {
             $type->hasTitleField = false;
@@ -127,10 +138,12 @@ class BaseMigrationService extends BaseService
             $this->error("Could not save entry type for $handle");
         }
 
-        $this->info("Entry type $section->name/$type->name updated.");
+        $this->info("Entry type $section->name/$type->name updated.");*/
 
         if ($addIndexPage) {
-            $homePage = Entry::findOne(['slug' => '__home__']);
+            if (!$parent) {
+                $parent = Entry::findOne(['slug' => '__home__']);
+            }
 
             $fields = [
                 'pageTemplate' => "$this->templateRoot/_entries/$section->handle/index",
@@ -149,7 +162,7 @@ class BaseMigrationService extends BaseService
                 'type' => 'pageTemplate',
                 'title' => $plural,
                 'slug' => $baseUri,
-                'parent' => $homePage,
+                'parent' => $parent,
                 'fields' => $fields,
                 'localized' => [
                     'de' => [
@@ -163,7 +176,6 @@ class BaseMigrationService extends BaseService
         if ($createEntriesField) {
             $this->createField([
                 'class' => Entries::class,
-                'groupId' => $this->fieldGroup->id,
                 'name' => $plural,
                 'handle' => $config['entriesFieldHandle'] ?? $baseUri,
                 'sources' => [
@@ -172,9 +184,154 @@ class BaseMigrationService extends BaseService
             ]);
         }
 
+        if ($createExtraEntriesFields) {
+            foreach ($createExtraEntriesFields as $extraEntriesField) {
+                $this->createField([
+                    'class' => Entries::class,
+                    'name' => $extraEntriesField['name'],
+                    'handle' => $extraEntriesField['handle'],
+                    'sources' => [
+                        "section:$section->uid",
+                    ],
+                ]);
+            }
+        }
+
         $this->sections[$handle] = $section;
         return true;
     }
+
+
+    protected function createEntryType(array $config, array $fieldLayoutElements, array $cardView = []): EntryType
+    {
+        $config += [
+            'name' => 'New Entry Type',
+            'handle' => null,
+            'hasTitleField' => true,
+            'titleFormat' => null,
+            'icon' => null,
+            'color' => null,
+            'titleTranslationMethod' => Field::TRANSLATION_METHOD_LANGUAGE,
+            'titleTranslationKeyFormat' => null,
+            'slugTranslationMethod' => Field::TRANSLATION_METHOD_LANGUAGE,
+            'slugTranslationKeyFormat' => null,
+            'showSlugField' => true,
+            'showStatusField' => true,
+            'uid' => null,
+        ];
+
+        $entryType = Craft::$app->entries->getEntryTypeByHandle($config['handle']);
+        if ($entryType) {
+            return $entryType;
+        }
+
+        $entryType = new EntryType($config);
+
+        // \Craft::dd($entryType);
+
+        $fieldLayout = $this->createFieldLayout($fieldLayoutElements, $cardView);
+
+        // \Craft::dd($fieldLayout);
+
+        $entryType->setFieldLayout($fieldLayout);
+
+        if (!Craft::$app->entries->saveEntryType($entryType)) {
+            throw new \Exception('Could not save entry type: ' . implode(', ', $entryType->getErrorSummary(true)));
+        }
+
+        return $entryType;
+    }
+
+    /**
+     * @throws \Exception
+     */
+    protected function createFieldLayout(array $elements, $cardView = []): FieldLayout
+    {
+        if (isset($elements[0])) {
+            $elements = ['Content' => $elements];
+        }
+        $tabs = [];
+        $configUids = [];
+        foreach ($elements as $label => $layoutElements) {
+            $elementsInTab = [];
+            foreach ($layoutElements as $layoutElement) {
+                if (is_string($layoutElement)) {
+                    $layoutElement = [$layoutElement];
+                }
+                switch ($layoutElement[0]) {
+                    case 'title':
+                        $elementsInTab[] = $this->createTitleElementConfig();
+                        break;
+                    case 'lineBreak':
+                        $elementsInTab[] = new LineBreak();
+                        break;
+                    default:
+                        $config = $this->createFieldInstanceConfig($layoutElement[0], $layoutElement[1] ?? []);
+                        $configUids[$layoutElement[0]] = $config['uid'];
+                        $elementsInTab[] = $config;
+                        break;
+                }
+            }
+            $tabs[] = [
+                'name' => $label,
+                'elements' => $elementsInTab,
+                'uid' => StringHelper::UUID(),
+            ];
+        }
+
+        // TODO: Doesn't work this way, using 'includeInCards' => true on the field instance itself for now
+        $cardViewConfig = [];
+        foreach ($cardView as $fieldHandle) {
+            $cardViewConfig[] = 'layoutElement:' . $configUids[$fieldHandle];
+        }
+
+        $config = [
+            'uid' => StringHelper::UUID(),
+            'type' => Entry::class,
+            'cardView' => $cardViewConfig ?: null,
+            'tabs' => $tabs
+        ];
+
+        // \Craft::dd($config);
+
+        return new FieldLayout($config);
+    }
+
+    protected function createTitleElementConfig(array $config = []): array
+    {
+        $config += [
+            'type' => EntryTitleField::class,
+        ];
+
+        return $config;
+    }
+
+    protected function createFieldInstanceConfig(string $fieldHandle, array $config = []): array
+    {
+        $field = Craft::$app->fields->getFieldByHandle($fieldHandle);
+        if (!$field) {
+            throw new \Exception('Field not found: ' . $fieldHandle);
+        }
+
+        $config += [
+            'type' => CustomField::class,
+            'handle' => null,
+            'label' => null,
+            'instructions' => null,
+            'tip' => null,
+            'warning' => null,
+            'required' => false,
+            'providesThumbs' => false,
+            'includeInCards' => false,
+            'dateAdded' => new DateTime(),
+            'width' => 100,
+            'uid' => StringHelper::UUID(),
+            'fieldUid' => $field->uid,
+        ];
+
+        return $config;
+    }
+
 
     /**
      * @param array $config
@@ -182,7 +339,7 @@ class BaseMigrationService extends BaseService
      * @throws InvalidConfigException
      * @throws Throwable
      */
-    protected function createField(array $config): bool
+    public function createField(array $config): bool
     {
         $handle = $config['handle'];
         $name = $config['name'];
@@ -212,7 +369,7 @@ class BaseMigrationService extends BaseService
      * @throws InvalidConfigException
      * @throws Throwable
      */
-    protected function createMatrixField(array $config): bool
+    public function createMatrixField(array $config): bool
     {
         $this->fields[$config['handle']] = Craft::$app->fields->getFieldByHandle($config['handle']);
         if ($this->fields[$config['handle']]) {
@@ -277,7 +434,7 @@ class BaseMigrationService extends BaseService
      * @return bool
      * @throws Exception
      */
-    protected function updateFieldLayout(string $sectionHandle, array $tabConfigs): bool
+    public function updateFieldLayout(string $sectionHandle, array $tabConfigs): bool
     {
         // Only create field layout for newly created sections
         if (!in_array($sectionHandle, $this->doUpdateFieldlayout)) {
@@ -369,7 +526,7 @@ class BaseMigrationService extends BaseService
      * @throws NotSupportedException
      * @throws ServerErrorHttpException
      */
-    protected function updateElementSource(string $heading, string $sectionHandle, array $tableAttributes): void
+    public function updateElementSource(string $heading, string $sectionHandle, array $tableAttributes): void
     {
         $config = Craft::$app->projectConfig->get('elementSources');
         $section = Craft::$app->entries->getSectionByHandle($sectionHandle);
@@ -417,19 +574,10 @@ class BaseMigrationService extends BaseService
 
 
     /**
-     * @param string $fieldGroup
-     * @return FieldGroupRecord|null
-     */
-    protected function getFieldGroup(string $fieldGroup): ?FieldGroupRecord
-    {
-        return FieldGroupRecord::findOne(['name' => $fieldGroup]);
-    }
-
-    /**
      * @param int $width
      * @return Asset|null
      */
-    protected function getRandomImage(int $width): ?Asset
+    public function getRandomImage(int $width): ?Asset
     {
         return Asset::find()
             ->volume($this->imageVolume)

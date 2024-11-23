@@ -3,7 +3,6 @@
 namespace modules\main\validators;
 
 use Craft;
-use craft\elements\MatrixBlock;
 use yii\validators\Validator;
 
 class BodyContentValidator extends Validator
@@ -22,7 +21,7 @@ class BodyContentValidator extends Validator
         // Iterate through all the blocks
         $blocks = $query->getCachedResult() ?? $query->limit(null)->anyStatus()->all();
 
-        /** @var MatrixBlock $block */
+
         foreach ($blocks as $index => $block) {
             if ($block->type->handle === 'heading') {
                 /* @phpstan-ignore-next-line */
