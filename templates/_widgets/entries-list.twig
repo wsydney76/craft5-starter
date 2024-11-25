@@ -1,19 +1,39 @@
 {# @param Heading string Widget heading #}
 {# @param query EntryQuery specifies entries to display #}
 
+{% set layout = layout ?? 'link' %}
+
 {% set entries = query.collect() %}
 
 {% if entries.count() %}
 
     {% embed '_layouts/embeds/widget.twig' with {heading: heading} %}
         {% block content %}
-            <ul class="space-y-2">
-                {% for entry in entries %}
-                    <li>
-                        {{ entry.link }}
-                    </li>
-                {% endfor %}
-            </ul>
+            {% switch layout %}
+
+            {% case "cardlet" or "cardlets" %}
+
+                <ul class="space-y-2">
+                    {% for entry in entries %}
+                        <li>
+                            {% include '_layouts/partials/cardlet.twig' with {
+                                entry
+                            } only %}
+                        </li>
+                    {% endfor %}
+                </ul>
+
+            {% default %}
+
+                <ul class="space-y-2">
+                    {% for entry in entries %}
+                        <li>
+                            {{ entry.link }}
+                        </li>
+                    {% endfor %}
+                </ul>
+
+            {% endswitch %}
         {% endblock %}
     {% endembed %}
 

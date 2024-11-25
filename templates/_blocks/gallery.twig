@@ -13,7 +13,7 @@
 {% set handleCopyright = customConfig.handleCopyright %}
 
 {% set lightboxTransform = {height: 800} %}
-{# Don't use 320x250, will probably be blocked by ad blockers #}
+{# Don't use 320x250, will probably be blocked by ad blockers  #}
 {% set thumbnailTransform = {width: 320, height: 255} %}
 
 {% set query = block.images %}
@@ -28,6 +28,7 @@
 
 {% set images = query.collect() %}
 
+
 <div id="gallery-{{ block.id }}" class="{{ alignClasses[align] }} grid grid-cols-2 gap-2 not-prose">
     {% for image in images %}
 
@@ -41,7 +42,6 @@
 
         <a href="{{ lightboxUrl }}" class="overflow-hidden rounded-lg"
            data-caption="{{ image.alt ?? image.title }} {{ image.copyright ? "&copy; #{image.copyright}" }}">
-
             {{ img(image, {
                 transform: thumbnailTransform,
                 handleCopyright: handleCopyright == 'show' ? 'overlay' : handleCopyright,
