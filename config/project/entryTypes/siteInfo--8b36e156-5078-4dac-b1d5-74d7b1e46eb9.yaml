@@ -6,7 +6,7 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
-            dateAdded: '2024-11-23T11:57:58+01:00'
+            dateAdded: '2024-11-25T15:51:25+01:00'
             dismissible: true
             elementCondition: null
             style: tip
@@ -19,7 +19,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2024-11-23T11:57:58+01:00'
+            dateAdded: '2024-11-25T15:51:25+01:00'
             disabled: false
             elementCondition: null
             id: null
@@ -45,7 +45,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2024-11-23T11:57:58+01:00'
+            dateAdded: '2024-11-25T15:51:25+01:00'
             elementCondition: null
             fieldUid: 0a4ca680-269a-45f0-8eac-eada97e7dc29 # Single Line Text
             handle: copyright
@@ -61,7 +61,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2024-11-23T11:57:58+01:00'
+            dateAdded: '2024-11-25T15:51:25+01:00'
             elementCondition: null
             fieldUid: ebe8548f-7f01-49b6-af98-56da49668e79 # Logo
             handle: null
@@ -77,7 +77,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2024-11-23T11:57:58+01:00'
+            dateAdded: '2024-11-25T15:51:25+01:00'
             elementCondition: null
             fieldUid: c72e758a-f6c3-42cd-896b-3ff6353ed259 # Featured Image
             handle: null
@@ -99,7 +99,7 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
-            dateAdded: '2024-11-23T11:57:58+01:00'
+            dateAdded: '2024-11-25T15:51:25+01:00'
             elementCondition: null
             fieldUid: 324e8b16-2907-4fe0-99bb-9d46526eec07 # Addresses
             handle: null
@@ -115,7 +115,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2024-11-23T11:57:58+01:00'
+            dateAdded: '2024-11-25T15:51:25+01:00'
             elementCondition: null
             fieldUid: 0e5d9cbb-86fe-4e68-9632-75129c02b391 # Short Text (not translatable)
             handle: phoneNumber
@@ -131,7 +131,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2024-11-23T11:57:58+01:00'
+            dateAdded: '2024-11-25T15:51:25+01:00'
             elementCondition: null
             fieldUid: bbe2ff0f-6056-4848-80de-3070bb80294d # Email
             handle: null
@@ -147,7 +147,7 @@ fieldLayouts:
             warning: null
             width: 50
           -
-            dateAdded: '2024-11-23T11:57:58+01:00'
+            dateAdded: '2024-11-25T15:51:25+01:00'
             elementCondition: null
             fieldUid: bf3d514d-a34d-41d6-bb20-61c6d8119820 # Social Links
             handle: null
@@ -169,7 +169,7 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
-            dateAdded: '2024-11-23T11:57:58+01:00'
+            dateAdded: '2024-11-25T15:51:25+01:00'
             elementCondition: null
             fieldUid: 621ad41b-f019-4e95-96aa-49f8c56482db # SEO Descriction
             handle: null
@@ -185,7 +185,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2024-11-23T11:57:58+01:00'
+            dateAdded: '2024-11-25T15:51:25+01:00'
             elementCondition: null
             fieldUid: 80fa81e4-1f78-4d88-b733-f565d1f5b9bd # Image
             handle: seoImage
