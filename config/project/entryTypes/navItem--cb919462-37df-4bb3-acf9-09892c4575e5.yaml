@@ -6,7 +6,7 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
-            dateAdded: '2024-11-25T15:51:25+01:00'
+            dateAdded: '2024-12-03T10:09:14+01:00'
             dismissible: true
             elementCondition: null
             style: tip
@@ -19,7 +19,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2024-11-25T15:51:25+01:00'
+            dateAdded: '2024-12-03T10:09:14+01:00'
             disabled: false
             elementCondition: null
             id: null
@@ -45,7 +45,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2024-11-25T15:51:25+01:00'
+            dateAdded: '2024-12-03T10:09:14+01:00'
             elementCondition: null
             fieldUid: 7fb04ffe-73af-49d3-a840-c4c224d40dcf # Toggle
             handle: showStructureNavigation
@@ -61,7 +61,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2024-11-25T15:51:25+01:00'
+            dateAdded: '2024-12-03T10:09:14+01:00'
             elementCondition: null
             fieldUid: 0e5d9cbb-86fe-4e68-9632-75129c02b391 # Short Text (not translatable)
             handle: navItemTemplate
