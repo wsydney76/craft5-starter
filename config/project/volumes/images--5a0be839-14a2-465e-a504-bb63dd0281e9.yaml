@@ -11,7 +11,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2024-12-03T10:09:14+01:00'
+            dateAdded: '2024-12-04T01:17:57+01:00'
             disabled: false
             elementCondition: null
             id: null
@@ -40,7 +40,7 @@ fieldLayouts:
             attribute: alt
             class: null
             cols: null
-            dateAdded: '2024-12-03T10:09:14+01:00'
+            dateAdded: '2024-12-04T01:17:57+01:00'
             disabled: false
             elementCondition: null
             id: null
@@ -63,7 +63,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2024-12-03T10:09:14+01:00'
+            dateAdded: '2024-12-04T01:17:57+01:00'
             elementCondition: null
             fieldUid: 0a4ca680-269a-45f0-8eac-eada97e7dc29 # Single Line Text
             handle: caption
@@ -79,7 +79,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2024-12-03T10:09:14+01:00'
+            dateAdded: '2024-12-04T01:17:57+01:00'
             elementCondition: null
             fieldUid: 0e5d9cbb-86fe-4e68-9632-75129c02b391 # Short Text (not translatable)
             handle: copyright
@@ -95,7 +95,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2024-12-03T10:09:14+01:00'
+            dateAdded: '2024-12-04T01:17:57+01:00'
             elementCondition: null
             fieldUid: c5912111-be84-47af-8f06-5df24eb99d67 # Text (not translatable)
             handle: imageSource

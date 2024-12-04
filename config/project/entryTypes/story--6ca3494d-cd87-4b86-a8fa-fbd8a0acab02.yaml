@@ -6,7 +6,7 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
-            dateAdded: '2024-12-03T10:09:14+01:00'
+            dateAdded: '2024-12-04T01:17:57+01:00'
             elementCondition: null
             fieldUid: 0767f000-e433-4930-9534-b795a48740bb # Teaser
             handle: null
@@ -26,7 +26,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2024-12-03T10:09:14+01:00'
+            dateAdded: '2024-12-04T01:17:57+01:00'
             disabled: false
             elementCondition: null
             id: null
@@ -52,7 +52,7 @@ fieldLayouts:
             warning: null
             width: 75
           -
-            dateAdded: '2024-12-03T10:09:14+01:00'
+            dateAdded: '2024-12-04T01:17:57+01:00'
             elementCondition: null
             fieldUid: 7fb04ffe-73af-49d3-a840-c4c224d40dcf # Toggle
             handle: isFeatured
@@ -68,7 +68,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2024-12-03T10:09:14+01:00'
+            dateAdded: '2024-12-04T01:17:57+01:00'
             elementCondition: null
             fieldUid: 400d2e7a-d260-459d-b16d-bc388f093106 # Tagline
             handle: null
@@ -84,7 +84,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2024-12-03T10:09:14+01:00'
+            dateAdded: '2024-12-04T01:17:57+01:00'
             elementCondition: null
             fieldUid: ee886fff-a72a-4a22-b217-f878c7f53ffe # Persons
             handle: null
@@ -100,7 +100,7 @@ fieldLayouts:
             warning: null
             width: 25
           -
-            dateAdded: '2024-12-03T10:09:14+01:00'
+            dateAdded: '2024-12-04T01:17:57+01:00'
             elementCondition: null
             fieldUid: 05ab0680-2ccc-4a59-932a-07311f773d42 # Topics
             handle: null
@@ -116,7 +116,7 @@ fieldLayouts:
             warning: null
             width: 25
           -
-            dateAdded: '2024-12-03T10:09:14+01:00'
+            dateAdded: '2024-12-04T01:17:57+01:00'
             elementCondition: null
             fieldUid: c72e758a-f6c3-42cd-896b-3ff6353ed259 # Featured Image
             handle: null
@@ -132,7 +132,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2024-12-03T10:09:14+01:00'
+            dateAdded: '2024-12-04T01:17:57+01:00'
             elementCondition: null
             fieldUid: 0a4ca680-269a-45f0-8eac-eada97e7dc29 # Single Line Text
             handle: cardText
@@ -148,7 +148,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2024-12-03T10:09:14+01:00'
+            dateAdded: '2024-12-04T01:17:57+01:00'
             elementCondition: null
             fieldUid: 12ee7163-1896-4afc-b140-3f53c59f8b7d # Color
             handle: textColor
@@ -164,7 +164,7 @@ fieldLayouts:
             warning: null
             width: 25
           -
-            dateAdded: '2024-12-03T10:09:14+01:00'
+            dateAdded: '2024-12-04T01:17:57+01:00'
             elementCondition: null
             fieldUid: 12ee7163-1896-4afc-b140-3f53c59f8b7d # Color
             handle: backgroundColor
@@ -186,7 +186,7 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
-            dateAdded: '2024-12-03T10:09:14+01:00'
+            dateAdded: '2024-12-04T01:17:57+01:00'
             elementCondition: null
             fieldUid: c0fe6eff-5323-415f-81d9-4f9d42a07b66 # Story Content
             handle: null
@@ -208,7 +208,7 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
-            dateAdded: '2024-12-03T10:09:14+01:00'
+            dateAdded: '2024-12-04T01:17:57+01:00'
             elementCondition: null
             fieldUid: 7ef9424e-9902-4930-9244-8d7f93d6dc4b # Story Team
             handle: null
@@ -230,7 +230,7 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
-            dateAdded: '2024-12-03T10:09:14+01:00'
+            dateAdded: '2024-12-04T01:17:57+01:00'
             elementCondition: null
             fieldUid: e62d63b0-c299-42ce-aeef-86a69f7e676c # SEO Fields
             handle: null
