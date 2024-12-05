@@ -1,0 +1,19 @@
+{% from '_layouts/macros/lib.twig' import img %}
+{% set field = field ?? 'featuredImage' %}
+{% set classes = classes ?? '' %}
+
+<a href="{{ entry.url }}"
+   class="max-w-80 flex bg-white dark:bg-gray-700 border border-gray-300 shadow-lg hover:bg-gray-100 dark:hover:bg-gray-500 transition-colors {{ classes }}">
+    {% set image = entry.fieldValue(field).eagerly().one %}
+    {% if image %}
+        <div class="shrink-0 h-full">
+            {{ img(image, {
+                transform: {width: 50, height: 50, format: 'webp'},
+                handleCopyright: 'no'
+            }) }}
+        </div>
+        <div class="px-2 flex items-center">
+            {{ entry.title }}
+        </div>
+    {% endif %}
+</a>
