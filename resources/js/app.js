@@ -1,4 +1,4 @@
-import '@css/app.scss';
+import '@css/app.css';
 // import './scripts/callactions';
 
 // Accept HMR as per: https://vitejs.dev/guide/api-hmr.html
