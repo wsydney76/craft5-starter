@@ -40,7 +40,7 @@
     },
     cardlet:  {
         a: 'flex space-x-4 rtl:space-x-reverse',
-        imgDiv: 'flex-shrink-0 w-36 sm:w-52',
+        imgDiv: 'shrink-0 w-36 sm:w-52',
         textDiv: ''
     }
 } %}
@@ -56,7 +56,7 @@
 {% endif %}
 
 <a href="{{ url }}"
-   class="{{ classes[layout].a }} group overflow-hidden focus:outline-none focus:ring-2 focus:ring-primary dark:focus:ring-primary-dark  rounded-lg">
+   class="{{ classes[layout].a }} group overflow-hidden focus:outline-hidden focus:ring-2 focus:ring-primary dark:focus:ring-primary-dark  rounded-lg">
     {% if layout == 'cardlet' and entry.level is defined and entry.level > 1 %}
         {% for i in 2..entry.level %}
         	<div class="w-16 pt-12">
@@ -100,7 +100,7 @@
             {% set authors = entry.authors %}
             <footer class="mt-4 flex items-center">
                 {% if authors[0].photo %}
-                    <div class="flex-shrink-0">
+                    <div class="shrink-0">
                         <span class="sr-only">{{ authors[0].name }}</span>
                         {{ img(authors[0].photo, {
                             transform: {width: 40, height: 40},

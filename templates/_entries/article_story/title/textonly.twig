@@ -2,7 +2,7 @@
     {% block content %}
         <div class="text-center">
             {% if entry.teaser %}
-                <div class="mb-4 text-lg max-w-screen-sm mx-auto">
+                <div class="mb-4 text-lg max-w-(--breakpoint-sm) mx-auto">
                     {{ entry.teaser }}
                 </div>
             {% endif %}
@@ -10,7 +10,7 @@
                 {{ entry.title }}
             </div>
             {% if entry.tagline %}
-                <div class="mt-8 text-lg max-w-screen-sm mx-auto">
+                <div class="mt-8 text-lg max-w-(--breakpoint-sm) mx-auto">
                     {{ entry.tagline }}
                 </div>
             {% endif %}

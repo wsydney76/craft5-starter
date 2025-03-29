@@ -16,7 +16,7 @@
 
         <div class="relative ps-8 pe-4 md:ps-24 pb-36 sh:pb-8 pt-72 text-white">
             {% if entry.teaser %}
-                <div class="text-xl sh:text-lg max-w-screen-lg">
+                <div class="text-xl sh:text-lg max-w-(--breakpoint-lg)">
                     {{ entry.teaser }}
                 </div>
             {% endif %}
@@ -24,7 +24,7 @@
                 {{ entry.title }}
             </div>
             {% if entry.tagline %}
-                <div class="mt-6 text-xl sh:text-lg max-w-screen-lg">
+                <div class="mt-6 text-xl sh:text-lg max-w-(--breakpoint-lg)">
                     {{ entry.tagline }}
                 </div>
             {% endif %}

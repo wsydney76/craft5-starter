@@ -34,7 +34,7 @@ const transparent = 'transparent'
 
 export default {
 
-    darkMode: 'class',
+    /*darkMode: 'class',*/
 
     content: [
         "./templates/**/*.{twig,svg}",
@@ -138,7 +138,7 @@ export default {
         },
 
         // cannot add a smaller value into 'extend' because order matters
-        screens: {
+        /*screens: {
             xs: '480px',
             sm: '640px',
             md: '768px',
@@ -146,15 +146,15 @@ export default {
             xl: '1280px',
             '2xl': '1536px',
             'sh': {'raw': '(max-height: 450px)'}
-        },
+        },*/
 
         extend: {
 
-            fontFamily: {
+           /* fontFamily: {
                 sans: ['"Open Sans"', 'sans-serif'],
                 headings: ['Raleway', 'sans-serif'],
                 serif: ['"PT Serif"', 'serif']
-            },
+            },*/
 
             // If you want a layout with rounded corners, uncomment these lines
             borderRadius: {
@@ -211,9 +211,9 @@ export default {
             })
         },
     },
-    plugins: [
+    /*plugins: [
         require('@tailwindcss/typography'),
         require('@tailwindcss/forms'),
         require('@tailwindcss/aspect-ratio'),
-    ]
+    ]*/
 }

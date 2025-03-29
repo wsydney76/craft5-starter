@@ -25,7 +25,7 @@
             {% for author in authors %}
                 <div class="flex justify-start items-center">
                     {% if author.photo %}
-                        <div class="flex-shrink-0">
+                        <div class="shrink-0">
                             <span class="sr-only">{{ author.name }}</span>
                             {{ img(author.photo, {
                                 transform: {width: 48, height: 48},

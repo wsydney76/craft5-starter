@@ -19,7 +19,7 @@
             {% block content %}
                 {% from '_layouts/macros/lib.twig' import imgCopyright %}
 
-                <div class="max-w-screen-md mx-auto relative text-center px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
+                <div class="max-w-(--breakpoint-md) mx-auto relative text-center px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
 
                     {% if topHtml %}
                         {{ topHtml|raw }}

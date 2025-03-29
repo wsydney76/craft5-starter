@@ -2,7 +2,7 @@
 {% set tag = tag ?? 'div' %}
 
 {% tag tag with {
-    class: "max-w-screen-xl mx-auto #{padding ? 'px-4 sm:px-8'}"
+    class: "max-w-(--breakpoint-xl) mx-auto #{padding ? 'px-4 sm:px-8'}"
 } %}
 
     {% block content %}{% endblock %}

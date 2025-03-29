@@ -11,7 +11,7 @@
 
             {% if cookieConsentEntry %}
                 <div x-show="showInfo" x-transition class="bg-gray-300 text-black p-4">
-                    <div class="max-w-screen-md mx-auto rich-text">
+                    <div class="max-w-(--breakpoint-md) mx-auto rich-text">
                         {{ cookieConsentEntry.body|nl2br }}
                     </div>
                 </div>
