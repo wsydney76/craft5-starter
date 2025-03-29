@@ -9,8 +9,7 @@ return [
     'devServerInternal' => 'http://localhost:3000/',
     'devServerPublic' => Craft::getAlias('@weburl') . ':3000',
     'errorEntry' => 'resources/js/app.js',
-    'manifestPath' => Craft::getAlias('@webroot') . '/dist/assets/manifest.json',
-    // 'serverPublic' => Craft::getAlias('@web')  . '/dist/assets/',
+    'manifestPath' => Craft::getAlias('@webroot') . '/dist/assets/.vite/manifest.json',
     'serverPublic' =>  '/dist/assets/',
     'useDevServer' => $useDevServer,
 ];

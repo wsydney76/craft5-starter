@@ -1,7 +1,5 @@
 import path from 'path';
-import ViteRestart from 'vite-plugin-restart';
-import manifestSRI from 'vite-plugin-manifest-sri';
-import viteCompression from 'vite-plugin-compression';
+import tailwindcss from '@tailwindcss/vite';
 
 // https://vitejs.dev/config/
 /**
@@ -9,12 +7,17 @@ import viteCompression from 'vite-plugin-compression';
  */
 export default ({ command }) => {
     return {
-        base: command === 'serve' ? '' : '/dist/assets/',
+        plugins: [
+            tailwindcss(),
+        ],
+        base: command === 'serve' ? '' : '/assets/dist/',
         build: {
-            commonjsOptions: {
-                transformMixedEsModules: true,
-            },
-            manifest: 'manifest.json',
+            manifest: true,
+
+            // Don't rely on 'assets' as the default value for 'assetsDir' like this:
+            // outDir: path.resolve(__dirname, 'web/dist/'),
+            // because it will delete other directories in the 'outDir' directory on vite build, like image transforms.
+
             outDir: path.resolve(__dirname, 'web/dist/assets/'),
             assetsDir: './',
             rollupOptions: {
@@ -23,29 +26,13 @@ export default ({ command }) => {
                 },
             }
         },
-        plugins: [
-            manifestSRI(),
-            viteCompression({
-                filter: /\.(js|mjs|json|css|map)$/i
-            }),
-            ViteRestart({
-                reload: [
-                    path.resolve(__dirname, 'templates/**/*')
-                ],
-            }),
-        ],
         publicDir: path.resolve(__dirname, 'resources/public'),
-        resolve: {
-            alias: {
-                '@': path.resolve(__dirname, 'resources'),
-                '@css': path.resolve(__dirname, 'resources/css'),
-                '@js': path.resolve(__dirname, 'resources/js'),
-            },
-        },
         server: {
-            host: '0.0.0.0',
+            host: true,
             port: 3000,
             strictPort: true,
+            allowedHosts: true,
+            cors: true,
         },
     };
 };
