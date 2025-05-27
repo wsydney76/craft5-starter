@@ -10,7 +10,7 @@ fieldLayouts:
             dismissible: true
             elementCondition: null
             style: tip
-            tip: 'Does not have it''s own content, it creates a primary navigation item that shows a dropdown.'
+            tip: "Does not have it's own content, it creates a primary navigation item that shows a dropdown."
             type: craft\fieldlayoutelements\Tip
             uid: 893bbc97-6474-49e3-a197-afc4ddbbee94
             userCondition: null
@@ -50,7 +50,7 @@ fieldLayouts:
             fieldUid: 7fb04ffe-73af-49d3-a840-c4c224d40dcf # Toggle
             handle: showStructureNavigation
             includeInCards: false
-            instructions: 'Show navigation for this entry and it''s descendants'
+            instructions: "Show navigation for this entry and it's descendants"
             label: 'Show Structure Navigation'
             providesThumbs: false
             required: false

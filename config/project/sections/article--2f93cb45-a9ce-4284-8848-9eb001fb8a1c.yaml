@@ -17,7 +17,7 @@ previewTargets:
         - '1'
       -
         - urlFormat
-        - '{{ craft.entries.section(''page'').type(''articleIndex'').site(object.site).one.url }}'
+        - "{{ craft.entries.section('page').type('articleIndex').site(object.site).one.url }}"
   -
     __assoc__:
       -

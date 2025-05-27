@@ -68,7 +68,7 @@ fieldLayouts:
             fieldUid: 7fb04ffe-73af-49d3-a840-c4c224d40dcf # Toggle
             handle: showStructureNavigation
             includeInCards: false
-            instructions: 'Show navigation for this entry and it''s descendants'
+            instructions: "Show navigation for this entry and it's descendants"
             label: 'Show Structure Navigation'
             providesThumbs: false
             required: false
