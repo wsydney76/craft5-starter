@@ -13,7 +13,6 @@ elementSources:
       disabled: false
       key: 'volume:5a0be839-14a2-465e-a504-bb63dd0281e9' # Images
       tableAttributes:
-        - 'field:cc3fbab0-826f-4aed-b2aa-eeaecc2964bf'
         - 'field:eb6b24cc-83d7-416f-be4b-d002c7688b58'
         - imageSize
         - dateModified
@@ -28,7 +27,6 @@ elementSources:
       disabled: false
       key: 'volume:ed627edd-73bd-4b75-8684-f410bf4e4b9d'
       tableAttributes:
-        - 'field:cc3fbab0-826f-4aed-b2aa-eeaecc2964bf'
         - imageSize
         - dateModified
       type: native
@@ -39,35 +37,12 @@ elementSources:
       disabled: false
       key: 'volume:3b60e4f9-36bb-4456-bee5-67160b5a3108' # User Photos
       tableAttributes:
-        - 'field:cc3fbab0-826f-4aed-b2aa-eeaecc2964bf'
         - imageSize
         - dateModified
       type: native
     -
       heading: Work
       type: heading
-    -
-      condition:
-        class: craft\elements\conditions\assets\AssetCondition
-        conditionRules:
-          -
-            class: craft\fields\conditions\TextFieldConditionRule
-            fieldUid: cc3fbab0-826f-4aed-b2aa-eeaecc2964bf
-            operator: empty
-            uid: 8182e7e7-1f2a-4b12-abf5-9c937e885f4d
-            value: ''
-        elementType: craft\elements\Asset
-        fieldContext: global
-      defaultSort:
-        - title
-        - asc
-      key: 'custom:8326efe2-6f9f-4744-a23b-76512dd63e7c'
-      label: 'Missing Alt Text'
-      tableAttributes:
-        - imageSize
-        - dateCreated
-        - uploader
-      type: custom
     -
       heading: 'Search & Filter'
       type: heading
