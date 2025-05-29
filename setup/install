@@ -8,7 +8,8 @@ fi
 
 echo Installing project $1...
 
-ddev config --project-name=$1
+cp .env.example .env &&
+ddev config --project-name=$1 &&
 ddev start &&
 ddev composer install &&
 ddev craft install --interactive=0 --username=$2 --password=$3 --email=admin@example.com &&

@@ -29,7 +29,7 @@ export default ({ command }) => {
         publicDir: path.resolve(__dirname, 'resources/public'),
         server: {
             host: true,
-            port: 3000,
+            port: 5173,
             strictPort: true,
             allowedHosts: true,
             cors: true,
