@@ -4,7 +4,7 @@
   "version": "3.3.2",
   "license": "MIT",
   "require": {
-    "craftcms/cms": "^5.0.4",
+    "craftcms/cms": "^5.8.0",
     "craftcms/contact-form": "^3.1.0",
     "fakerphp/faker": "^1.20",
     "nystudio107/craft-closure": "^1.0.3",
@@ -33,7 +33,7 @@
     "sort-packages": true,
     "optimize-autoloader": true,
     "platform": {
-      "php": "8.2"
+      "php": "8.3"
     },
     "allow-plugins": {
       "yiisoft/yii2-composer": true,
@@ -41,6 +41,9 @@
     }
   },
   "scripts": {
+    "post-install-cmd": [
+      "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+    ],
     "post-update-cmd": [
       "@php craft install/check && php craft clear-caches/all && php craft migrate/all --interactive=0 && php craft project-config/write || exit 0"
     ],
