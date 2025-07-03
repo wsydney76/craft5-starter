@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6725aedfa286355caadad1b13f6c17b9",
+    "content-hash": "c299c22a5ce57024c47b2ee1f96a5d8d",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -254,11 +254,11 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "5.8.0",
+            "version": "5.8.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/54634dee804c93d3dcd43a9061f64f5308bebf0f",
-                "reference": "54634dee804c93d3dcd43a9061f64f5308bebf0f",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/736e0e6c536817f718be669b5a0c3c16bb74fdd6",
+                "reference": "736e0e6c536817f718be669b5a0c3c16bb74fdd6",
                 "shasum": ""
             },
             "require": {
@@ -355,7 +355,7 @@
                 "docs": "https://craftcms.com/docs/5.x/",
                 "rss": "https://github.com/craftcms/cms/releases.atom"
             },
-            "time": "2025-07-01T18:35:08+00:00"
+            "time": "2025-07-03T16:23:21+00:00"
         },
         {
             "name": "craftcms/contact-form",
@@ -6264,11 +6264,11 @@
         },
         {
             "name": "vaersaagod/seomate",
-            "version": "3.1.1",
+            "version": "3.2.0",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vaersaagod/seomate/zipball/6f0894935c0610d0c15f5556794d8ad72b98d33e",
-                "reference": "6f0894935c0610d0c15f5556794d8ad72b98d33e",
+                "url": "https://api.github.com/repos/vaersaagod/seomate/zipball/1088a5355576af0563234f45666dd034de742279",
+                "reference": "1088a5355576af0563234f45666dd034de742279",
                 "shasum": ""
             },
             "require": {
@@ -6315,7 +6315,7 @@
                 "docs": "https://github.com/vaersaagod/seomate/blob/master/README.md",
                 "issues": "https://github.com/vaersaagod/seomate/issues"
             },
-            "time": "2024-09-05T12:54:37+00:00"
+            "time": "2025-07-02T21:29:45+00:00"
         },
         {
             "name": "verbb/base",
@@ -8410,7 +8410,7 @@
     "platform": {},
     "platform-dev": {},
     "platform-overrides": {
-        "php": "8.2"
+        "php": "8.3"
     },
     "plugin-api-version": "2.6.0"
 }
