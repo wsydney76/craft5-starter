@@ -1,3 +1,7 @@
+Provisionally updated to recent Craft/Tailwind versions.
+
+Uploaded just for reference, not actively maintained.
+
 # Craft 4 Starter
 
 The Multilingual Craft CMS Starter is designed to function with or without DDEV. It features a simplified configuration and employs distinct templating conventions. It's useful as a basis for numerous tasks.

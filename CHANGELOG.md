@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+Provisionally updated to Craft 5.8/Tailwind 4.1
+
 ## 3.3.2 2024-01-11
 
 * Paginated pages (like article index) are now also retrieved for generating transformed images in `craft main/assets/create-transforms`
