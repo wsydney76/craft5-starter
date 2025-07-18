@@ -254,16 +254,16 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "5.8.7",
+            "version": "5.8.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/craftcms/cms.git",
-                "reference": "79c68d9f00ece882c0e9c336e4545fef5f9b06a7"
+                "reference": "93d85ce6dae3b8da62a3e1fc3191f495d53db2c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/79c68d9f00ece882c0e9c336e4545fef5f9b06a7",
-                "reference": "79c68d9f00ece882c0e9c336e4545fef5f9b06a7",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/93d85ce6dae3b8da62a3e1fc3191f495d53db2c8",
+                "reference": "93d85ce6dae3b8da62a3e1fc3191f495d53db2c8",
                 "shasum": ""
             },
             "require": {
@@ -377,7 +377,7 @@
                 "rss": "https://github.com/craftcms/cms/releases.atom",
                 "source": "https://github.com/craftcms/cms"
             },
-            "time": "2025-07-18T01:05:29+00:00"
+            "time": "2025-07-18T18:47:52+00:00"
         },
         {
             "name": "craftcms/contact-form",
@@ -6391,11 +6391,11 @@
         },
         {
             "name": "verbb/smith",
-            "version": "3.1.0",
+            "version": "3.1.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/verbb/smith/zipball/bab128a45814520578fc3d8723a59c019bcc4838",
-                "reference": "bab128a45814520578fc3d8723a59c019bcc4838",
+                "url": "https://api.github.com/repos/verbb/smith/zipball/21aa15643e32821d149027d6ef7a75d4cfd9d500",
+                "reference": "21aa15643e32821d149027d6ef7a75d4cfd9d500",
                 "shasum": ""
             },
             "require": {
@@ -6439,7 +6439,7 @@
                 "docs": "https://github.com/verbb/smith",
                 "rss": "https://github.com/verbb/smith/commits/v2.atom"
             },
-            "time": "2024-08-08T22:38:45+00:00"
+            "time": "2025-07-18T14:05:16+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
