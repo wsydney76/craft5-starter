@@ -15,6 +15,7 @@
     "verbb/smith": "^3.0.0",
     "vlucas/phpdotenv": "^5.4",
     "wsydney76/craft-contentoverview": "^6.0",
+    "wsydney76/craft-elementmap5": "dev-main",
     "wsydney76/extras": "dev-main"
   },
   "require-dev": {
@@ -62,6 +63,10 @@
     {
       "type": "path",
       "url": "/var/www/plugins/extras"
+    },
+    {
+      "type": "path",
+      "url": "/var/www/plugins/elementmap"
     },
     {
       "type": "path",

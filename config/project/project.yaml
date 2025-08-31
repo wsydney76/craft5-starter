@@ -1,6 +1,6 @@
 assets:
   tempVolumeUid: ed627edd-73bd-4b75-8684-f410bf4e4b9d
-dateModified: 1751397141
+dateModified: 1756651963
 elementSources:
   craft\elements\Asset:
     -
@@ -440,6 +440,10 @@ meta:
     fd509893-48ca-4ba0-a755-294ff5a48ca7: 'Two columns with image' # Two columns with image
     fea320b1-c261-431e-b670-048f10cf5285: Image # Image
 plugins:
+  _elementmap:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
   _extras:
     edition: standard
     enabled: true
@@ -456,20 +460,37 @@ plugins:
       diffRendererName: Combined
       diffSeparateBlock: true
       diffShowHeader: false
+      draftPackageField: draftPackage
+      draftPackageSection: draftPackage
+      enableActionRoutes: false
+      enableCkeditorPlugins: false
       enableCollectionMakros: true
       enableConditionRules: true
       enableCpAssets: false
+      enableCrossSiteValidation: false
       enableDraftHelpers: true
+      enableDraftPackageUtility: false
       enableElementActions: true
-      enableElementmap: true
+      enableElementmap: false
+      enableExtendedLightswitchField: false
       enableExtrasVariable: true
       enableFieldLayoutElements: true
+      enableInspectPreviewTarget: never
       enableOwnerPath: true
       enableRestoreDismissedTips: true
       enableSidebarVisibility: true
+      enableStylesField: false
       enableTwigExtension: true
+      enableUpgradeInventory: false
+      enableViewLinkInCards: false
+      enableVolumeInventory: false
       enableWidgets: true
+      includeProvisionalDraftsInPackage: false
+      linkToNestedElement: false
       showAllSites: true
+      showRevisions: false
+      showRootOwner: true
+      showThumbnails: false
   codefield:
     edition: standard
     enabled: true
